@@ -1,0 +1,21 @@
+---
+// Pus&Co marka ikonu (saf vektör). Rengi currentColor'dan alır.
+interface Props {
+  class?: string;
+}
+const { class: className } = Astro.props;
+---
+
+<svg
+  class={className}
+  viewBox="0 0 74.31 88.48"
+  fill="currentColor"
+  role="img"
+  aria-label="Pus&Co"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect x="57.2" y="37.15" width="14.17" height="14.17" transform="translate(-12.45 58.41) rotate(-45)"></rect>
+  <path d="M14.17,4.15h0a14.19,14.19,0,0,1,20,0h0a14.19,14.19,0,0,1,0,20h0Z"></path>
+  <path d="M4.15,14.17,74.31,84.33h0a14.19,14.19,0,0,1-20.05,0L4.15,34.22a14.19,14.19,0,0,1,0-20Z"></path>
+  <path d="M34.22,84.33h0a14.19,14.19,0,0,1-20,0l-10-10a14.19,14.19,0,0,1,0-20.05h0Z"></path>
+</svg>

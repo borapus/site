@@ -1,0 +1,21 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# env
+.env
+.env.production
+
+# logs
+npm-debug.log*
+*.log
+
+# os
+.DS_Store
+Thumbs.db
+
+# local editor / claude settings
+.claude/settings.local.json

@@ -1,0 +1,142 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { type Lang, useTranslations } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<BaseLayout lang={lang} title={`${t('contact.title')} — ${t('site.name')}`} description={t('contact.intro')}>
+  <section class="page-head u-container">
+    <span class="u-label" data-reveal>{t('contact.label')}</span>
+    <h1 class="page-head__title" data-reveal data-reveal-delay="0.05">{t('contact.title')}</h1>
+    <p class="page-head__intro" data-reveal data-reveal-delay="0.1">{t('contact.intro')}</p>
+    <p class="form__status" data-form-status hidden>{t('contact.sent')}</p>
+  </section>
+
+  <section class="u-section" style="padding-top: 0;">
+    <div class="u-container form-wrap">
+      <form class="form" action="/contact.php" method="post" data-reveal>
+        <input type="hidden" name="lang" value={lang} />
+        <!-- honeypot (botlar için, kullanıcıdan gizli) -->
+        <input type="text" name="company" class="form__hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+        <label class="form__field">
+          <span class="u-label">{t('contact.name')}</span>
+          <input type="text" name="name" required />
+        </label>
+
+        <label class="form__field">
+          <span class="u-label">{t('contact.email')}</span>
+          <input type="email" name="email" required />
+        </label>
+
+        <label class="form__field">
+          <span class="u-label">{t('contact.message')}</span>
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+
+        <button class="form__submit" type="submit">
+          <span class="ghost-btn__text">{t('contact.send')}</span>
+          <span class="ghost-btn__line" aria-hidden="true"></span>
+        </button>
+      </form>
+
+      <aside class="contact-aside" data-reveal data-reveal-delay="0.1">
+        <div class="contact-aside__block">
+          <span class="u-label">{t('footer.studio')}</span>
+          <p>Kadıköy, Istanbul, Türkiye</p>
+        </div>
+        <div class="contact-aside__block">
+          <span class="u-label">{t('footer.contact')}</span>
+          <p>
+            <a class="footer__link" href="mailto:bora@pusnco.com">bora@pusnco.com</a><br />
+            <a class="footer__link" href="tel:+905052632880">+90 505 263 28 80</a>
+          </p>
+        </div>
+        <div class="contact-aside__block">
+          <span class="u-label">{t('studio.founderLabel')}</span>
+          <p>{t('studio.founder')}</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <script is:inline>
+    (function () {
+      var params = new URLSearchParams(location.search);
+      var status = document.querySelector('[data-form-status]');
+      if (status && params.get('sent') === '1') {
+        status.hidden = false;
+        status.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    })();
+  </script>
+</BaseLayout>
+
+<style>
+  .page-head {
+    padding-top: clamp(160px, 24vh, 320px);
+    padding-bottom: clamp(40px, 7vh, 90px);
+  }
+  .page-head__title { font-size: var(--fs-display); margin-top: 20px; }
+  .page-head__intro { margin-top: 24px; max-width: 40ch; color: var(--color-muted); }
+  .form__status {
+    margin-top: 28px;
+    padding-top: 20px;
+    border-top: 1px solid var(--color-line);
+    font-family: var(--font-display);
+    font-size: clamp(1.25rem, 2.4vw, 2rem);
+    color: var(--color-ink);
+  }
+
+  .form-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: clamp(48px, 8vw, 120px);
+  }
+  @media (min-width: 900px) {
+    .form-wrap { grid-template-columns: 7fr 4fr; }
+  }
+
+  .form { display: grid; gap: clamp(28px, 4vh, 44px); }
+  .form__hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+
+  .form__field { display: grid; gap: 12px; }
+  .form__field input,
+  .form__field textarea {
+    font-family: var(--font-body);
+    font-weight: 300;
+    font-size: var(--fs-body);
+    color: var(--color-ink);
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--color-line);
+    padding: 10px 0;
+    transition: border-color var(--dur-base) var(--ease);
+    resize: vertical;
+  }
+  .form__field input:focus,
+  .form__field textarea:focus {
+    outline: none;
+    border-color: var(--color-ink);
+  }
+
+  .form__submit {
+    justify-self: start;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+    color: var(--color-ink);
+    transition: color var(--dur-base) var(--ease), transform var(--dur-base) var(--ease);
+  }
+  .form__submit:hover { color: var(--color-muted); transform: translateY(-2px); }
+  .form__submit:hover .ghost-btn__line { width: clamp(44px, 6vw, 84px); }
+
+  .contact-aside { display: grid; gap: clamp(28px, 4vh, 44px); align-content: start; }
+  .contact-aside__block p { margin-top: 14px; color: var(--color-muted); line-height: 1.9; }
+</style>

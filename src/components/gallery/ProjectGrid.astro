@@ -1,0 +1,21 @@
+---
+import { type Lang, useTranslations } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  featured?: boolean;
+  limit?: number;
+}
+const { lang, featured = false, limit } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<div
+  class="project-grid"
+  data-projects
+  data-featured={featured ? '' : undefined}
+  data-limit={limit ?? undefined}
+>
+  <!-- Sanity yapılandırılınca kartlar client-side buraya eklenir. -->
+  <p class="project-grid__empty" data-projects-empty>{t('projects.empty')}</p>
+</div>

@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { type Lang, useTranslations, localizedPath } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<BaseLayout lang={lang} title={`${t('detail.label')} — ${t('site.name')}`}>
+  <article class="detail" data-detail>
+    <section class="detail__head u-container">
+      <a class="detail__back" href={localizedPath('/projects', lang)}>
+        <span class="detail__back-line" aria-hidden="true"></span>
+        <span class="ghost-underline">{t('detail.back')}</span>
+      </a>
+      <span class="u-label detail__eyebrow">{t('detail.label')}</span>
+      <h1 class="detail__title" data-detail-title>&nbsp;</h1>
+    </section>
+
+    <div class="detail__cover" data-detail-cover></div>
+
+    <section class="detail__body u-container">
+      <aside class="detail__aside">
+        <span class="u-label">{t('detail.overview')}</span>
+        <div class="detail__meta" data-detail-meta></div>
+      </aside>
+      <p class="detail__desc" data-detail-desc></p>
+    </section>
+
+    <div class="detail__gallery" data-detail-gallery></div>
+
+    <section class="detail__next u-container" data-detail-next hidden>
+      <hr class="u-line" />
+      <a class="detail__next-link" data-detail-next-link href="#">
+        <span class="u-label">{t('detail.next')}</span>
+        <span class="detail__next-title" data-detail-next-title></span>
+      </a>
+    </section>
+
+    <p class="detail__state u-container" data-detail-state hidden></p>
+  </article>
+
+  <script>
+    import '../../scripts/projectDetail';
+  </script>
+</BaseLayout>

@@ -1,0 +1,316 @@
+@import "tailwindcss";
+
+/* ============================================================
+   DESIGN TOKENS  — "Editorial Luxury / Sessiz Lüks"
+   ============================================================ */
+@theme {
+  --color-bg:    #ffffff;
+  --color-ink:   #1a1a1a;
+  --color-muted: #757575;
+  --color-line:  #e0e0e0;
+  --color-soft:  #fafaf8;
+
+  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-body:    "Montserrat", system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  /* Boşluk & yapı */
+  --gutter:      clamp(24px, 5vw, 120px);
+  --section-gap: clamp(96px, 14vh, 220px);
+  --container:   1600px;
+
+  /* Hareket */
+  --ease:       cubic-bezier(0.4, 0, 0.2, 1);
+  --dur-fast:   0.3s;
+  --dur-base:   0.4s;
+  --dur-slow:   0.6s;
+  --dur-reveal: 0.8s;
+
+  /* Tip ölçeği (fluid) */
+  --fs-display: clamp(3.25rem, 8vw, 9rem);
+  --fs-h1:      clamp(2.25rem, 5vw, 5rem);
+  --fs-h2:      clamp(1.6rem, 3vw, 3rem);
+  --fs-h3:      clamp(1.15rem, 2vw, 1.6rem);
+  --fs-body:    clamp(1rem, 1.05vw, 1.075rem);
+  --fs-label:   0.72rem;
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: var(--fs-body);
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 300;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+p { margin: 0; }
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+
+::selection { background: var(--color-ink); color: var(--color-bg); }
+
+:focus-visible {
+  outline: 1px solid var(--color-ink);
+  outline-offset: 3px;
+}
+
+/* ============================================================
+   LENIS (akıcı scroll)
+   ============================================================ */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: clip; }
+
+/* ============================================================
+   YARDIMCI SINIFLAR
+   ============================================================ */
+.u-container {
+  width: 100%;
+  max-width: var(--container);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.u-label {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: var(--fs-label);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+.u-line { width: 100%; height: 1px; background: var(--color-line); border: 0; }
+
+.u-section { padding-block: var(--section-gap); }
+
+/* ============================================================
+   GHOST BUTON / LINK  — çerçevesiz, altı çizgi animasyonlu
+   ============================================================ */
+.ghost-underline {
+  position: relative;
+  display: inline-block;
+  transition: color var(--dur-base) var(--ease);
+}
+.ghost-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--dur-slow) var(--ease);
+}
+a:hover > .ghost-underline::after,
+button:hover > .ghost-underline::after,
+.ghost-underline:hover::after { transform: scaleX(1); }
+
+.ghost-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: var(--fs-body);
+  letter-spacing: 0.02em;
+  color: var(--color-ink);
+  transition: color var(--dur-base) var(--ease), transform var(--dur-base) var(--ease);
+}
+.ghost-btn:hover { color: var(--color-muted); transform: translateY(-2px); }
+.ghost-btn__line {
+  display: inline-block;
+  width: clamp(28px, 4vw, 56px);
+  height: 1px;
+  background: currentColor;
+  transition: width var(--dur-slow) var(--ease);
+}
+.ghost-btn:hover .ghost-btn__line { width: clamp(44px, 6vw, 84px); }
+
+/* Reveal — yalnızca JS aktifken gizle (JS yoksa içerik görünür kalır) */
+.js [data-reveal] { opacity: 0; will-change: transform, opacity; }
+@media (prefers-reduced-motion: reduce) {
+  .js [data-reveal] { opacity: 1 !important; transform: none !important; }
+}
+
+/* ============================================================
+   PROJE KARTLARI  (JS ile dinamik üretildiği için global)
+   ============================================================ */
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(48px, 7vw, 120px);
+}
+
+.project-grid__empty {
+  grid-column: 1 / -1;
+  max-width: 46ch;
+  color: var(--color-muted);
+  font-size: var(--fs-body);
+}
+
+.project-card { display: block; }
+
+.project-card__media {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-soft);
+  aspect-ratio: 4 / 3;
+}
+.project-card.is-portrait .project-card__media { aspect-ratio: 3 / 4; }
+
+.project-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--dur-slow) var(--ease), opacity var(--dur-slow) var(--ease);
+}
+.project-card:hover .project-card__media img { transform: scale(1.04); opacity: 0.88; }
+
+.project-card__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 20px;
+}
+.project-card__title {
+  font-family: var(--font-display);
+  font-size: var(--fs-h3);
+  line-height: 1.1;
+  transition: color var(--dur-base) var(--ease);
+}
+.project-card:hover .project-card__title { color: var(--color-muted); }
+
+/* Asimetrik yerleşim (masaüstü) */
+@media (min-width: 900px) {
+  .project-grid {
+    grid-template-columns: repeat(12, 1fr);
+    row-gap: clamp(80px, 10vw, 180px);
+  }
+  .project-card { grid-column: span 6; }
+  .project-card:nth-child(4n + 1) { grid-column: 1 / span 6; }
+  .project-card:nth-child(4n + 2) { grid-column: 8 / span 5; margin-top: clamp(60px, 9vw, 160px); }
+  .project-card:nth-child(4n + 3) { grid-column: 2 / span 5; }
+  .project-card:nth-child(4n + 4) { grid-column: 8 / span 5; margin-top: clamp(40px, 6vw, 120px); }
+}
+
+/* ============================================================
+   PROJE DETAY  (client-side doldurulur — global)
+   ============================================================ */
+.detail { padding-top: clamp(120px, 18vh, 220px); }
+
+.detail__head {
+  display: grid;
+  gap: 18px;
+  margin-bottom: clamp(40px, 7vh, 90px);
+}
+.detail__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  justify-self: start;
+  font-size: var(--fs-label);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  transition: color var(--dur-base) var(--ease);
+}
+.detail__back:hover { color: var(--color-ink); }
+.detail__back-line {
+  display: inline-block;
+  width: clamp(24px, 4vw, 48px);
+  height: 1px;
+  background: currentColor;
+  transition: width var(--dur-slow) var(--ease);
+}
+.detail__back:hover .detail__back-line { width: clamp(36px, 6vw, 72px); }
+.detail__eyebrow { margin-top: 10px; }
+.detail__title { font-size: var(--fs-display); max-width: 16ch; }
+
+.detail__cover {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--color-soft);
+  margin-bottom: clamp(48px, 8vh, 120px);
+}
+.detail__cover img { width: 100%; height: 100%; object-fit: cover; }
+
+.detail__body {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(32px, 6vw, 90px);
+  margin-bottom: clamp(64px, 10vh, 160px);
+}
+@media (min-width: 900px) {
+  .detail__body { grid-template-columns: 4fr 8fr; align-items: start; }
+}
+.detail__meta { margin-top: 22px; display: grid; gap: 18px; }
+.detail__meta-row { display: grid; gap: 4px; }
+.detail__meta-val { font-size: var(--fs-body); }
+.detail__desc {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(1.4rem, 2.6vw, 2.2rem);
+  line-height: 1.4;
+  max-width: 32ch;
+  white-space: pre-line;
+}
+
+.detail__gallery {
+  display: grid;
+  gap: clamp(48px, 8vh, 120px);
+  max-width: var(--container);
+  margin-inline: auto;
+  margin-bottom: clamp(64px, 10vh, 160px);
+  padding-inline: var(--gutter);
+}
+.detail__shot { margin: 0; }
+.detail__shot img { width: 100%; }
+@media (min-width: 900px) {
+  .detail__shot.is-narrow { width: 62%; }
+  .detail__shot.is-narrow:nth-of-type(even) { margin-left: auto; }
+}
+
+.detail__next { padding-block: clamp(24px, 4vh, 56px) clamp(48px, 8vh, 120px); }
+.detail__next-link { display: grid; gap: 14px; padding-top: clamp(24px, 4vh, 48px); }
+.detail__next-title {
+  font-family: var(--font-display);
+  font-size: var(--fs-h1);
+  transition: color var(--dur-base) var(--ease);
+}
+.detail__next-link:hover .detail__next-title { color: var(--color-muted); }
+
+.detail__state {
+  padding-block: clamp(40px, 8vh, 120px);
+  color: var(--color-muted);
+  font-size: var(--fs-body);
+}

@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProjectGrid from '../gallery/ProjectGrid.astro';
+import { type Lang, useTranslations } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<BaseLayout lang={lang} title={`${t('projects.title')} — ${t('site.name')}`} description={t('projects.label')}>
+  <section class="page-head u-container">
+    <span class="u-label" data-reveal>{t('projects.label')}</span>
+    <h1 class="page-head__title" data-reveal data-reveal-delay="0.05">{t('projects.title')}</h1>
+  </section>
+
+  <section class="u-section" style="padding-top: 0;">
+    <div class="u-container">
+      <ProjectGrid lang={lang} />
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-head {
+    padding-top: clamp(160px, 24vh, 320px);
+    padding-bottom: clamp(56px, 10vh, 140px);
+  }
+  .page-head__title {
+    font-size: var(--fs-display);
+    margin-top: 20px;
+  }
+</style>

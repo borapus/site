@@ -1,0 +1,114 @@
+---
+import { type Lang, useTranslations } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  /** Hero fotoğrafı; dosya yoksa altındaki gradient görünür. */
+  image?: string;
+}
+const { lang, image = '/images/hero.jpg' } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<section class="hero">
+  <div
+    class="hero__media"
+    data-parallax="0.12"
+    aria-hidden="true"
+    style={`--hero-image: url('${image}')`}
+  >
+  </div>
+  <div class="hero__scrim" aria-hidden="true"></div>
+
+  <div class="hero__content u-container">
+    <span class="hero__label u-label" data-reveal>{t('hero.label')}</span>
+    <h1 class="hero__title" data-reveal data-reveal-delay="0.1">{t('hero.title')}</h1>
+    <p class="hero__intro" data-reveal data-reveal-delay="0.2">{t('hero.intro')}</p>
+  </div>
+
+  <span class="hero__scroll u-label" data-reveal data-reveal-delay="0.4">{t('hero.scroll')}</span>
+</section>
+
+<style>
+  .hero {
+    position: relative;
+    min-height: 100svh;
+    display: grid;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  /* Ken Burns — hero fotoğrafı public/images/hero.jpg olarak eklenince
+     otomatik görünür; dosya yoksa alttaki gradient kalır. */
+  .hero__media {
+    position: absolute;
+    inset: -8% -8% -8% -8%;
+    background-image:
+      var(--hero-image, none),
+      radial-gradient(120% 100% at 70% 20%, #f3f1ec 0%, #e7e3db 45%, #d9d4ca 100%);
+    background-size: cover, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    animation: kenburns 22s ease-in-out infinite alternate;
+    z-index: 0;
+  }
+  @keyframes kenburns {
+    from { transform: scale(1) translateY(0); }
+    to   { transform: scale(1.08) translateY(-1.5%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero__media { animation: none; }
+  }
+
+  /* Metin okunurluğu için karartma katmanı — sol (başlık) ve altta (intro) yoğun,
+     sağ-üstte şeffaf kalır ki render görünsün. Fotoğraf yoksa gradient'i de karartır. */
+  .hero__scrim {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background:
+      linear-gradient(100deg, rgba(18,16,14,0.6) 0%, rgba(18,16,14,0.28) 32%, rgba(18,16,14,0) 62%),
+      linear-gradient(0deg, rgba(18,16,14,0.5) 0%, rgba(18,16,14,0.05) 42%, rgba(18,16,14,0) 60%);
+    pointer-events: none;
+  }
+
+  .hero__content {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    gap: clamp(24px, 4vh, 48px);
+    padding-block: 22vh 12vh;
+    color: #f5f2ec; /* açık, sıcak beyaz */
+  }
+
+  .hero__label { color: rgba(245, 242, 236, 0.78); }
+
+  .hero__title {
+    font-size: var(--fs-display);
+    max-width: 14ch;
+    letter-spacing: -0.015em;
+    color: #f7f4ee;
+    text-shadow: 0 1px 40px rgba(0, 0, 0, 0.25);
+  }
+
+  .hero__intro {
+    max-width: 38ch;
+    margin-left: auto;         /* asimetri: intro sağa yaslı */
+    color: rgba(245, 242, 236, 0.92);
+    font-size: clamp(1rem, 1.4vw, 1.25rem);
+    line-height: 1.75;
+    text-shadow: 0 1px 24px rgba(0, 0, 0, 0.3);
+  }
+  @media (min-width: 900px) {
+    .hero__intro { margin-right: clamp(0px, 8vw, 160px); }
+  }
+
+  .hero__scroll {
+    position: absolute;
+    left: var(--gutter);
+    bottom: clamp(24px, 5vh, 48px);
+    z-index: 2;
+    writing-mode: vertical-rl;
+    color: rgba(245, 242, 236, 0.75);
+  }
+</style>

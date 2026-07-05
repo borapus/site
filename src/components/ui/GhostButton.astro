@@ -1,0 +1,14 @@
+---
+interface Props {
+  href: string;
+  label: string;
+  /** Sağda ince çizgi göster (varsayılan: true) */
+  line?: boolean;
+}
+const { href, label, line = true } = Astro.props;
+---
+
+<a class="ghost-btn" href={href}>
+  <span class="ghost-btn__text">{label}</span>
+  {line && <span class="ghost-btn__line" aria-hidden="true"></span>}
+</a>

@@ -1,0 +1,51 @@
+---
+import { type Lang, languages } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+
+// Aktif sayfanın locale'siz yolu; karşı dile aynı sayfaya geçmek için.
+const path = Astro.url.pathname.replace(/^\/(en|tr)/, '') || '/';
+const hrefFor = (l: Lang) => `/${l}${path === '/' ? '/' : path}`;
+const order: Lang[] = ['en', 'tr'];
+---
+
+<div class="locale">
+  {
+    order.map((l, i) => (
+      <>
+        {i > 0 && <span class="locale__sep" aria-hidden="true">/</span>}
+        <a
+          class:list={['locale__link', { 'is-active': l === lang }]}
+          href={hrefFor(l)}
+          data-locale={l}
+          hreflang={l}
+          aria-current={l === lang ? 'true' : undefined}
+        >
+          {languages[l]}
+        </a>
+      </>
+    ))
+  }
+</div>
+
+<style>
+  .locale {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-body);
+    font-size: var(--fs-label);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  .locale__sep { color: var(--color-line); }
+  .locale__link {
+    color: var(--color-muted);
+    transition: color var(--dur-base) var(--ease);
+  }
+  .locale__link:hover { color: var(--color-ink); }
+  .locale__link.is-active { color: var(--color-ink); }
+</style>

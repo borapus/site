@@ -1,0 +1,95 @@
+---
+import { type Lang, useTranslations, localizedPath, type UIKey } from '../../i18n/ui';
+import LocaleSwitch from './LocaleSwitch.astro';
+import MenuOverlay from './MenuOverlay.astro';
+import LogoIcon from '../ui/LogoIcon.astro';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+
+const items: { key: UIKey; href: string }[] = [
+  { key: 'nav.home', href: localizedPath('/', lang) },
+  { key: 'nav.projects', href: localizedPath('/projects', lang) },
+  { key: 'nav.studio', href: localizedPath('/studio', lang) },
+  { key: 'nav.contact', href: localizedPath('/contact', lang) },
+];
+---
+
+<header class="nav">
+  <div class="nav__inner u-container">
+    <a class="nav__brand" href={localizedPath('/', lang)} aria-label="Pus&Co Architects">
+      <LogoIcon class="nav__logo" />
+      <span class="nav__wordmark">Pus&amp;Co</span>
+    </a>
+
+    <div class="nav__right">
+      <LocaleSwitch lang={lang} />
+      <button class="nav__menu" data-menu-toggle type="button" aria-label={t('nav.menu')}>
+        <span class="ghost-underline">{t('nav.menu')}</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<MenuOverlay lang={lang} items={items} />
+
+<style>
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 80;
+    padding-block: clamp(18px, 3vh, 34px);
+    mix-blend-mode: difference; /* açık/koyu görsel üstünde okunur kalır */
+  }
+  .nav__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav__brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    color: #fff; /* difference blend ile açık zeminde siyah, koyu zeminde beyaz görünür */
+  }
+  .nav__logo {
+    height: 22px;
+    width: auto;
+    display: block;
+  }
+  .nav__wordmark {
+    font-family: var(--font-body);
+    font-weight: 500;
+    font-size: var(--fs-label);
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+  }
+  .nav__right {
+    display: flex;
+    align-items: center;
+    gap: clamp(20px, 3vw, 44px);
+  }
+  .nav__menu {
+    font-size: var(--fs-label);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  /* mix-blend-mode difference için locale switch'i de beyaza çevir */
+  .nav__right :global(.locale__link),
+  .nav__right :global(.locale__sep) { color: #fff; }
+  .nav__right :global(.locale__link.is-active) { color: #fff; text-decoration: underline; text-underline-offset: 4px; }
+
+  /* Menü açıkken navbar blend'ini sıfırla (overlay beyaz zemin) */
+  :global(html.menu-open) .nav { mix-blend-mode: normal; }
+  :global(html.menu-open) .nav__brand,
+  :global(html.menu-open) .nav__menu { color: var(--color-ink); }
+  :global(html.menu-open) .nav__right :global(.locale__link) { color: var(--color-muted); }
+  :global(html.menu-open) .nav__right :global(.locale__link.is-active) { color: var(--color-ink); }
+</style>

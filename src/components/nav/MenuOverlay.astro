@@ -1,0 +1,111 @@
+---
+import { type Lang, useTranslations, type UIKey } from '../../i18n/ui';
+import LocaleSwitch from './LocaleSwitch.astro';
+import LogoIcon from '../ui/LogoIcon.astro';
+
+interface Props {
+  lang: Lang;
+  items: { key: UIKey; href: string }[];
+}
+const { lang, items } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<div class="menu" data-menu aria-hidden="true" role="dialog" aria-modal="true" aria-label={t('nav.menu')}>
+  <div class="menu__top u-container">
+    <LogoIcon class="menu__logo" />
+    <button class="menu__close" data-menu-close type="button">
+      <span class="ghost-underline">{t('nav.close')}</span>
+    </button>
+  </div>
+
+  <nav class="menu__nav u-container" aria-label={t('nav.menu')}>
+    <ul class="menu__list">
+      {
+        items.map((item, i) => (
+          <li class="menu__row" data-menu-item>
+            <a class="menu__link" href={item.href}>
+              <span class="menu__index">0{i + 1}</span>
+              <span class="menu__text">{t(item.key)}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+
+  <div class="menu__foot u-container">
+    <LocaleSwitch lang={lang} />
+  </div>
+</div>
+
+<style>
+  .menu {
+    position: fixed;
+    inset: 0;
+    z-index: 90;
+    background: var(--color-bg);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding-block: clamp(20px, 4vh, 40px);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity var(--dur-slow) var(--ease), visibility var(--dur-slow) var(--ease);
+  }
+  :global(html.menu-open) .menu {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  :global(html.menu-open) body { overflow: hidden; }
+
+  .menu__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu__logo {
+    height: 26px;
+    width: auto;
+    color: var(--color-ink);
+  }
+  .menu__close {
+    font-size: var(--fs-label);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+
+  .menu__nav { align-self: center; }
+  .menu__list { list-style: none; margin: 0; padding: 0; }
+  .menu__row { border-top: 1px solid var(--color-line); }
+  .menu__row:last-child { border-bottom: 1px solid var(--color-line); }
+
+  .menu__link {
+    display: flex;
+    align-items: baseline;
+    gap: clamp(16px, 4vw, 48px);
+    padding-block: clamp(14px, 2.4vw, 28px);
+    color: var(--color-ink);
+    transition: color var(--dur-base) var(--ease), padding-left var(--dur-slow) var(--ease);
+  }
+  .menu__link:hover {
+    color: var(--color-muted);
+    padding-left: clamp(8px, 1.5vw, 24px);
+  }
+  .menu__index {
+    font-family: var(--font-body);
+    font-size: var(--fs-label);
+    letter-spacing: 0.18em;
+    color: var(--color-muted);
+  }
+  .menu__text {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(2.5rem, 8vw, 6rem);
+    line-height: 1;
+  }
+
+  .menu__foot { align-self: end; }
+</style>

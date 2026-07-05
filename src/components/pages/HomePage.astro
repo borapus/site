@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../Hero.astro';
+import ProjectGrid from '../gallery/ProjectGrid.astro';
+import GhostButton from '../ui/GhostButton.astro';
+import { type Lang, useTranslations, localizedPath } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<BaseLayout lang={lang} title={`${t('site.name')} — ${t('hero.title')}`} description={t('hero.intro')}>
+  <Hero lang={lang} />
+
+  <!-- 01 — Seçili İşler -->
+  <section class="u-section">
+    <div class="u-container">
+      <div class="works__head" data-reveal>
+        <span class="u-label">{t('home.selectedIndex')}</span>
+        <h2 class="works__title">{t('home.selected')}</h2>
+      </div>
+
+      <ProjectGrid lang={lang} featured limit={4} />
+
+      <div class="works__more" data-reveal>
+        <GhostButton href={localizedPath('/projects', lang)} label={t('home.viewAll')} />
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 — Felsefe -->
+  <section class="u-section philosophy">
+    <div class="u-container philosophy__grid">
+      <span class="u-label" data-reveal>{t('home.philosophyLabel')}</span>
+      <div class="philosophy__body">
+        <p class="philosophy__lead" data-reveal>{t('home.philosophy')}</p>
+        <p class="philosophy__text" data-reveal data-reveal-delay="0.1">{t('home.philosophyBody')}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 — Görüşme -->
+  <section class="u-section cta">
+    <div class="u-container">
+      <hr class="u-line" data-reveal />
+      <span class="u-label cta__label" data-reveal>{t('home.ctaLabel')}</span>
+      <h2 class="cta__title" data-reveal data-reveal-delay="0.05">{t('home.ctaTitle')}</h2>
+      <div class="cta__action" data-reveal data-reveal-delay="0.1">
+        <GhostButton href={localizedPath('/contact', lang)} label={t('home.ctaButton')} />
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .works__head { margin-bottom: clamp(48px, 8vh, 110px); }
+  .works__title {
+    font-size: var(--fs-h1);
+    margin-top: 18px;
+    max-width: 12ch;
+  }
+  .works__more { margin-top: clamp(56px, 9vh, 120px); }
+
+  .philosophy__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: clamp(28px, 5vw, 64px);
+  }
+  @media (min-width: 900px) {
+    .philosophy__grid { grid-template-columns: 3fr 8fr; }
+  }
+  .philosophy__lead {
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: clamp(1.6rem, 3.4vw, 3.2rem);
+    line-height: 1.2;
+    max-width: 22ch;
+  }
+  .philosophy__text {
+    margin-top: clamp(24px, 4vh, 44px);
+    max-width: 46ch;
+    color: var(--color-muted);
+  }
+
+  .cta__label { display: block; margin-top: clamp(40px, 7vh, 90px); }
+  .cta__title {
+    font-size: var(--fs-h1);
+    margin-top: 20px;
+    max-width: 16ch;
+  }
+  .cta__action { margin-top: clamp(36px, 6vh, 72px); }
+</style>

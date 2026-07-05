@@ -1,0 +1,32 @@
+---
+// Kök (/) — tarayıcı diline göre /en veya /tr'ye yönlendir.
+// Statik hostta bu client-side çalışır; üretimde .htaccess ile sunucu tarafı da desteklenir.
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ATELIER</title>
+    <script is:inline>
+      (function () {
+        var supported = ['en', 'tr'];
+        var fallback = 'en';
+        var lang = null;
+        try {
+          var stored = localStorage.getItem('lang');
+          if (stored && supported.indexOf(stored) > -1) lang = stored;
+        } catch (e) {}
+        if (!lang) {
+          var nav = (navigator.language || 'en').slice(0, 2).toLowerCase();
+          lang = supported.indexOf(nav) > -1 ? nav : fallback;
+        }
+        location.replace('/' + lang + '/');
+      })();
+    </script>
+    <meta http-equiv="refresh" content="0; url=/en/" />
+  </head>
+  <body></body>
+</html>

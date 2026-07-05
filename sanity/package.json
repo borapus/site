@@ -1,0 +1,19 @@
+{
+  "name": "atelier-studio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "ATELIER — Sanity Studio (içerik yönetimi)",
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy"
+  },
+  "dependencies": {
+    "sanity": "^3",
+    "@sanity/vision": "^3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.1.13"
+  }
+}

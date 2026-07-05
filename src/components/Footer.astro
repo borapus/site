@@ -1,0 +1,93 @@
+---
+import { type Lang, useTranslations } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const year = 2026; // build-time sabit; gerekirse Sanity ayarlarından alınabilir
+---
+
+<footer class="footer">
+  <div class="u-container">
+    <hr class="u-line" />
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img
+          class="footer__logo"
+          src="/logo-pusco.png"
+          alt="Pus & Co Architects"
+          width="340"
+          height="112"
+          loading="lazy"
+        />
+      </div>
+
+      <div class="footer__col">
+        <span class="u-label">{t('footer.studio')}</span>
+        <p>Kadıköy, Istanbul<br />Türkiye</p>
+      </div>
+
+      <div class="footer__col">
+        <span class="u-label">{t('footer.contact')}</span>
+        <p>
+          <a class="footer__link" href="mailto:bora@pusnco.com">bora@pusnco.com</a><br />
+          <a class="footer__link" href="tel:+905052632880">+90 505 263 28 80</a>
+        </p>
+      </div>
+
+      <div class="footer__col">
+        <span class="u-label">{t('footer.social')}</span>
+        <p>
+          <a class="footer__link" href="https://www.pusnco.com" target="_blank" rel="noopener">www.pusnco.com</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="footer__legal">
+      <span>© {year} {t('site.name')}</span>
+      <span>{t('footer.rights')}</span>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer { padding-block: clamp(64px, 10vh, 140px) clamp(32px, 5vh, 56px); }
+
+  .footer__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: clamp(36px, 6vw, 80px);
+    margin-top: clamp(48px, 8vh, 100px);
+  }
+  @media (min-width: 720px) {
+    .footer__grid { grid-template-columns: 2fr 1fr 1fr 1fr; }
+  }
+
+  .footer__logo {
+    width: clamp(200px, 30vw, 320px);
+    height: auto;
+  }
+
+  .footer__col p {
+    margin-top: 16px;
+    font-size: var(--fs-body);
+    color: var(--color-muted);
+    line-height: 1.9;
+  }
+  .footer__link { transition: color var(--dur-base) var(--ease); }
+  .footer__link:hover { color: var(--color-ink); }
+
+  .footer__legal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 32px;
+    justify-content: space-between;
+    margin-top: clamp(56px, 9vh, 120px);
+    font-size: var(--fs-label);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+</style>

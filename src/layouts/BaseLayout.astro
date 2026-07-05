@@ -1,0 +1,64 @@
+---
+import '@fontsource/cormorant-garamond/300.css';
+import '@fontsource/cormorant-garamond/400.css';
+import '@fontsource/cormorant-garamond/500.css';
+import '@fontsource/montserrat/300.css';
+import '@fontsource/montserrat/400.css';
+import '@fontsource/montserrat/500.css';
+import '../styles/global.css';
+
+import Navbar from '../components/nav/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import { type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  title: string;
+  description?: string;
+}
+
+const { lang, title, description = '' } = Astro.props;
+
+// Locale önekini sıyırıp diller arası hreflang alternatiflerini üret.
+const path = Astro.url.pathname.replace(/^\/(en|tr)/, '') || '/';
+const origin = (Astro.site?.toString() ?? 'https://example.com').replace(/\/$/, '');
+const altUrl = (l: Lang) => `${origin}/${l}${path === '/' ? '/' : path}`;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+
+    <link rel="alternate" hreflang="en" href={altUrl('en')} />
+    <link rel="alternate" hreflang="tr" href={altUrl('tr')} />
+    <link rel="alternate" hreflang="x-default" href={altUrl('en')} />
+
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:type" content="website" />
+
+    <!-- JS aktifse reveal öğelerini gizle (JS yoksa içerik görünür kalır) -->
+    <script is:inline>
+      document.documentElement.classList.add('js');
+    </script>
+  </head>
+  <body>
+    <Navbar lang={lang} />
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <Footer lang={lang} />
+
+    <script>
+      import '../scripts/site';
+    </script>
+  </body>
+</html>
