@@ -4,8 +4,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  // hreflang/sitemap bunu kullanır.
-  site: 'https://www.pusnco.com',
+  // hreflang/sitemap bunu kullanır (apex = kanonik).
+  site: 'https://pusnco.com',
 
   i18n: {
     locales: ['en', 'tr'],
