@@ -62,6 +62,25 @@ function initParallax() {
 }
 
 /* -------------------------------------------------
+   Scroll-duyarlı nav rengi
+   Hero'lu sayfa: açık başlar, hero geçilince koyar.
+   Diğer sayfalar: baştan koyu (beyaz zemin).
+--------------------------------------------------- */
+function initNav() {
+  const nav = document.querySelector('.nav');
+  if (!nav) return;
+  if (!document.body.hasAttribute('data-hero-nav')) {
+    nav.classList.add('is-dark');
+    return;
+  }
+  const update = () =>
+    nav.classList.toggle('is-dark', (window.scrollY || 0) > window.innerHeight * 0.82);
+  update();
+  window.addEventListener('scroll', update, { passive: true });
+  if (lenis) lenis.on('scroll', update);
+}
+
+/* -------------------------------------------------
    Full-screen menü overlay
 --------------------------------------------------- */
 function initMenu() {
@@ -163,6 +182,7 @@ function initProjects() {
 /* ------------------------------------------------- */
 initReveals();
 initParallax();
+initNav();
 initMenu();
 initLocaleMemory();
 initProjects();

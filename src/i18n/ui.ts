@@ -59,7 +59,9 @@ export const ui = {
     'contact.email': 'Email',
     'contact.message': 'Message',
     'contact.send': 'Send message',
+    'contact.sending': 'Sending…',
     'contact.sent': 'Thank you — we will be in touch shortly.',
+    'contact.error': 'Something went wrong. Please email us directly at bora@pusnco.com.',
 
     'footer.studio': 'Head Office',
     'footer.contact': 'Contact',
@@ -122,7 +124,9 @@ export const ui = {
     'contact.email': 'E-posta',
     'contact.message': 'Mesaj',
     'contact.send': 'Mesaj gönder',
+    'contact.sending': 'Gönderiliyor…',
     'contact.sent': 'Teşekkürler — en kısa sürede size döneceğiz.',
+    'contact.error': 'Bir sorun oluştu. Doğrudan bora@pusnco.com adresine yazabilirsiniz.',
 
     'footer.studio': 'Merkez Ofis',
     'footer.contact': 'İletişim',

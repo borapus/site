@@ -15,9 +15,11 @@ interface Props {
   lang: Lang;
   title: string;
   description?: string;
+  /** Hero fotoğrafı olan sayfalarda nav açık renk başlar, scroll'da koyar. */
+  heroNav?: boolean;
 }
 
-const { lang, title, description = '' } = Astro.props;
+const { lang, title, description = '', heroNav = false } = Astro.props;
 
 // Locale önekini sıyırıp diller arası hreflang alternatiflerini üret.
 const path = Astro.url.pathname.replace(/^\/(en|tr)/, '') || '/';
@@ -48,7 +50,7 @@ const altUrl = (l: Lang) => `${origin}/${l}${path === '/' ? '/' : path}`;
       document.documentElement.classList.add('js');
     </script>
   </head>
-  <body>
+  <body data-hero-nav={heroNav ? '' : undefined}>
     <Navbar lang={lang} />
 
     <main id="main">

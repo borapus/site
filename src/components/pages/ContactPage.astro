@@ -7,6 +7,10 @@ interface Props {
 }
 const { lang } = Astro.props;
 const t = useTranslations(lang);
+
+// Web3Forms access key — Vercel/.env'de PUBLIC_WEB3FORMS_KEY olarak ayarla.
+// (web3forms.com'dan bora@pusnco.com ile ücretsiz alınır)
+const web3formsKey = import.meta.env.PUBLIC_WEB3FORMS_KEY || '';
 ---
 
 <BaseLayout lang={lang} title={`${t('contact.title')} — ${t('site.name')}`} description={t('contact.intro')}>
@@ -15,14 +19,31 @@ const t = useTranslations(lang);
     <h1 class="page-head__title" data-reveal data-reveal-delay="0.05">{t('contact.title')}</h1>
     <p class="page-head__intro" data-reveal data-reveal-delay="0.1">{t('contact.intro')}</p>
     <p class="form__status" data-form-status hidden>{t('contact.sent')}</p>
+    <p class="form__status form__status--error" data-form-error hidden>{t('contact.error')}</p>
   </section>
 
   <section class="u-section" style="padding-top: 0;">
     <div class="u-container form-wrap">
-      <form class="form" action="/contact.php" method="post" data-reveal>
+      <form
+        class="form"
+        action="https://api.web3forms.com/submit"
+        method="post"
+        data-contact-form
+        data-reveal
+      >
+        <input type="hidden" name="access_key" value={web3formsKey} />
+        <input type="hidden" name="subject" value="PUS&CO — Website enquiry" />
+        <input type="hidden" name="from_name" value="PUS&CO Website" />
         <input type="hidden" name="lang" value={lang} />
-        <!-- honeypot (botlar için, kullanıcıdan gizli) -->
-        <input type="text" name="company" class="form__hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <!-- honeypot (Web3Forms) -->
+        <input
+          type="checkbox"
+          name="botcheck"
+          class="form__hp"
+          tabindex="-1"
+          autocomplete="off"
+          aria-hidden="true"
+        />
 
         <label class="form__field">
           <span class="u-label">{t('contact.name')}</span>
@@ -40,7 +61,7 @@ const t = useTranslations(lang);
         </label>
 
         <button class="form__submit" type="submit">
-          <span class="ghost-btn__text">{t('contact.send')}</span>
+          <span class="ghost-btn__text" data-submit-text>{t('contact.send')}</span>
           <span class="ghost-btn__line" aria-hidden="true"></span>
         </button>
       </form>
@@ -65,14 +86,38 @@ const t = useTranslations(lang);
     </div>
   </section>
 
-  <script is:inline>
+  <script is:inline define:vars={{ sendingText: t('contact.sending'), sendText: t('contact.send'), hasKey: Boolean(web3formsKey) }}>
     (function () {
-      var params = new URLSearchParams(location.search);
-      var status = document.querySelector('[data-form-status]');
-      if (status && params.get('sent') === '1') {
-        status.hidden = false;
-        status.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
+      var form = document.querySelector('[data-contact-form]');
+      if (!form) return;
+      var statusEl = document.querySelector('[data-form-status]');
+      var errorEl = document.querySelector('[data-form-error]');
+      var btnText = form.querySelector('[data-submit-text]');
+      var btn = form.querySelector('button[type=submit]');
+
+      function show(el) { if (el) { el.hidden = false; el.scrollIntoView({ behavior: 'smooth', block: 'center' }); } }
+      function hide(el) { if (el) el.hidden = true; }
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        hide(statusEl); hide(errorEl);
+        if (!hasKey) { show(errorEl); console.warn('[contact] PUBLIC_WEB3FORMS_KEY tanımlı değil — formu bağlamak için Vercel env değişkenini ekle.'); return; }
+        var original = btnText ? btnText.textContent : '';
+        if (btnText) btnText.textContent = sendingText;
+        if (btn) btn.disabled = true;
+
+        fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
+          .then(function (r) { return r.json(); })
+          .then(function (json) {
+            if (json && json.success) { form.reset(); show(statusEl); }
+            else { show(errorEl); }
+          })
+          .catch(function () { show(errorEl); })
+          .finally(function () {
+            if (btnText) btnText.textContent = original || sendText;
+            if (btn) btn.disabled = false;
+          });
+      });
     })();
   </script>
 </BaseLayout>
@@ -91,6 +136,10 @@ const t = useTranslations(lang);
     font-family: var(--font-display);
     font-size: clamp(1.25rem, 2.4vw, 2rem);
     color: var(--color-ink);
+  }
+  .form__status--error {
+    font-size: clamp(1rem, 1.8vw, 1.4rem);
+    color: var(--color-muted);
   }
 
   .form-wrap {

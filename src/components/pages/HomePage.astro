@@ -12,7 +12,7 @@ const { lang } = Astro.props;
 const t = useTranslations(lang);
 ---
 
-<BaseLayout lang={lang} title={`${t('site.name')} — ${t('hero.title')}`} description={t('hero.intro')}>
+<BaseLayout lang={lang} title={`${t('site.name')} — ${t('hero.title')}`} description={t('hero.intro')} heroNav>
   <Hero lang={lang} />
 
   <!-- 01 — Seçili İşler -->

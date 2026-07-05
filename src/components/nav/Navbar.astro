@@ -44,8 +44,12 @@ const items: { key: UIKey; href: string }[] = [
     right: 0;
     z-index: 80;
     padding-block: clamp(18px, 3vh, 34px);
-    mix-blend-mode: difference; /* açık/koyu görsel üstünde okunur kalır */
+    /* Varsayılan: açık (hero fotoğrafı üstünde). Scroll/iç sayfada .is-dark ile koyar. */
+    --nav-fg: #f5f2ec;
   }
+  .nav.is-dark { --nav-fg: var(--color-ink); }
+  :global(html.menu-open) .nav { --nav-fg: var(--color-ink); } /* menü açık = beyaz zemin */
+
   .nav__inner {
     display: flex;
     align-items: center;
@@ -55,7 +59,8 @@ const items: { key: UIKey; href: string }[] = [
     display: inline-flex;
     align-items: center;
     gap: 11px;
-    color: #fff; /* difference blend ile açık zeminde siyah, koyu zeminde beyaz görünür */
+    color: var(--nav-fg);
+    transition: color var(--dur-base) var(--ease);
   }
   :global(.nav__logo) {
     height: 22px;
@@ -78,18 +83,17 @@ const items: { key: UIKey; href: string }[] = [
     font-size: var(--fs-label);
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--nav-fg);
+    transition: color var(--dur-base) var(--ease);
   }
 
-  /* mix-blend-mode difference için locale switch'i de beyaza çevir */
-  .nav__right :global(.locale__link),
-  .nav__right :global(.locale__sep) { color: #fff; }
-  .nav__right :global(.locale__link.is-active) { color: #fff; text-decoration: underline; text-underline-offset: 4px; }
-
-  /* Menü açıkken navbar blend'ini sıfırla (overlay beyaz zemin) */
-  :global(html.menu-open) .nav { mix-blend-mode: normal; }
-  :global(html.menu-open) .nav__brand,
-  :global(html.menu-open) .nav__menu { color: var(--color-ink); }
-  :global(html.menu-open) .nav__right :global(.locale__link) { color: var(--color-muted); }
-  :global(html.menu-open) .nav__right :global(.locale__link.is-active) { color: var(--color-ink); }
+  /* Locale switch renklerini nav rengine bağla (yeterli özgüllük için .nav .nav__right) */
+  .nav .nav__right :global(.locale__link),
+  .nav .nav__right :global(.locale__sep) {
+    color: var(--nav-fg);
+    opacity: 0.68;
+    transition: color var(--dur-base) var(--ease), opacity var(--dur-base) var(--ease);
+  }
+  .nav .nav__right :global(.locale__link:hover),
+  .nav .nav__right :global(.locale__link.is-active) { color: var(--nav-fg); opacity: 1; }
 </style>
