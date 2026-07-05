@@ -8,9 +8,10 @@ interface Props {
 const { lang } = Astro.props;
 const t = useTranslations(lang);
 
-// Web3Forms access key — Vercel/.env'de PUBLIC_WEB3FORMS_KEY olarak ayarla.
-// (web3forms.com'dan bora@pusnco.com ile ücretsiz alınır)
-const web3formsKey = import.meta.env.PUBLIC_WEB3FORMS_KEY || '';
+// Web3Forms access key (public-safe — client HTML'de zaten görünür).
+// İstenirse Vercel/.env'de PUBLIC_WEB3FORMS_KEY ile override edilebilir.
+const web3formsKey =
+  import.meta.env.PUBLIC_WEB3FORMS_KEY || '46d54317-e083-4f3d-baaa-54c3865ceb76';
 ---
 
 <BaseLayout lang={lang} title={`${t('contact.title')} — ${t('site.name')}`} description={t('contact.intro')}>
