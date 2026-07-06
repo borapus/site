@@ -10,6 +10,11 @@ node_modules/
 .env
 .env.production
 
+# secrets — repoya ASLA gitmez (public repo!)
+secret.md
+secrets.md
+*.secret.md
+
 # logs
 npm-debug.log*
 *.log
