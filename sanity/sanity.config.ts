@@ -11,7 +11,7 @@ import { schemaTypes } from './schemas';
 export default defineConfig({
   name: 'default',
   title: 'Atelier Studio',
-  projectId: process.env.SANITY_STUDIO_PROJECT_ID || 'YOUR_PROJECT_ID',
+  projectId: process.env.SANITY_STUDIO_PROJECT_ID || '9zmri994',
   dataset: process.env.SANITY_STUDIO_DATASET || 'production',
   plugins: [structureTool(), visionTool()],
   schema: { types: schemaTypes },

@@ -1,6 +1,7 @@
 # build output
 dist/
 .astro/
+.sanity/
 
 # dependencies
 node_modules/
