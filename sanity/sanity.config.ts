@@ -10,7 +10,7 @@ import { schemaTypes } from './schemas';
 //   3) cd sanity && npm install && npm run dev
 export default defineConfig({
   name: 'default',
-  title: 'Atelier Studio',
+  title: 'PUS&CO Studio',
   projectId: process.env.SANITY_STUDIO_PROJECT_ID || '9zmri994',
   dataset: process.env.SANITY_STUDIO_DATASET || 'production',
   plugins: [structureTool(), visionTool()],
