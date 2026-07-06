@@ -5,4 +5,5 @@ export default defineCliConfig({
     projectId: process.env.SANITY_STUDIO_PROJECT_ID || '9zmri994',
     dataset: process.env.SANITY_STUDIO_DATASET || 'production',
   },
+  studioHost: 'pusnco',
 });
