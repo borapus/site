@@ -122,7 +122,17 @@ function initMenu() {
 --------------------------------------------------- */
 function initLocaleMemory() {
   document.querySelectorAll<HTMLAnchorElement>('[data-locale]').forEach((a) => {
+    // Statik sayfalarda sorgu bilgisi derleme sırasında bilinmez.
+    // Dil değişiminde proje kimliğini ve bölüm bağlantısını tarayıcıda koru.
+    const preservePageContext = () => {
+      const target = new URL(a.href);
+      target.search = window.location.search;
+      target.hash = window.location.hash;
+      a.href = target.href;
+    };
+    preservePageContext();
     a.addEventListener('click', () => {
+      preservePageContext();
       try {
         localStorage.setItem('lang', a.dataset.locale || 'en');
       } catch {
