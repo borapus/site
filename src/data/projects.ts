@@ -1,3 +1,5 @@
+import { uploadedProjects } from './uploadedProjects';
+
 // Yerel proje verisi (seed).
 // Sanity yapılandırılınca (PUBLIC_SANITY_PROJECT_ID) otomatik olarak Sanity verisi
 // kullanılır; bu dosya yalnızca Sanity bağlı değilken devreye girer (site boş kalmasın diye).
@@ -18,6 +20,7 @@ export type LocalProject = {
 };
 
 export const localProjects: LocalProject[] = [
+  ...uploadedProjects,
   {
     slug: 'tk-house',
     year: '',
