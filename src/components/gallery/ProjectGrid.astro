@@ -1,5 +1,6 @@
 ---
 import { type Lang, useTranslations } from '../../i18n/ui';
+import { getProjects, img } from '../../lib/projects';
 
 interface Props {
   lang: Lang;
@@ -8,6 +9,7 @@ interface Props {
 }
 const { lang, featured = false, limit } = Astro.props;
 const t = useTranslations(lang);
+const projects = await getProjects(lang, { featured, limit });
 ---
 
 <div
@@ -16,6 +18,17 @@ const t = useTranslations(lang);
   data-featured={featured ? '' : undefined}
   data-limit={limit ?? undefined}
 >
-  <!-- Sanity yapılandırılınca kartlar client-side buraya eklenir. -->
-  <p class="project-grid__empty" data-projects-empty>{t('projects.empty')}</p>
+  {projects.map((p) => (
+    <a class:list={['project-card', p.orientation === 'portrait' ? 'is-portrait' : 'is-landscape']}
+      href={`/${lang}/projects/detail/?id=${p.slug}`}>
+      <span class="project-card__media">
+        {p.cover && <img src={img(p.cover, 1400)} alt={p.title} loading="lazy" />}
+      </span>
+      <span class="project-card__meta">
+        <span class="project-card__title">{p.title}</span>
+        <span class="u-label">{[p.location, p.year].filter(Boolean).join(' — ')}</span>
+      </span>
+    </a>
+  ))}
+  {!projects.length && <p class="project-grid__empty" data-projects-empty>{t('projects.empty')}</p>}
 </div>

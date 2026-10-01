@@ -183,7 +183,7 @@ function initProjects() {
         </span>`;
       frag.appendChild(a);
     }
-    grid.appendChild(frag);
+    grid.replaceChildren(frag);
     initReveals(grid);
     ScrollTrigger.refresh();
   });
