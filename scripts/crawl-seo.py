@@ -33,9 +33,11 @@ class PageParser(HTMLParser):
         self.links = []; self.images = []; self.headings = []; self.schema = []
         self.ids = set(); self.text = []; self.main = False; self.ignore = 0
         self.capture = None; self.buffer = []; self.schema_errors = 0
+        self.link_details = []; self.anchor = None; self.regions = []
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag in ('main', 'nav', 'header', 'footer'): self.regions.append(tag)
         if a.get('id'): self.ids.add(a['id'])
         if tag == 'main': self.main = True
         if tag in ('script', 'style', 'nav', 'footer', 'header'): self.ignore += 1
@@ -48,10 +50,20 @@ class PageParser(HTMLParser):
             if name == 'description': self.description = a.get('content', '')
             if name in ('robots', 'googlebot'): self.robots.append(a.get('content', ''))
         if tag == 'link' and 'canonical' in a.get('rel', '').split(): self.canonical = a.get('href', '')
-        if tag == 'a' and a.get('href'): self.links.append(a['href'])
+        if tag == 'a' and a.get('href'):
+            self.links.append(a['href'])
+            context = 'language' if 'data-locale' in a else 'navigation' if any(r in self.regions for r in ['nav','header']) else 'footer' if 'footer' in self.regions else 'content' if self.main else 'other'
+            classes = a.get('class', '').split()
+            if 'detail__next-link' in classes: context = 'sequence'
+            elif 'detail__back' in classes: context = 'hierarchy'
+            self.anchor = {'href': a['href'], 'context': context, 'parts': []}
         if tag == 'img': self.images.append(a)
 
     def handle_endtag(self, tag):
+        if tag == 'a' and self.anchor is not None:
+            self.link_details.append({'href': self.anchor['href'], 'anchor': re.sub(r'\s+', ' ', ''.join(self.anchor['parts'])).strip(), 'context': self.anchor['context']})
+            self.anchor = None
+        if tag in ('main', 'nav', 'header', 'footer') and tag in self.regions: self.regions.remove(tag)
         if self.capture == tag or (tag == 'script' and self.capture == 'jsonld'):
             value = ''.join(self.buffer).strip()
             if self.capture == 'title': self.title = value
@@ -64,6 +76,7 @@ class PageParser(HTMLParser):
         if tag == 'main': self.main = False
 
     def handle_data(self, data):
+        if self.anchor is not None: self.anchor['parts'].append(data)
         if self.capture: self.buffer.append(data)
         if self.main and not self.ignore and data.strip(): self.text.append(data.strip())
 
@@ -171,9 +184,10 @@ def crawl(args):
             'canonical': canonical, 'robots': directives, 'robots_blocked': blocked, 'indexable': indexable,
             'sitemap': url in sitemap_urls, 'page_type': page_type, 'primary_topic': (parser.headings[0]['text'] if parser.headings else parser.title),
             'search_intent': 'project portfolio' if page_type == 'project' else 'contact/navigation' if page_type == 'contact' else 'studio/portfolio information',
-            'word_count': len(main_text.split()), 'content_hash': hashlib.sha256(main_text.encode()).hexdigest(),
+            'main_text': main_text, 'word_count': len(main_text.split()), 'content_hash': hashlib.sha256(main_text.encode()).hexdigest(),
             'schema_types': sorted(schema_types(parser.schema)), 'schema_errors': parser.schema_errors,
-            'images': parser.images, 'links': [public(link) for link in links], 'depth': None,
+            'images': parser.images, 'links': [public(link) for link in links],
+            'link_details': [{'url': public(target), 'anchor': link['anchor'], 'context': link['context']} for link in parser.link_details if (target := local(urljoin(final, link['href'])))], 'depth': None,
             'internal_link_count': len(links), 'inbound_link_count': 0, 'performance': metrics, 'updated_at': now,
             'title_quality': 'missing' if not parser.title else 'review' if not 10 <= len(parser.title) <= 70 else 'present',
             'meta_quality': 'missing' if not parser.description else 'review' if not 70 <= len(parser.description) <= 170 else 'present',

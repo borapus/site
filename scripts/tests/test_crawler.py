@@ -84,6 +84,14 @@ class CrawlerTests(unittest.TestCase):
         self.assertNotIn('@graph', ' '.join(parser.text))
         self.assertEqual(crawler.schema_types({'@type':None}), set())
 
+    def test_link_context_and_main_text(self):
+        parser = crawler.PageParser()
+        parser.feed('<header><nav><a href="/en/">Home</a></nav></header><main><p>Real topic text</p><a href="/en/project/">Useful <em>example</em></a><a class="detail__next-link" href="/en/next/">Next project</a><a class="detail__back" href="/en/projects/">All projects</a></main><footer><a href="/contact/">Contact</a></footer>')
+        self.assertEqual([link['context'] for link in parser.link_details],['navigation','content','sequence','hierarchy','footer'])
+        self.assertEqual(parser.link_details[1]['anchor'],'Useful example')
+        self.assertNotIn('Home',' '.join(parser.text))
+        self.assertNotIn('Contact',' '.join(parser.text))
+
     def test_lighthouse_metrics_import(self):
         with tempfile.TemporaryDirectory() as directory:
             report = {'requestedUrl':f'http://127.0.0.1:{self.server.server_port}/tr/', 'lighthouseVersion':'fixture',

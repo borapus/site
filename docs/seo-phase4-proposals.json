@@ -1,0 +1,2530 @@
+{
+  "canonical_origin": "https://pusnco.com",
+  "crawl_updated_at": "2026-10-04T23:16:38.568104+00:00",
+  "taxonomy_version": 1,
+  "summary": {
+    "pages": 36,
+    "projects": 28,
+    "clusters": 12,
+    "link_suggestions": 19,
+    "content_opportunities": 20,
+    "issues": 22,
+    "cycles_prevented": 16,
+    "priorities": {
+      "MEDIUM": 22
+    }
+  },
+  "topics": [
+    {
+      "url": "https://pusnco.com/en/",
+      "language": "en",
+      "title": "Shaped by context, not convention",
+      "cluster": null,
+      "classification_basis": "not a project",
+      "themes": {
+        "context-landscape": {
+          "matched_terms": [
+            "landscape"
+          ],
+          "excerpt": "Architecture Studio — Istanbul Shaped by context, not convention Pus&Co creates architecture as a unique response to landscape, climate, light, material and purpose — where nothing is arbitrary and every decision belongs."
+        },
+        "material-detail": {
+          "matched_terms": [
+            "material"
+          ],
+          "excerpt": "Architecture Studio — Istanbul Shaped by context, not convention Pus&Co creates architecture as a unique response to landscape, climate, light, material and purpose — where nothing is arbitrary and every decision belongs."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/en/contact/",
+      "language": "en",
+      "title": "Contact",
+      "cluster": null,
+      "classification_basis": "not a project",
+      "themes": {}
+    },
+    {
+      "url": "https://pusnco.com/en/projects/",
+      "language": "en",
+      "title": "Projects",
+      "cluster": null,
+      "classification_basis": "not a project",
+      "themes": {}
+    },
+    {
+      "url": "https://pusnco.com/en/projects/bbs-1/",
+      "language": "en",
+      "title": "Baku Bus Station-1",
+      "cluster": "transport",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "circulation-operations": {
+          "matched_terms": [
+            "operational",
+            "maintenance"
+          ],
+          "excerpt": "Occupying a site of approximately 1.5 million m², the campus comprises an administration building, driver facilities, a workshop building equipped for pre-service vehicle inspections, maintenance, repair and painting, a dedicated bus washing unit, gas filling stations, and a driver training track incorporating purpose-built training courses."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/en/projects/bbs-2/",
+      "language": "en",
+      "title": "BBS-2",
+      "cluster": "transport",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "circulation-operations": {
+          "matched_terms": [
+            "operational",
+            "maintenance"
+          ],
+          "excerpt": "Occupying a site of approximately 800,000 m², the campus comprises an administration building, driver facilities, a workshop building equipped for pre-service vehicle inspections, maintenance, repair and painting, a dedicated bus washing unit, and gas filling stations."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/en/projects/dragon-oil-hazar/",
+      "language": "en",
+      "title": "Dragon Oil Hazar Facilities",
+      "cluster": "operations",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "circulation-operations": {
+          "matched_terms": [
+            "operational"
+          ],
+          "excerpt": "The campus brings together accommodation and everyday living facilities for field personnel, alongside offices, social and support facilities, and operational buildings including a dedicated fire station."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/en/projects/gms-ashgabat/",
+      "language": "en",
+      "title": "GMS Ashgabat",
+      "cluster": "operations",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "circulation-operations": {
+          "matched_terms": [
+            "circulation",
+            "operational",
+            "controlled"
+          ],
+          "excerpt": "The primary planning challenge was to accommodate Ministry of Defence and military personnel within the same facility while maintaining independent and controlled circulation systems."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/en/projects/gu-house/",
+      "language": "en",
+      "title": "GU House",
+      "cluster": "residential",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "privacy-shared-living": {
+          "matched_terms": [
+            "privacy"
+          ],
+          "excerpt": "The composition balances openness and privacy, allowing natural light and outdoor spaces to become an integral part of daily life."
+        },
+        "context-landscape": {
+          "matched_terms": [
+            "courtyard"
+          ],
+          "excerpt": "All projects Project GU House Overview Location Dalaman / Ortaca Typology Residential GU House is designed around a sheltered inner courtyard that responds to the region's intense sunlight while creating a private living environment protected from neighboring properties."
+        },
+        "material-detail": {
+          "matched_terms": [
+            "concrete"
+          ],
+          "excerpt": "The complexity of the architectural geometry is unified through the consistent use of board-formed concrete, creating a calm and timeless architectural expression."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/en/projects/haiti-social-housing/",
+      "language": "en",
+      "title": "Haiti Social Housing — Morne à Cabrit",
+      "cluster": "residential",
+      "classification_basis": "verified project mapping",
+      "themes": {}
+    },
+    {
+      "url": "https://pusnco.com/en/projects/hazar-cultural-centre/",
+      "language": "en",
+      "title": "Reconstruction of Culture Centre in Hazar",
+      "cluster": "culture",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "material-detail": {
+          "matched_terms": [
+            "detail"
+          ],
+          "excerpt": "Original architectural details documented in the available measured survey records were retained, while missing sections were reinterpreted through a contemporary design approach."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/en/projects/hermes-bodrum/",
+      "language": "en",
+      "title": "Hermès Store — Mandarin Oriental Bodrum",
+      "cluster": "retail",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "technical-coordination": {
+          "matched_terms": [
+            "shop drawing",
+            "site architect",
+            "project management",
+            "technical coordination"
+          ],
+          "excerpt": "All projects Project Hermès Store — Mandarin Oriental Bodrum Overview Location Bodrum, Türkiye Year 2023 Typology Retail For the Hermès Pop-up Store located within the Mandarin Oriental Bodrum resort, the brand’s concept design was developed into a comprehensive construction package, followed by technical coordination throughout the construction process."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/en/projects/hermes-istinyepark/",
+      "language": "en",
+      "title": "Hermès Store — İstinyePark",
+      "cluster": "retail",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "reuse-adaptation": {
+          "matched_terms": [
+            "existing leased"
+          ],
+          "excerpt": "All projects Project Hermès Store — İstinyePark Overview Location Istanbul, Türkiye Year 2011 Typology Retail The Hermès Store at İstinyePark Mall was developed by adapting the concept design provided by the brand’s team in France to the existing leased retail space."
+        },
+        "material-detail": {
+          "matched_terms": [
+            "detail"
+          ],
+          "excerpt": "In addition to translating the concept into detailed construction documentation and coordinating it with the existing site conditions, project management, site architecture and shop drawing services were provided on behalf of the general contractor throughout the construction process."
+        },
+        "technical-coordination": {
+          "matched_terms": [
+            "shop drawing",
+            "site architect",
+            "project management"
+          ],
+          "excerpt": "In addition to translating the concept into detailed construction documentation and coordinating it with the existing site conditions, project management, site architecture and shop drawing services were provided on behalf of the general contractor throughout the construction process."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/en/projects/hisaronu-house/",
+      "language": "en",
+      "title": "Hisarönü House",
+      "cluster": "residential",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "material-detail": {
+          "matched_terms": [
+            "material"
+          ],
+          "excerpt": "All projects Project Hisarönü House Overview Location Hisarönü, Marmaris Year 2024 Typology Residential Hisarönü House is a residential project centered on natural and traditional materials, with an emphasis on local building techniques."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/en/projects/museum-hotel-antakya-spa/",
+      "language": "en",
+      "title": "The Museum Hotel Antakya — Balance SPA & GYM",
+      "cluster": "hospitality",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "material-detail": {
+          "matched_terms": [
+            "steel",
+            "detail"
+          ],
+          "excerpt": "All projects Project The Museum Hotel Antakya — Balance SPA & GYM Overview Location Antakya, Hatay, Türkiye Year 2018 Typology SPA & Fitness Construction documentation and bespoke detailing were developed for the Balance SPA & GYM facilities at The Museum Hotel Antakya."
+        },
+        "technical-coordination": {
+          "matched_terms": [
+            "shop drawing",
+            "site architect",
+            "project management"
+          ],
+          "excerpt": "The scope included project management, site architectural supervision, construction drawings and shop drawing services throughout the building process."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/en/projects/rolex-suadiye/",
+      "language": "en",
+      "title": "Rolex Store — Suadiye",
+      "cluster": "retail",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "reuse-adaptation": {
+          "matched_terms": [
+            "existing store"
+          ],
+          "excerpt": "The existing store was fully stripped out and expanded into the adjacent retail unit, creating a larger space that was redesigned and rebuilt."
+        },
+        "material-detail": {
+          "matched_terms": [
+            "material",
+            "detail"
+          ],
+          "excerpt": "The project followed Rolex’s global material specifications and detailing standards."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/en/projects/tk-house/",
+      "language": "en",
+      "title": "TK House",
+      "cluster": "residential",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "privacy-shared-living": {
+          "matched_terms": [
+            "privacy"
+          ],
+          "excerpt": "In contrast, the street-facing elevation uses more controlled openings to maintain privacy."
+        },
+        "context-landscape": {
+          "matched_terms": [
+            "forest",
+            "landscape"
+          ],
+          "excerpt": "The façade facing the forest is conceived as a transparent interface, with extensive glazing strengthening the continuity between interior spaces and the landscape."
+        },
+        "reuse-adaptation": {
+          "matched_terms": [
+            "existing building"
+          ],
+          "excerpt": "All projects Project TK House Overview Location Urla, Izmir, Türkiye Year 2013 Typology Residential TK House is a private residence reconstructed with a steel structural system while preserving the footprint and original form of the existing building."
+        },
+        "material-detail": {
+          "matched_terms": [
+            "material",
+            "steel"
+          ],
+          "excerpt": "All projects Project TK House Overview Location Urla, Izmir, Türkiye Year 2013 Typology Residential TK House is a private residence reconstructed with a steel structural system while preserving the footprint and original form of the existing building."
+        },
+        "circulation-operations": {
+          "matched_terms": [
+            "controlled"
+          ],
+          "excerpt": "In contrast, the street-facing elevation uses more controlled openings to maintain privacy."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/en/projects/uc-house/",
+      "language": "en",
+      "title": "UÇ House",
+      "cluster": "residential",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "privacy-shared-living": {
+          "matched_terms": [
+            "privacy",
+            "multi-generational",
+            "shared living"
+          ],
+          "excerpt": "All projects Project UÇ House Overview Location İstanbul / Gebze Typology Residential UÇ House reinterprets multi-generational living through a composition of interconnected volumes."
+        },
+        "context-landscape": {
+          "matched_terms": [
+            "landscape",
+            "panoramic"
+          ],
+          "excerpt": "The roof geometry draws inspiration from the surrounding mountain silhouettes and the changing path of the sun throughout the day, while natural stone, timber, and expansive glazing connect the house to its panoramic setting and the surrounding landscape."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/en/studio/",
+      "language": "en",
+      "title": "Studio",
+      "cluster": null,
+      "classification_basis": "not a project",
+      "themes": {
+        "context-landscape": {
+          "matched_terms": [
+            "landscape"
+          ],
+          "excerpt": "Every project is a unique response to its landscape, climate, light, materials, and purpose."
+        },
+        "material-detail": {
+          "matched_terms": [
+            "material"
+          ],
+          "excerpt": "Every project is a unique response to its landscape, climate, light, materials, and purpose."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/",
+      "language": "tr",
+      "title": "Bağlamla biçimlenen mimari",
+      "cluster": null,
+      "classification_basis": "not a project",
+      "themes": {
+        "material-detail": {
+          "matched_terms": [
+            "malzeme"
+          ],
+          "excerpt": "Mimarlık Ofisi — İstanbul Bağlamla biçimlenen mimari Pus&Co; peyzaja, iklime, ışığa, malzemeye ve amaca özgü bir yanıt olarak mimari üretir — hiçbir şeyin rastlantısal olmadığı, her kararın yerini bulduğu bir yaklaşım."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/contact/",
+      "language": "tr",
+      "title": "İletişim",
+      "cluster": null,
+      "classification_basis": "not a project",
+      "themes": {}
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/",
+      "language": "tr",
+      "title": "Projeler",
+      "cluster": null,
+      "classification_basis": "not a project",
+      "themes": {}
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/bbs-1/",
+      "language": "tr",
+      "title": "Baku Bus Station-1",
+      "cluster": "transport",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "circulation-operations": {
+          "matched_terms": [
+            "operasyonel",
+            "bakım"
+          ],
+          "excerpt": "Yaklaşık 1,5 milyon m² alan üzerine kurulu kampüs; yönetim binası, sürücülerin günlük ihtiyaçlarına yönelik sosyal tesisler, araçların sefer öncesi kontrollerinin yanı sıra bakım, onarım ve boya işlemlerinin gerçekleştirildiği atölye binası, günlük araç temizliğine hizmet eden yıkama ünitesi, gaz dolum istasyonları ve sürücü eğitimine yönelik özel parkurlar içeren bir eğitim pistinden oluşmaktadır."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/bbs-2/",
+      "language": "tr",
+      "title": "BBS-2",
+      "cluster": "transport",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "circulation-operations": {
+          "matched_terms": [
+            "operasyonel",
+            "bakım"
+          ],
+          "excerpt": "Yaklaşık 800.000 m² alan üzerine kurulu kampüs; yönetim binası, sürücülerin günlük ihtiyaçlarına yönelik sosyal tesisler, araçların sefer öncesi kontrollerinin yanı sıra bakım, onarım ve boya işlemlerinin gerçekleştirildiği atölye binası, günlük araç temizliğine hizmet eden yıkama ünitesi ve gaz dolum istasyonlarından oluşmaktadır."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/dragon-oil-hazar/",
+      "language": "tr",
+      "title": "Dragon Oil Hazar Facilities",
+      "cluster": "operations",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "circulation-operations": {
+          "matched_terms": [
+            "operasyonel"
+          ],
+          "excerpt": "Yerleşke; saha çalışanlarının konaklama ve günlük ihtiyaçlarına yönelik yaşam alanlarının yanı sıra ofisler, sosyal ve destek birimleri ile itfaiye binası gibi operasyonel yapıları bir araya getirmektedir."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/gms-ashgabat/",
+      "language": "tr",
+      "title": "GMS Ashgabat",
+      "cluster": "operations",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "circulation-operations": {
+          "matched_terms": [
+            "dolaşım",
+            "operasyonel",
+            "kontrollü"
+          ],
+          "excerpt": "Projenin temel planlama yaklaşımı, yapıyı eş zamanlı olarak kullanan Savunma Bakanlığı ve askeri personelin çalışma alanlarını birbirinden bağımsız ve kontrollü dolaşım sistemleriyle organize etmek üzerine kurulmuştur."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/gu-house/",
+      "language": "tr",
+      "title": "GU House",
+      "cluster": "residential",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "privacy-shared-living": {
+          "matched_terms": [
+            "mahremiyet"
+          ],
+          "excerpt": "Tüm projeler Proje GU House Künye Konum Dalaman / Ortaca Tipoloji Konut GU House, bölgenin yoğun güneş iklimine yanıt veren ve komşu parsellerden mahremiyet sağlayan korunaklı bir iç avlu etrafında kurgulanmıştır."
+        },
+        "context-landscape": {
+          "matched_terms": [
+            "avlu"
+          ],
+          "excerpt": "Tüm projeler Proje GU House Künye Konum Dalaman / Ortaca Tipoloji Konut GU House, bölgenin yoğun güneş iklimine yanıt veren ve komşu parsellerden mahremiyet sağlayan korunaklı bir iç avlu etrafında kurgulanmıştır."
+        },
+        "material-detail": {
+          "matched_terms": [
+            "malzeme",
+            "beton"
+          ],
+          "excerpt": "Hareketli cephe geometrisi, formwork betonun tek ve tutarlı bir malzeme olarak kullanılmasıyla dengelenerek yalın, güçlü ve zamansız bir mimari kimlik kazanır."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/haiti-social-housing/",
+      "language": "tr",
+      "title": "Morne à Cabrit Sosyal Konut Projesi",
+      "cluster": "residential",
+      "classification_basis": "verified project mapping",
+      "themes": {}
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/hazar-cultural-centre/",
+      "language": "tr",
+      "title": "Hazar Kültür Merkezi’nin Yeniden Yapılandırılması",
+      "cluster": "culture",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "context-landscape": {
+          "matched_terms": [
+            "kent parkı"
+          ],
+          "excerpt": "Sovyet döneminden kalan ve harabe durumundaki kültür merkezinin güncel ihtiyaçlara göre yeniden işlevlendirilmesini, yapıyla bütünleşen bir kent parkı ve kent meydanının tasarımını kapsamaktadır."
+        },
+        "reuse-adaptation": {
+          "matched_terms": [
+            "yeniden işlev"
+          ],
+          "excerpt": "Sovyet döneminden kalan ve harabe durumundaki kültür merkezinin güncel ihtiyaçlara göre yeniden işlevlendirilmesini, yapıyla bütünleşen bir kent parkı ve kent meydanının tasarımını kapsamaktadır."
+        },
+        "material-detail": {
+          "matched_terms": [
+            "detay"
+          ],
+          "excerpt": "Yapının ulaşılabilen rölöve kayıtlarında belgelenen özgün detayları korunmuş, kaybolan bölümleri ise çağdaş bir mimari yaklaşımla yeniden tasarlanmıştır."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/hermes-bodrum/",
+      "language": "tr",
+      "title": "Hermès Store — Mandarin Oriental Bodrum",
+      "cluster": "retail",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "technical-coordination": {
+          "matched_terms": [
+            "shop drawing",
+            "saha mimarlığı",
+            "proje müdürlüğü",
+            "teknik koordinasyon"
+          ],
+          "excerpt": "Tüm projeler Proje Hermès Store — Mandarin Oriental Bodrum Künye Konum Bodrum, Türkiye Yıl 2023 Tipoloji Mağaza Mandarin Oriental Bodrum kompleksi içerisinde yer alan Hermès Pop-up Store projesinde, marka tarafından geliştirilen konsept tasarımın uygulama projesine dönüştürülmesi ve yapım sürecinin teknik koordinasyonu üstlenildi."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/hermes-istinyepark/",
+      "language": "tr",
+      "title": "Hermès Store — İstinyePark",
+      "cluster": "retail",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "reuse-adaptation": {
+          "matched_terms": [
+            "mevcut kiralık"
+          ],
+          "excerpt": "Tüm projeler Proje Hermès Store — İstinyePark Künye Konum İstanbul, Türkiye Yıl 2011 Tipoloji Mağaza İstinyePark AVM’de yer alan Hermès mağazası, markanın Fransa’dan iletilen konsept tasarımı doğrultusunda mevcut kiralık alana adapte edilerek projelendirilmiştir."
+        },
+        "material-detail": {
+          "matched_terms": [
+            "detay"
+          ],
+          "excerpt": "Proje, markanın global tasarım standartlarının ve detay kalitesinin uygulama sürecinin tüm aşamalarında korunması hedefiyle yürütülmüştür."
+        },
+        "technical-coordination": {
+          "matched_terms": [
+            "shop drawing",
+            "saha mimarlığı"
+          ],
+          "excerpt": "Konsept tasarımın uygulama projesine dönüştürülmesi ve mevcut mekânın fiziksel koşullarına uyarlanmasının yanı sıra, yapım süreci boyunca ana yüklenici adına proje yönetimi, saha mimarlığı ve shop drawing hizmetleri verilmiştir."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/hisaronu-house/",
+      "language": "tr",
+      "title": "Hisarönü Evi",
+      "cluster": "residential",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "material-detail": {
+          "matched_terms": [
+            "malzeme"
+          ],
+          "excerpt": "Tüm projeler Proje Hisarönü Evi Künye Konum Hisarönü, Marmaris Yıl 2024 Tipoloji Konut Hisarönü Evi, doğal ve geleneksel malzemelerin yanı sıra yerel yapım tekniklerini de tasarımın merkezine alan bir konut projesidir."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/museum-hotel-antakya-spa/",
+      "language": "tr",
+      "title": "The Museum Hotel Antakya — Balance SPA & GYM",
+      "cluster": "hospitality",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "material-detail": {
+          "matched_terms": [
+            "çelik",
+            "detay"
+          ],
+          "excerpt": "Tüm projeler Proje The Museum Hotel Antakya — Balance SPA & GYM Künye Konum Antakya, Hatay Yıl 2018 Tipoloji SPA ve Spor Alanları İnşaat sırasında gerçekleştirilen kazılarda üç farklı antik döneme ait yerleşim katmanlarının ortaya çıkmasıyla yeniden planlanan The Museum Hotel Antakya’nın Balance SPA & GYM alanları için uygulama projesi ve detay çözümleri geliştirilmiştir."
+        },
+        "technical-coordination": {
+          "matched_terms": [
+            "shop drawing",
+            "saha mimarlığı",
+            "proje müdürlüğü"
+          ],
+          "excerpt": "Çalışma kapsamında proje müdürlüğü, saha mimarlığı, uygulama çizimleri ve yapım sürecinde shop drawing hizmetleri sunulmuştur."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/rolex-suadiye/",
+      "language": "tr",
+      "title": "Rolex Store — Suadiye",
+      "cluster": "retail",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "reuse-adaptation": {
+          "matched_terms": [
+            "mevcut mağaza"
+          ],
+          "excerpt": "Mevcut mağaza tamamen sökülmüş, bitişiğindeki mağaza alanı da projeye dahil edilerek genişleyen mekân yeniden tasarlanmış ve inşa edilmiştir."
+        },
+        "material-detail": {
+          "matched_terms": [
+            "malzeme",
+            "detay"
+          ],
+          "excerpt": "Proje, Rolex’in dünya genelinde tanımlı malzeme ve detay standartlarına uygun olarak geliştirilmiştir."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/tk-house/",
+      "language": "tr",
+      "title": "TK House",
+      "cluster": "residential",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "privacy-shared-living": {
+          "matched_terms": [
+            "mahremiyet"
+          ],
+          "excerpt": "Ormana yönelen cephe, iç ve dış mekân arasındaki sürekliliği güçlendiren geniş cam yüzeylerle şeffaf bir karakter kazanırken; yola bakan cephede daha kontrollü açıklıklar kullanılarak konutun mahremiyeti korunmuştur."
+        },
+        "context-landscape": {
+          "matched_terms": [
+            "doğayla",
+            "orman"
+          ],
+          "excerpt": "Ormana yönelen cephe, iç ve dış mekân arasındaki sürekliliği güçlendiren geniş cam yüzeylerle şeffaf bir karakter kazanırken; yola bakan cephede daha kontrollü açıklıklar kullanılarak konutun mahremiyeti korunmuştur."
+        },
+        "reuse-adaptation": {
+          "matched_terms": [
+            "mevcut yapının"
+          ],
+          "excerpt": "Tüm projeler Proje TK House Künye Konum Urla, İzmir Yıl 2013 Tipoloji Konut TK House, mevcut yapının sınırları ve özgün formu korunarak çelik taşıyıcı sistemle yeniden inşa edilen müstakil bir konut projesidir."
+        },
+        "material-detail": {
+          "matched_terms": [
+            "malzeme",
+            "çelik"
+          ],
+          "excerpt": "Tüm projeler Proje TK House Künye Konum Urla, İzmir Yıl 2013 Tipoloji Konut TK House, mevcut yapının sınırları ve özgün formu korunarak çelik taşıyıcı sistemle yeniden inşa edilen müstakil bir konut projesidir."
+        },
+        "circulation-operations": {
+          "matched_terms": [
+            "kontrollü"
+          ],
+          "excerpt": "Ormana yönelen cephe, iç ve dış mekân arasındaki sürekliliği güçlendiren geniş cam yüzeylerle şeffaf bir karakter kazanırken; yola bakan cephede daha kontrollü açıklıklar kullanılarak konutun mahremiyeti korunmuştur."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/projects/uc-house/",
+      "language": "tr",
+      "title": "UÇ House",
+      "cluster": "residential",
+      "classification_basis": "verified project mapping",
+      "themes": {
+        "privacy-shared-living": {
+          "matched_terms": [
+            "mahremiyet",
+            "çoklu yaşam"
+          ],
+          "excerpt": "Tüm projeler Proje UÇ House Künye Konum İstanbul / Gebze Tipoloji Konut UÇ House, çoklu yaşamı birbirine entegre hacimler üzerinden kurgular."
+        },
+        "context-landscape": {
+          "matched_terms": [
+            "doğal çevre"
+          ],
+          "excerpt": "Çatı formu, çevredeki dağ siluetleri ve gün boyunca değişen güneş hareketlerinden ilham alırken; taş, ahşap ve geniş cam yüzeyler yapıyı hâkim olduğu manzara ve doğal çevreyle bütünleştirir."
+        }
+      }
+    },
+    {
+      "url": "https://pusnco.com/tr/studio/",
+      "language": "tr",
+      "title": "Stüdyo",
+      "cluster": null,
+      "classification_basis": "not a project",
+      "themes": {
+        "material-detail": {
+          "matched_terms": [
+            "malzeme"
+          ],
+          "excerpt": "Her proje; kendi peyzajına, iklimine, ışığına, malzemesine ve amacına özgü bir yanıttır."
+        }
+      }
+    }
+  ],
+  "clusters": [
+    {
+      "id": "9c3f8f7774a1cd1d821aa2bc89cfd52aefbab954bd258ad4ceb85f8b1065f553",
+      "language": "en",
+      "topic": "residential",
+      "label": "Residential architecture",
+      "projects": [
+        "https://pusnco.com/en/projects/gu-house/",
+        "https://pusnco.com/en/projects/haiti-social-housing/",
+        "https://pusnco.com/en/projects/hisaronu-house/",
+        "https://pusnco.com/en/projects/tk-house/",
+        "https://pusnco.com/en/projects/uc-house/"
+      ],
+      "pillar_url": "https://pusnco.com/en/services/residential-architecture/",
+      "pillar_status": "PROPOSED",
+      "search_intent": "Understand privacy, shared living and context in residential projects",
+      "structure": "pillar → supporting guide/article → existing project pages",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/en/projects/gu-house/",
+          "excerpt": "All projects Project GU House Overview Location Dalaman / Ortaca Typology Residential GU House is designed around a sheltered inner courtyard that responds to the region's intense sunlight while creating a private living environment protected from neighboring properties. The composition balances openness and privacy, allowing natural light and outdoor spaces to become an integral part of daily life. The complexity of the architectural geometry is"
+        },
+        {
+          "url": "https://pusnco.com/en/projects/haiti-social-housing/",
+          "excerpt": "All projects Project Haiti Social Housing — Morne à Cabrit Overview Location Morne à Cabrit, Haiti Year 2013 Typology Social Housing Developed in response to the housing crisis following the devastating 2010 Haiti earthquake, the project is a low-cost social housing development comprising three residential neighborhoods, designed for communities that had continued to live in temporary shelters after the disaster.\nPlanned as part of the Venezuelan"
+        },
+        {
+          "url": "https://pusnco.com/en/projects/hisaronu-house/",
+          "excerpt": "All projects Project Hisarönü House Overview Location Hisarönü, Marmaris Year 2024 Typology Residential Hisarönü House is a residential project centered on natural and traditional materials, with an emphasis on local building techniques. Drawing from the traditional architectural language of the Mediterranean, the house was shaped around the client’s desire for a simple and timeless living environment.\nRather than relying on color, the design emp"
+        },
+        {
+          "url": "https://pusnco.com/en/projects/tk-house/",
+          "excerpt": "All projects Project TK House Overview Location Urla, Izmir, Türkiye Year 2013 Typology Residential TK House is a private residence reconstructed with a steel structural system while preserving the footprint and original form of the existing building.\nThe design combines the light and refined character of steel with natural materials, while responding differently to the contrasting conditions of its surroundings. The façade facing the forest is c"
+        },
+        {
+          "url": "https://pusnco.com/en/projects/uc-house/",
+          "excerpt": "All projects Project UÇ House Overview Location İstanbul / Gebze Typology Residential UÇ House reinterprets multi-generational living through a composition of interconnected volumes. Shared living spaces, private rooms, and service areas are organized as independent structures, creating a balance between privacy and togetherness. The roof geometry draws inspiration from the surrounding mountain silhouettes and the changing path of the sun through"
+        }
+      ]
+    },
+    {
+      "id": "24f770e6718b968495655a142675f25c71f7f98fc58987cc6000df49f44e3655",
+      "language": "en",
+      "topic": "retail",
+      "label": "Retail project implementation and coordination",
+      "projects": [
+        "https://pusnco.com/en/projects/hermes-bodrum/",
+        "https://pusnco.com/en/projects/hermes-istinyepark/",
+        "https://pusnco.com/en/projects/rolex-suadiye/"
+      ],
+      "pillar_url": "https://pusnco.com/en/services/retail-project-implementation/",
+      "pillar_status": "PROPOSED",
+      "search_intent": "Understand concept adaptation, detailing and site coordination in retail projects",
+      "structure": "pillar → supporting guide/article → existing project pages",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/en/projects/hermes-bodrum/",
+          "excerpt": "All projects Project Hermès Store — Mandarin Oriental Bodrum Overview Location Bodrum, Türkiye Year 2023 Typology Retail For the Hermès Pop-up Store located within the Mandarin Oriental Bodrum resort, the brand’s concept design was developed into a comprehensive construction package, followed by technical coordination throughout the construction process.\nWhile preserving the architectural character of the original concept and the brand’s design s"
+        },
+        {
+          "url": "https://pusnco.com/en/projects/hermes-istinyepark/",
+          "excerpt": "All projects Project Hermès Store — İstinyePark Overview Location Istanbul, Türkiye Year 2011 Typology Retail The Hermès Store at İstinyePark Mall was developed by adapting the concept design provided by the brand’s team in France to the existing leased retail space.\nIn addition to translating the concept into detailed construction documentation and coordinating it with the existing site conditions, project management, site architecture and shop "
+        },
+        {
+          "url": "https://pusnco.com/en/projects/rolex-suadiye/",
+          "excerpt": "All projects Project Rolex Store — Suadiye Overview Location Istanbul, Türkiye Year 2016 Typology Retail Design and construction services were provided for the Rolex store on Bağdat Avenue in Suadiye, Istanbul. The existing store was fully stripped out and expanded into the adjacent retail unit, creating a larger space that was redesigned and rebuilt.\nThe project followed Rolex’s global material specifications and detailing standards. High-qualit"
+        }
+      ]
+    },
+    {
+      "id": "99a5a4031762598f50bd83164f63ce60aefb9d24426f246b388695786d87c8ff",
+      "language": "en",
+      "topic": "transport",
+      "label": "Transport and garage campuses",
+      "projects": [
+        "https://pusnco.com/en/projects/bbs-1/",
+        "https://pusnco.com/en/projects/bbs-2/"
+      ],
+      "pillar_url": "https://pusnco.com/en/services/transport-campuses/",
+      "pillar_status": "PROPOSED",
+      "search_intent": "Understand the organization of operational units in bus garage campuses",
+      "structure": "pillar → supporting guide/article → existing project pages",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/en/projects/bbs-1/",
+          "excerpt": "All projects Project Baku Bus Station-1 Overview Location Baku, Azerbaijan Year 2015 Typology Transport Baku Bus Station-1 is the first of a series of major bus depot campuses developed as part of the Azerbaijani Government’s initiative to consolidate Baku’s fragmented urban bus operations under the Baku Bus Station network.\n\nOccupying a site of approximately 1.5 million m², the campus comprises an administration building, driver facilities, a wo"
+        },
+        {
+          "url": "https://pusnco.com/en/projects/bbs-2/",
+          "excerpt": "All projects Project BBS-2 Overview Location Baku, Azerbaijan Year 2016 Typology Transport BBS-2 is the second of a series of major bus depot campuses developed as part of the Azerbaijani Government’s initiative to consolidate Baku’s fragmented urban bus operations under the Baku Bus Station network.\n\nOccupying a site of approximately 800,000 m², the campus comprises an administration building, driver facilities, a workshop building equipped for "
+        }
+      ]
+    },
+    {
+      "id": "bd3e5fbbddb9beda0205cf8b90a4c6e603d9d4adfb0d3532f773b1ee47f7bd02",
+      "language": "en",
+      "topic": "operations",
+      "label": "Operational facilities and controlled circulation",
+      "projects": [
+        "https://pusnco.com/en/projects/dragon-oil-hazar/",
+        "https://pusnco.com/en/projects/gms-ashgabat/"
+      ],
+      "pillar_url": "https://pusnco.com/en/services/operational-facilities/",
+      "pillar_status": "PROPOSED",
+      "search_intent": "Understand how user groups and operational needs inform facility planning",
+      "structure": "pillar → supporting guide/article → existing project pages",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/en/projects/dragon-oil-hazar/",
+          "excerpt": "All projects Project Dragon Oil Hazar Facilities Overview Location Hazar, Turkmenistan Year 2016 Typology Operations Campus Dragon Oil Hazar Facilities Project is a campus development designed to support Dragon Oil’s oil field operations in the Hazar region of Turkmenistan.\n\nThe campus brings together accommodation and everyday living facilities for field personnel, alongside offices, social and support facilities, and operational buildings inclu"
+        },
+        {
+          "url": "https://pusnco.com/en/projects/gms-ashgabat/",
+          "excerpt": "All projects Project GMS Ashgabat Overview Location Turkmenistan Year 2013 Typology Satellite Ground Station The Turkmenistan Ground Mission Segment Project is a high-security satellite ground station and monitoring facility designed for the State of Turkmenistan to receive, process, and analyze satellite-derived data.\nThe primary planning challenge was to accommodate Ministry of Defence and military personnel within the same facility while maint"
+        }
+      ]
+    },
+    {
+      "id": "d09b113a6d6abe51abbc5b96af42db209964bf1bb71666068bab5fa84c05373f",
+      "language": "en",
+      "topic": "culture",
+      "label": "Cultural buildings and adaptive reuse",
+      "projects": [
+        "https://pusnco.com/en/projects/hazar-cultural-centre/"
+      ],
+      "pillar_url": null,
+      "pillar_status": "SKIPPED_SINGLE_PROJECT",
+      "search_intent": "Explore the relationship between heritage and public space in the Hazar Cultural Centre",
+      "structure": "pillar → supporting guide/article → existing project pages",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/en/projects/hazar-cultural-centre/",
+          "excerpt": "All projects Project Reconstruction of Culture Centre in Hazar Overview Location Hazar, Turkmenistan Year 2019 Typology Cultural Centre The project was developed as part of Dragon Oil’s charitable initiative for the region, where the company conducts oil extraction and processing operations in the Caspian Sea on behalf of the Turkmenistan government. It comprises the adaptation of a derelict Soviet-era cultural centre to contemporary needs, along"
+        }
+      ]
+    },
+    {
+      "id": "5ce92db4cb1719944bd5ecd2fc3e87ab397734985e4088b350a5084b615fd55a",
+      "language": "en",
+      "topic": "hospitality",
+      "label": "Implementation details in spa and fitness spaces",
+      "projects": [
+        "https://pusnco.com/en/projects/museum-hotel-antakya-spa/"
+      ],
+      "pillar_url": null,
+      "pillar_status": "SKIPPED_SINGLE_PROJECT",
+      "search_intent": "Explore steel structure and spa implementation details in the Museum Hotel project",
+      "structure": "pillar → supporting guide/article → existing project pages",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/en/projects/museum-hotel-antakya-spa/",
+          "excerpt": "All projects Project The Museum Hotel Antakya — Balance SPA & GYM Overview Location Antakya, Hatay, Türkiye Year 2018 Typology SPA & Fitness Construction documentation and bespoke detailing were developed for the Balance SPA & GYM facilities at The Museum Hotel Antakya. The building was replanned as a museum hotel following the discovery of archaeological settlement layers spanning three ancient periods during construction. The scope included pro"
+        }
+      ]
+    },
+    {
+      "id": "e9fdbe77f8ae1f43a87030683540abe9994586c3c40fe767cfd194ea40969917",
+      "language": "tr",
+      "topic": "residential",
+      "label": "Konut mimarisi",
+      "projects": [
+        "https://pusnco.com/tr/projects/gu-house/",
+        "https://pusnco.com/tr/projects/haiti-social-housing/",
+        "https://pusnco.com/tr/projects/hisaronu-house/",
+        "https://pusnco.com/tr/projects/tk-house/",
+        "https://pusnco.com/tr/projects/uc-house/"
+      ],
+      "pillar_url": "https://pusnco.com/tr/services/residential-architecture/",
+      "pillar_status": "PROPOSED",
+      "search_intent": "Konut projelerinde mahremiyet, ortak yaşam ve çevreyle ilişkiyi değerlendirmek",
+      "structure": "pillar → supporting guide/article → existing project pages",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/tr/projects/gu-house/",
+          "excerpt": "Tüm projeler Proje GU House Künye Konum Dalaman / Ortaca Tipoloji Konut GU House, bölgenin yoğun güneş iklimine yanıt veren ve komşu parsellerden mahremiyet sağlayan korunaklı bir iç avlu etrafında kurgulanmıştır. Açıklık ve mahremiyet arasında dengeli bir yaşam deneyimi sunan tasarım, gün ışığını ve açık yaşam alanlarını gündelik hayatın ayrılmaz bir parçası hâline getirir. Hareketli cephe geometrisi, formwork betonun tek ve tutarlı bir malzeme "
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/haiti-social-housing/",
+          "excerpt": "Tüm projeler Proje Morne à Cabrit Sosyal Konut Projesi Künye Konum Morne à Cabrit, Haiti Yıl 2013 Tipoloji Sosyal Konut 2010 yılında Haiti’de meydana gelen büyük depremin ardından geçici barınma alanlarında yaşamını sürdürmek zorunda kalan nüfus için geliştirilen proje, üç mahalleden oluşan düşük maliyetli bir sosyal konut yerleşimidir.\nVenezuela Hükümeti’nin Haiti’ye yönelik yardım programı kapsamında planlanan proje; sınırlı kaynaklarla hızlı, "
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/hisaronu-house/",
+          "excerpt": "Tüm projeler Proje Hisarönü Evi Künye Konum Hisarönü, Marmaris Yıl 2024 Tipoloji Konut Hisarönü Evi, doğal ve geleneksel malzemelerin yanı sıra yerel yapım tekniklerini de tasarımın merkezine alan bir konut projesidir. Akdeniz’in geleneksel mimari dilinden beslenen yapı, işverenin yalın ve zamansız bir yaşam alanı isteği doğrultusunda şekillendi.\nSınırlı bir renk paletiyle kurgulanan tasarımda, renk yerine malzemelerin doğal tonları, dokuları ve "
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/tk-house/",
+          "excerpt": "Tüm projeler Proje TK House Künye Konum Urla, İzmir Yıl 2013 Tipoloji Konut TK House, mevcut yapının sınırları ve özgün formu korunarak çelik taşıyıcı sistemle yeniden inşa edilen müstakil bir konut projesidir.\nTasarımda çeliğin yalın ve hafif karakteri doğal malzemelerle bir araya getirilirken, yapının çevresiyle kurduğu ilişki cephelere göre farklılaştırılmıştır. Ormana yönelen cephe, iç ve dış mekân arasındaki sürekliliği güçlendiren geniş cam"
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/uc-house/",
+          "excerpt": "Tüm projeler Proje UÇ House Künye Konum İstanbul / Gebze Tipoloji Konut UÇ House, çoklu yaşamı birbirine entegre hacimler üzerinden kurgular. Ortak yaşam alanları, özel mekânlar ve servis birimleri bağımsız yapılar olarak tasarlanarak hem mahremiyet hem de birliktelik sağlanmıştır. Çatı formu, çevredeki dağ siluetleri ve gün boyunca değişen güneş hareketlerinden ilham alırken; taş, ahşap ve geniş cam yüzeyler yapıyı hâkim olduğu manzara ve doğal "
+        }
+      ]
+    },
+    {
+      "id": "0c8d11367ccc9abbdb44d826c77996f7b9f6d06a9ea9c17e6e612b70fc91f88c",
+      "language": "tr",
+      "topic": "retail",
+      "label": "Mağaza projelerinde uygulama ve koordinasyon",
+      "projects": [
+        "https://pusnco.com/tr/projects/hermes-bodrum/",
+        "https://pusnco.com/tr/projects/hermes-istinyepark/",
+        "https://pusnco.com/tr/projects/rolex-suadiye/"
+      ],
+      "pillar_url": "https://pusnco.com/tr/services/retail-project-implementation/",
+      "pillar_status": "PROPOSED",
+      "search_intent": "Mağaza projelerinde konsept adaptasyonu, detay ve saha koordinasyonunu anlamak",
+      "structure": "pillar → supporting guide/article → existing project pages",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/tr/projects/hermes-bodrum/",
+          "excerpt": "Tüm projeler Proje Hermès Store — Mandarin Oriental Bodrum Künye Konum Bodrum, Türkiye Yıl 2023 Tipoloji Mağaza Mandarin Oriental Bodrum kompleksi içerisinde yer alan Hermès Pop-up Store projesinde, marka tarafından geliştirilen konsept tasarımın uygulama projesine dönüştürülmesi ve yapım sürecinin teknik koordinasyonu üstlenildi.\nKonsept tasarımın mimari karakteri ve marka standartları korunarak uygulama ve shop drawing çizimleri hazırlandı; pro"
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/hermes-istinyepark/",
+          "excerpt": "Tüm projeler Proje Hermès Store — İstinyePark Künye Konum İstanbul, Türkiye Yıl 2011 Tipoloji Mağaza İstinyePark AVM’de yer alan Hermès mağazası, markanın Fransa’dan iletilen konsept tasarımı doğrultusunda mevcut kiralık alana adapte edilerek projelendirilmiştir.\nKonsept tasarımın uygulama projesine dönüştürülmesi ve mevcut mekânın fiziksel koşullarına uyarlanmasının yanı sıra, yapım süreci boyunca ana yüklenici adına proje yönetimi, saha mimarlı"
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/rolex-suadiye/",
+          "excerpt": "Tüm projeler Proje Rolex Store — Suadiye Künye Konum İstanbul, Türkiye Yıl 2016 Tipoloji Mağaza Rolex’in Bağdat Caddesi, Suadiye’deki mağazası için tasarım ve uygulama hizmetleri sunulmuştur. Mevcut mağaza tamamen sökülmüş, bitişiğindeki mağaza alanı da projeye dahil edilerek genişleyen mekân yeniden tasarlanmış ve inşa edilmiştir.\nProje, Rolex’in dünya genelinde tanımlı malzeme ve detay standartlarına uygun olarak geliştirilmiştir. Uygulama süre"
+        }
+      ]
+    },
+    {
+      "id": "bb83b568285d22988c7d2a13da1303b0314d8b48ff0d0898e0480e4ce17590d0",
+      "language": "tr",
+      "topic": "transport",
+      "label": "Ulaşım ve garaj kampüsleri",
+      "projects": [
+        "https://pusnco.com/tr/projects/bbs-1/",
+        "https://pusnco.com/tr/projects/bbs-2/"
+      ],
+      "pillar_url": "https://pusnco.com/tr/services/transport-campuses/",
+      "pillar_status": "PROPOSED",
+      "search_intent": "Otobüs garajı kampüslerinde operasyon birimlerinin nasıl düzenlendiğini anlamak",
+      "structure": "pillar → supporting guide/article → existing project pages",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/tr/projects/bbs-1/",
+          "excerpt": "Tüm projeler Proje Baku Bus Station-1 Künye Konum Bakü, Azerbaycan Yıl 2015 Tipoloji Ulaşım Baku Bus Station-1, Azerbaycan Hükümeti’nin Bakü’deki mevcut ve parçalı kent içi otobüs işletme sistemini Baku Bus Station çatısı altında daha düzenli ve merkezi bir yapıya kavuşturma hedefi doğrultusunda geliştirilen ana garaj kampüslerinin ilkidir.\n\nYaklaşık 1,5 milyon m² alan üzerine kurulu kampüs; yönetim binası, sürücülerin günlük ihtiyaçlarına yöneli"
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/bbs-2/",
+          "excerpt": "Tüm projeler Proje BBS-2 Künye Konum Bakü, Azerbaycan Yıl 2016 Tipoloji Ulaşım BBS-2, Azerbaycan Hükümeti’nin Bakü’deki mevcut ve parçalı kent içi otobüs işletme sistemini Baku Bus Station çatısı altında daha düzenli ve merkezi bir yapıya kavuşturma hedefi doğrultusunda geliştirilen ana garaj kampüslerinin ikincisidir.\n\nYaklaşık 800.000 m² alan üzerine kurulu kampüs; yönetim binası, sürücülerin günlük ihtiyaçlarına yönelik sosyal tesisler, araçla"
+        }
+      ]
+    },
+    {
+      "id": "2333c7ffc5db995f524d19962a330406f6537224d2334d70a92e20d7f4ed7f81",
+      "language": "tr",
+      "topic": "operations",
+      "label": "Operasyon tesisleri ve kontrollü dolaşım",
+      "projects": [
+        "https://pusnco.com/tr/projects/dragon-oil-hazar/",
+        "https://pusnco.com/tr/projects/gms-ashgabat/"
+      ],
+      "pillar_url": "https://pusnco.com/tr/services/operational-facilities/",
+      "pillar_status": "PROPOSED",
+      "search_intent": "Farklı kullanıcı ve operasyon ihtiyaçlarının yerleşke planına yansımasını değerlendirmek",
+      "structure": "pillar → supporting guide/article → existing project pages",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/tr/projects/dragon-oil-hazar/",
+          "excerpt": "Tüm projeler Proje Dragon Oil Hazar Facilities Künye Konum Hazar, Türkmenistan Yıl 2016 Tipoloji Operasyon Kampüsü Dragon Oil Hazar Facilities Project, Dragon Oil’un Türkmenistan’ın Hazar bölgesindeki petrol sahası operasyonlarını desteklemek amacıyla geliştirilen bir kampüs projesidir.\n\nYerleşke; saha çalışanlarının konaklama ve günlük ihtiyaçlarına yönelik yaşam alanlarının yanı sıra ofisler, sosyal ve destek birimleri ile itfaiye binası gibi o"
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/gms-ashgabat/",
+          "excerpt": "Tüm projeler Proje GMS Ashgabat Künye Konum Türkmenistan Yıl 2013 Tipoloji Uydu Yer İstasyonu Turkmenistan Ground Mission Segment Project, uydu üzerinden elde edilen verilerin alınması, işlenmesi ve analiz edilmesi amacıyla Türkmenistan Devleti için tasarlanan yüksek güvenlikli bir uydu yer istasyonu ve gözetleme tesisidir.\nProjenin temel planlama yaklaşımı, yapıyı eş zamanlı olarak kullanan Savunma Bakanlığı ve askeri personelin çalışma alanları"
+        }
+      ]
+    },
+    {
+      "id": "03ab60dc34bf32db2a99ab18a3e794809ee914982ca9c298e9b37c134a9b6a91",
+      "language": "tr",
+      "topic": "culture",
+      "label": "Kültür yapıları ve yeniden işlevlendirme",
+      "projects": [
+        "https://pusnco.com/tr/projects/hazar-cultural-centre/"
+      ],
+      "pillar_url": null,
+      "pillar_status": "SKIPPED_SINGLE_PROJECT",
+      "search_intent": "Hazar Kültür Merkezi üzerinden tarihsel yapı ve kamusal alan ilişkisini incelemek",
+      "structure": "pillar → supporting guide/article → existing project pages",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/tr/projects/hazar-cultural-centre/",
+          "excerpt": "Tüm projeler Proje Hazar Kültür Merkezi’nin Yeniden Yapılandırılması Künye Konum Hazar, Türkmenistan Yıl 2019 Tipoloji Kültür Merkezi Proje, Türkmenistan hükümeti adına Hazar Denizi’nde petrol çıkarma ve işleme operasyonları yürüten Dragon Oil’in bölgeye yönelik sosyal katkı girişimi kapsamında geliştirilmiştir. Sovyet döneminden kalan ve harabe durumundaki kültür merkezinin güncel ihtiyaçlara göre yeniden işlevlendirilmesini, yapıyla bütünleşen "
+        }
+      ]
+    },
+    {
+      "id": "9f0f07fdfba974d63b7e64abc7e3990e0fb907bf6e27925215f70d60a121e404",
+      "language": "tr",
+      "topic": "hospitality",
+      "label": "SPA ve spor alanlarında uygulama detayları",
+      "projects": [
+        "https://pusnco.com/tr/projects/museum-hotel-antakya-spa/"
+      ],
+      "pillar_url": null,
+      "pillar_status": "SKIPPED_SINGLE_PROJECT",
+      "search_intent": "Museum Hotel projesindeki çelik yapı ve SPA uygulama detaylarını incelemek",
+      "structure": "pillar → supporting guide/article → existing project pages",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/tr/projects/museum-hotel-antakya-spa/",
+          "excerpt": "Tüm projeler Proje The Museum Hotel Antakya — Balance SPA & GYM Künye Konum Antakya, Hatay Yıl 2018 Tipoloji SPA ve Spor Alanları İnşaat sırasında gerçekleştirilen kazılarda üç farklı antik döneme ait yerleşim katmanlarının ortaya çıkmasıyla yeniden planlanan The Museum Hotel Antakya’nın Balance SPA & GYM alanları için uygulama projesi ve detay çözümleri geliştirilmiştir. Çalışma kapsamında proje müdürlüğü, saha mimarlığı, uygulama çizimleri ve y"
+        }
+      ]
+    }
+  ],
+  "link_suggestions": [
+    {
+      "id": "43ee01136dab924bb829384f830f30509007b53b1e13afb661bbf78c442f565b",
+      "source_url": "https://pusnco.com/tr/projects/bbs-1/",
+      "target_url": "https://pusnco.com/tr/projects/bbs-2/",
+      "language": "tr",
+      "status": "REVIEW",
+      "anchor": "BBS-2",
+      "anchor_alternatives": [
+        "BBS-2",
+        "İlgili proje: BBS-2",
+        "Dolaşım ve operasyon birimlerinin organizasyonu: BBS-2"
+      ],
+      "score": 0.8416,
+      "cosine_similarity": 0.8594,
+      "same_cluster": true,
+      "shared_themes": [
+        "circulation-operations"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: circulation-operations.",
+      "evidence": {
+        "source": "Yaklaşık 1,5 milyon m² alan üzerine kurulu kampüs; yönetim binası, sürücülerin günlük ihtiyaçlarına yönelik sosyal tesisler, araçların sefer öncesi kontrollerinin yanı sıra bakım, onarım ve boya işlemlerinin gerçekleştirildiği atölye binası, günlük araç temizliğine hizmet eden yıkama ünitesi, gaz dolum istasyonları ve sürücü eğitimine yönelik özel parkurlar içeren bir eğitim pistinden oluşmaktadır.",
+        "target": "Yaklaşık 800.000 m² alan üzerine kurulu kampüs; yönetim binası, sürücülerin günlük ihtiyaçlarına yönelik sosyal tesisler, araçların sefer öncesi kontrollerinin yanı sıra bakım, onarım ve boya işlemlerinin gerçekleştirildiği atölye binası, günlük araç temizliğine hizmet eden yıkama ünitesi ve gaz dolum istasyonlarından oluşmaktadır."
+      }
+    },
+    {
+      "id": "ac0c590f9ba508ca91bc5e501320a9ab083c97ce9662cd0d1a92881741de106b",
+      "source_url": "https://pusnco.com/en/projects/bbs-1/",
+      "target_url": "https://pusnco.com/en/projects/bbs-2/",
+      "language": "en",
+      "status": "REVIEW",
+      "anchor": "BBS-2",
+      "anchor_alternatives": [
+        "BBS-2",
+        "Related project: BBS-2",
+        "Organization of circulation and operational units: BBS-2"
+      ],
+      "score": 0.8269,
+      "cosine_similarity": 0.8384,
+      "same_cluster": true,
+      "shared_themes": [
+        "circulation-operations"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: circulation-operations.",
+      "evidence": {
+        "source": "Occupying a site of approximately 1.5 million m², the campus comprises an administration building, driver facilities, a workshop building equipped for pre-service vehicle inspections, maintenance, repair and painting, a dedicated bus washing unit, gas filling stations, and a driver training track incorporating purpose-built training courses.",
+        "target": "Occupying a site of approximately 800,000 m², the campus comprises an administration building, driver facilities, a workshop building equipped for pre-service vehicle inspections, maintenance, repair and painting, a dedicated bus washing unit, and gas filling stations."
+      }
+    },
+    {
+      "id": "036afb7b9e876293790180fcbf703698ca3760e0e50016b6026cb4f14b536d6e",
+      "source_url": "https://pusnco.com/en/projects/hermes-bodrum/",
+      "target_url": "https://pusnco.com/en/projects/hermes-istinyepark/",
+      "language": "en",
+      "status": "REVIEW",
+      "anchor": "Hermès Store — İstinyePark",
+      "anchor_alternatives": [
+        "Hermès Store — İstinyePark",
+        "Related project: Hermès Store — İstinyePark",
+        "Implementation drawings and site coordination: Hermès Store — İstinyePark"
+      ],
+      "score": 0.5386,
+      "cosine_similarity": 0.4266,
+      "same_cluster": true,
+      "shared_themes": [
+        "technical-coordination"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: technical-coordination.",
+      "evidence": {
+        "source": "All projects Project Hermès Store — Mandarin Oriental Bodrum Overview Location Bodrum, Türkiye Year 2023 Typology Retail For the Hermès Pop-up Store located within the Mandarin Oriental Bodrum resort, the brand’s concept design was developed into a comprehensive construction package, followed by technical coordination throughout the construction process.",
+        "target": "In addition to translating the concept into detailed construction documentation and coordinating it with the existing site conditions, project management, site architecture and shop drawing services were provided on behalf of the general contractor throughout the construction process."
+      }
+    },
+    {
+      "id": "65aaf923601dd65fa0af53134197e0c3d8d5472a9de3f6d3cb9e03a99555ec6f",
+      "source_url": "https://pusnco.com/en/projects/hermes-istinyepark/",
+      "target_url": "https://pusnco.com/en/projects/rolex-suadiye/",
+      "language": "en",
+      "status": "REVIEW",
+      "anchor": "Rolex Store — Suadiye",
+      "anchor_alternatives": [
+        "Rolex Store — Suadiye",
+        "Related project: Rolex Store — Suadiye",
+        "Materials, structure and implementation details: Rolex Store — Suadiye"
+      ],
+      "score": 0.4854,
+      "cosine_similarity": 0.2935,
+      "same_cluster": true,
+      "shared_themes": [
+        "material-detail",
+        "reuse-adaptation"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: material-detail, reuse-adaptation.",
+      "evidence": {
+        "source": "All projects Project Hermès Store — İstinyePark Overview Location Istanbul, Türkiye Year 2011 Typology Retail The Hermès Store at İstinyePark Mall was developed by adapting the concept design provided by the brand’s team in France to the existing leased retail space.",
+        "target": "The existing store was fully stripped out and expanded into the adjacent retail unit, creating a larger space that was redesigned and rebuilt."
+      }
+    },
+    {
+      "id": "5ede0d20031fa8f2a7d57c17c67f5eb2c22bcba06ee8fd942d084926dc73304d",
+      "source_url": "https://pusnco.com/tr/projects/hermes-bodrum/",
+      "target_url": "https://pusnco.com/tr/projects/hermes-istinyepark/",
+      "language": "tr",
+      "status": "REVIEW",
+      "anchor": "Hermès Store — İstinyePark",
+      "anchor_alternatives": [
+        "Hermès Store — İstinyePark",
+        "İlgili proje: Hermès Store — İstinyePark",
+        "Uygulama çizimleri ve saha koordinasyonu: Hermès Store — İstinyePark"
+      ],
+      "score": 0.4696,
+      "cosine_similarity": 0.3281,
+      "same_cluster": true,
+      "shared_themes": [
+        "technical-coordination"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: technical-coordination.",
+      "evidence": {
+        "source": "Tüm projeler Proje Hermès Store — Mandarin Oriental Bodrum Künye Konum Bodrum, Türkiye Yıl 2023 Tipoloji Mağaza Mandarin Oriental Bodrum kompleksi içerisinde yer alan Hermès Pop-up Store projesinde, marka tarafından geliştirilen konsept tasarımın uygulama projesine dönüştürülmesi ve yapım sürecinin teknik koordinasyonu üstlenildi.",
+        "target": "Konsept tasarımın uygulama projesine dönüştürülmesi ve mevcut mekânın fiziksel koşullarına uyarlanmasının yanı sıra, yapım süreci boyunca ana yüklenici adına proje yönetimi, saha mimarlığı ve shop drawing hizmetleri verilmiştir."
+      }
+    },
+    {
+      "id": "b07e854ef4feff902f876ca70e6510ed99f898cacefb12a5db7ea2530349f885",
+      "source_url": "https://pusnco.com/tr/projects/hermes-istinyepark/",
+      "target_url": "https://pusnco.com/tr/projects/rolex-suadiye/",
+      "language": "tr",
+      "status": "REVIEW",
+      "anchor": "Rolex Store — Suadiye",
+      "anchor_alternatives": [
+        "Rolex Store — Suadiye",
+        "İlgili proje: Rolex Store — Suadiye",
+        "Malzeme, strüktür ve uygulama detayları: Rolex Store — Suadiye"
+      ],
+      "score": 0.4109,
+      "cosine_similarity": 0.187,
+      "same_cluster": true,
+      "shared_themes": [
+        "material-detail",
+        "reuse-adaptation"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: material-detail, reuse-adaptation.",
+      "evidence": {
+        "source": "Tüm projeler Proje Hermès Store — İstinyePark Künye Konum İstanbul, Türkiye Yıl 2011 Tipoloji Mağaza İstinyePark AVM’de yer alan Hermès mağazası, markanın Fransa’dan iletilen konsept tasarımı doğrultusunda mevcut kiralık alana adapte edilerek projelendirilmiştir.",
+        "target": "Mevcut mağaza tamamen sökülmüş, bitişiğindeki mağaza alanı da projeye dahil edilerek genişleyen mekân yeniden tasarlanmış ve inşa edilmiştir."
+      }
+    },
+    {
+      "id": "7b3f38e2ff8eed7ff5d55c5a0d7b8669f474bada5a38f099bca116f5156a1705",
+      "source_url": "https://pusnco.com/en/projects/gu-house/",
+      "target_url": "https://pusnco.com/en/projects/uc-house/",
+      "language": "en",
+      "status": "REVIEW",
+      "anchor": "UÇ House",
+      "anchor_alternatives": [
+        "UÇ House",
+        "Related project: UÇ House",
+        "Relationship with landscape and outdoor spaces: UÇ House"
+      ],
+      "score": 0.4072,
+      "cosine_similarity": 0.1817,
+      "same_cluster": true,
+      "shared_themes": [
+        "context-landscape",
+        "privacy-shared-living"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: context-landscape, privacy-shared-living.",
+      "evidence": {
+        "source": "All projects Project GU House Overview Location Dalaman / Ortaca Typology Residential GU House is designed around a sheltered inner courtyard that responds to the region's intense sunlight while creating a private living environment protected from neighboring properties.",
+        "target": "All projects Project UÇ House Overview Location İstanbul / Gebze Typology Residential UÇ House reinterprets multi-generational living through a composition of interconnected volumes."
+      }
+    },
+    {
+      "id": "cc8d0c7ad6f716f47d8122c8aba69803afffb722ea1d79ce68352f7f77abc7a3",
+      "source_url": "https://pusnco.com/en/projects/gu-house/",
+      "target_url": "https://pusnco.com/en/projects/tk-house/",
+      "language": "en",
+      "status": "REVIEW",
+      "anchor": "TK House",
+      "anchor_alternatives": [
+        "TK House",
+        "Related project: TK House",
+        "Relationship with landscape and outdoor spaces: TK House"
+      ],
+      "score": 0.3905,
+      "cosine_similarity": 0.1293,
+      "same_cluster": true,
+      "shared_themes": [
+        "context-landscape",
+        "material-detail",
+        "privacy-shared-living"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: context-landscape, material-detail, privacy-shared-living.",
+      "evidence": {
+        "source": "All projects Project GU House Overview Location Dalaman / Ortaca Typology Residential GU House is designed around a sheltered inner courtyard that responds to the region's intense sunlight while creating a private living environment protected from neighboring properties.",
+        "target": "All projects Project TK House Overview Location Urla, Izmir, Türkiye Year 2013 Typology Residential TK House is a private residence reconstructed with a steel structural system while preserving the footprint and original form of the existing building."
+      }
+    },
+    {
+      "id": "386b631fe155955209747695f977d5e8cacd3aab1cb5f9016d03fc2552e2c1ad",
+      "source_url": "https://pusnco.com/en/projects/hisaronu-house/",
+      "target_url": "https://pusnco.com/en/projects/gu-house/",
+      "language": "en",
+      "status": "REVIEW",
+      "anchor": "GU House",
+      "anchor_alternatives": [
+        "GU House",
+        "Related project: GU House",
+        "Materials, structure and implementation details: GU House"
+      ],
+      "score": 0.3893,
+      "cosine_similarity": 0.2132,
+      "same_cluster": true,
+      "shared_themes": [
+        "material-detail"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: material-detail.",
+      "evidence": {
+        "source": "All projects Project Hisarönü House Overview Location Hisarönü, Marmaris Year 2024 Typology Residential Hisarönü House is a residential project centered on natural and traditional materials, with an emphasis on local building techniques.",
+        "target": "The complexity of the architectural geometry is unified through the consistent use of board-formed concrete, creating a calm and timeless architectural expression."
+      }
+    },
+    {
+      "id": "696a87056751c5d24d31751190ee82b407e66daa88e733ef10ccbe27289ffbf7",
+      "source_url": "https://pusnco.com/en/projects/tk-house/",
+      "target_url": "https://pusnco.com/en/projects/uc-house/",
+      "language": "en",
+      "status": "REVIEW",
+      "anchor": "Related project: UÇ House",
+      "anchor_alternatives": [
+        "UÇ House",
+        "Related project: UÇ House",
+        "Relationship with landscape and outdoor spaces: UÇ House"
+      ],
+      "score": 0.3739,
+      "cosine_similarity": 0.1341,
+      "same_cluster": true,
+      "shared_themes": [
+        "context-landscape",
+        "privacy-shared-living"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: context-landscape, privacy-shared-living.",
+      "evidence": {
+        "source": "The façade facing the forest is conceived as a transparent interface, with extensive glazing strengthening the continuity between interior spaces and the landscape.",
+        "target": "All projects Project UÇ House Overview Location İstanbul / Gebze Typology Residential UÇ House reinterprets multi-generational living through a composition of interconnected volumes."
+      }
+    },
+    {
+      "id": "c07abf123168816181d9813e60239d75ad0b921268d5dd36bff2f0632372e4fb",
+      "source_url": "https://pusnco.com/tr/projects/gu-house/",
+      "target_url": "https://pusnco.com/tr/projects/tk-house/",
+      "language": "tr",
+      "status": "REVIEW",
+      "anchor": "TK House",
+      "anchor_alternatives": [
+        "TK House",
+        "İlgili proje: TK House",
+        "Doğal çevre ve açık alanlarla ilişki: TK House"
+      ],
+      "score": 0.3726,
+      "cosine_similarity": 0.1038,
+      "same_cluster": true,
+      "shared_themes": [
+        "context-landscape",
+        "material-detail",
+        "privacy-shared-living"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: context-landscape, material-detail, privacy-shared-living.",
+      "evidence": {
+        "source": "Tüm projeler Proje GU House Künye Konum Dalaman / Ortaca Tipoloji Konut GU House, bölgenin yoğun güneş iklimine yanıt veren ve komşu parsellerden mahremiyet sağlayan korunaklı bir iç avlu etrafında kurgulanmıştır.",
+        "target": "Tüm projeler Proje TK House Künye Konum Urla, İzmir Yıl 2013 Tipoloji Konut TK House, mevcut yapının sınırları ve özgün formu korunarak çelik taşıyıcı sistemle yeniden inşa edilen müstakil bir konut projesidir."
+      }
+    },
+    {
+      "id": "ba41a329830885e25c9ee22a7f6ac94d85037d694535c1a0571d826e11bf60af",
+      "source_url": "https://pusnco.com/tr/projects/gu-house/",
+      "target_url": "https://pusnco.com/tr/projects/uc-house/",
+      "language": "tr",
+      "status": "REVIEW",
+      "anchor": "UÇ House",
+      "anchor_alternatives": [
+        "UÇ House",
+        "İlgili proje: UÇ House",
+        "Doğal çevre ve açık alanlarla ilişki: UÇ House"
+      ],
+      "score": 0.3661,
+      "cosine_similarity": 0.1231,
+      "same_cluster": true,
+      "shared_themes": [
+        "context-landscape",
+        "privacy-shared-living"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: context-landscape, privacy-shared-living.",
+      "evidence": {
+        "source": "Tüm projeler Proje GU House Künye Konum Dalaman / Ortaca Tipoloji Konut GU House, bölgenin yoğun güneş iklimine yanıt veren ve komşu parsellerden mahremiyet sağlayan korunaklı bir iç avlu etrafında kurgulanmıştır.",
+        "target": "Tüm projeler Proje UÇ House Künye Konum İstanbul / Gebze Tipoloji Konut UÇ House, çoklu yaşamı birbirine entegre hacimler üzerinden kurgular."
+      }
+    },
+    {
+      "id": "7d483545c515b09c844a603a7e1bd29020ffe8140e3fecce0931dc7db0f1ea5e",
+      "source_url": "https://pusnco.com/en/projects/hisaronu-house/",
+      "target_url": "https://pusnco.com/en/projects/tk-house/",
+      "language": "en",
+      "status": "REVIEW",
+      "anchor": "Related project: TK House",
+      "anchor_alternatives": [
+        "TK House",
+        "Related project: TK House",
+        "Materials, structure and implementation details: TK House"
+      ],
+      "score": 0.3621,
+      "cosine_similarity": 0.1744,
+      "same_cluster": true,
+      "shared_themes": [
+        "material-detail"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: material-detail.",
+      "evidence": {
+        "source": "All projects Project Hisarönü House Overview Location Hisarönü, Marmaris Year 2024 Typology Residential Hisarönü House is a residential project centered on natural and traditional materials, with an emphasis on local building techniques.",
+        "target": "All projects Project TK House Overview Location Urla, Izmir, Türkiye Year 2013 Typology Residential TK House is a private residence reconstructed with a steel structural system while preserving the footprint and original form of the existing building."
+      }
+    },
+    {
+      "id": "cd59523f68c5ff868a440e7968151fc8d68df4e7935b9d96f2f274fc7ed1a161",
+      "source_url": "https://pusnco.com/tr/projects/tk-house/",
+      "target_url": "https://pusnco.com/tr/projects/uc-house/",
+      "language": "tr",
+      "status": "REVIEW",
+      "anchor": "İlgili proje: UÇ House",
+      "anchor_alternatives": [
+        "UÇ House",
+        "İlgili proje: UÇ House",
+        "Doğal çevre ve açık alanlarla ilişki: UÇ House"
+      ],
+      "score": 0.3571,
+      "cosine_similarity": 0.1101,
+      "same_cluster": true,
+      "shared_themes": [
+        "context-landscape",
+        "privacy-shared-living"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: context-landscape, privacy-shared-living.",
+      "evidence": {
+        "source": "Ormana yönelen cephe, iç ve dış mekân arasındaki sürekliliği güçlendiren geniş cam yüzeylerle şeffaf bir karakter kazanırken; yola bakan cephede daha kontrollü açıklıklar kullanılarak konutun mahremiyeti korunmuştur.",
+        "target": "Tüm projeler Proje UÇ House Künye Konum İstanbul / Gebze Tipoloji Konut UÇ House, çoklu yaşamı birbirine entegre hacimler üzerinden kurgular."
+      }
+    },
+    {
+      "id": "61b634f344cf2348e39b0f2adde464766c8213765cc2001a5af0f0890b21bc77",
+      "source_url": "https://pusnco.com/tr/projects/hisaronu-house/",
+      "target_url": "https://pusnco.com/tr/projects/tk-house/",
+      "language": "tr",
+      "status": "REVIEW",
+      "anchor": "İlgili proje: TK House",
+      "anchor_alternatives": [
+        "TK House",
+        "İlgili proje: TK House",
+        "Malzeme, strüktür ve uygulama detayları: TK House"
+      ],
+      "score": 0.3571,
+      "cosine_similarity": 0.1672,
+      "same_cluster": true,
+      "shared_themes": [
+        "material-detail"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: material-detail.",
+      "evidence": {
+        "source": "Tüm projeler Proje Hisarönü Evi Künye Konum Hisarönü, Marmaris Yıl 2024 Tipoloji Konut Hisarönü Evi, doğal ve geleneksel malzemelerin yanı sıra yerel yapım tekniklerini de tasarımın merkezine alan bir konut projesidir.",
+        "target": "Tüm projeler Proje TK House Künye Konum Urla, İzmir Yıl 2013 Tipoloji Konut TK House, mevcut yapının sınırları ve özgün formu korunarak çelik taşıyıcı sistemle yeniden inşa edilen müstakil bir konut projesidir."
+      }
+    },
+    {
+      "id": "42eb23ae96c99afde274884a095e005fc632209382eb94b85b47a13fa330399f",
+      "source_url": "https://pusnco.com/en/projects/hermes-bodrum/",
+      "target_url": "https://pusnco.com/en/projects/rolex-suadiye/",
+      "language": "en",
+      "status": "REVIEW",
+      "anchor": "Related project: Rolex Store — Suadiye",
+      "anchor_alternatives": [
+        "Rolex Store — Suadiye",
+        "Related project: Rolex Store — Suadiye"
+      ],
+      "score": 0.3318,
+      "cosine_similarity": 0.1883,
+      "same_cluster": true,
+      "shared_themes": [],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic.",
+      "evidence": {
+        "source": "All projects Project Hermès Store — Mandarin Oriental Bodrum Overview Location Bodrum, Türkiye Year 2023 Typology Retail For the Hermès Pop-up Store located within the Mandarin Oriental Bodrum resort, the brand’s concept design was developed into a comprehensive construction package, followed by technical coordination throughout the construction process.\nWhile preserving the architectural character of the original concept and the brand’s design s",
+        "target": "All projects Project Rolex Store — Suadiye Overview Location Istanbul, Türkiye Year 2016 Typology Retail Design and construction services were provided for the Rolex store on Bağdat Avenue in Suadiye, Istanbul. The existing store was fully stripped out and expanded into the adjacent retail unit, creating a larger space that was redesigned and rebuilt.\nThe project followed Rolex’s global material specifications and detailing standards. High-qualit"
+      }
+    },
+    {
+      "id": "57d866508069bbc49b1fbde995f0f858d2b63e924449e7048ccffe76cc25a130",
+      "source_url": "https://pusnco.com/tr/projects/hisaronu-house/",
+      "target_url": "https://pusnco.com/tr/projects/gu-house/",
+      "language": "tr",
+      "status": "REVIEW",
+      "anchor": "GU House",
+      "anchor_alternatives": [
+        "GU House",
+        "İlgili proje: GU House",
+        "Malzeme, strüktür ve uygulama detayları: GU House"
+      ],
+      "score": 0.3289,
+      "cosine_similarity": 0.127,
+      "same_cluster": true,
+      "shared_themes": [
+        "material-detail"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: material-detail.",
+      "evidence": {
+        "source": "Tüm projeler Proje Hisarönü Evi Künye Konum Hisarönü, Marmaris Yıl 2024 Tipoloji Konut Hisarönü Evi, doğal ve geleneksel malzemelerin yanı sıra yerel yapım tekniklerini de tasarımın merkezine alan bir konut projesidir.",
+        "target": "Hareketli cephe geometrisi, formwork betonun tek ve tutarlı bir malzeme olarak kullanılmasıyla dengelenerek yalın, güçlü ve zamansız bir mimari kimlik kazanır."
+      }
+    },
+    {
+      "id": "f682829a54bf1a7f5746d94cac3634863197fa1382e9c779a0e0cb0c4246b6d5",
+      "source_url": "https://pusnco.com/tr/projects/dragon-oil-hazar/",
+      "target_url": "https://pusnco.com/tr/projects/gms-ashgabat/",
+      "language": "tr",
+      "status": "REVIEW",
+      "anchor": "GMS Ashgabat",
+      "anchor_alternatives": [
+        "GMS Ashgabat",
+        "İlgili proje: GMS Ashgabat",
+        "Dolaşım ve operasyon birimlerinin organizasyonu: GMS Ashgabat"
+      ],
+      "score": 0.3274,
+      "cosine_similarity": 0.1248,
+      "same_cluster": true,
+      "shared_themes": [
+        "circulation-operations"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: circulation-operations.",
+      "evidence": {
+        "source": "Yerleşke; saha çalışanlarının konaklama ve günlük ihtiyaçlarına yönelik yaşam alanlarının yanı sıra ofisler, sosyal ve destek birimleri ile itfaiye binası gibi operasyonel yapıları bir araya getirmektedir.",
+        "target": "Projenin temel planlama yaklaşımı, yapıyı eş zamanlı olarak kullanan Savunma Bakanlığı ve askeri personelin çalışma alanlarını birbirinden bağımsız ve kontrollü dolaşım sistemleriyle organize etmek üzerine kurulmuştur."
+      }
+    },
+    {
+      "id": "bc04ff98d6f889da51b78d61553016ee5c0f06fb266323ea4fc04b1ed57b543d",
+      "source_url": "https://pusnco.com/en/projects/dragon-oil-hazar/",
+      "target_url": "https://pusnco.com/en/projects/gms-ashgabat/",
+      "language": "en",
+      "status": "REVIEW",
+      "anchor": "GMS Ashgabat",
+      "anchor_alternatives": [
+        "GMS Ashgabat",
+        "Related project: GMS Ashgabat",
+        "Organization of circulation and operational units: GMS Ashgabat"
+      ],
+      "score": 0.3262,
+      "cosine_similarity": 0.1232,
+      "same_cluster": true,
+      "shared_themes": [
+        "circulation-operations"
+      ],
+      "placement": "After the project explanation, only when the shared topic can be introduced naturally; never auto-insert.",
+      "reason": "Shared documented project topic and themes: circulation-operations.",
+      "evidence": {
+        "source": "The campus brings together accommodation and everyday living facilities for field personnel, alongside offices, social and support facilities, and operational buildings including a dedicated fire station.",
+        "target": "The primary planning challenge was to accommodate Ministry of Defence and military personnel within the same facility while maintaining independent and controlled circulation systems."
+      }
+    }
+  ],
+  "content_opportunities": [
+    {
+      "id": "17f0c7efc6fc130086b41d668156a2e440b7867b6efe87dc3ffcc29fc05c3dd4",
+      "language": "en",
+      "kind": "pillar",
+      "topic": "residential",
+      "title": "Residential architecture",
+      "proposed_url": "https://pusnco.com/en/services/residential-architecture/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "Understand privacy, shared living and context in residential projects",
+      "source_urls": [
+        "https://pusnco.com/en/projects/gu-house/",
+        "https://pusnco.com/en/projects/haiti-social-housing/",
+        "https://pusnco.com/en/projects/hisaronu-house/",
+        "https://pusnco.com/en/projects/tk-house/",
+        "https://pusnco.com/en/projects/uc-house/"
+      ],
+      "reason": "Existing project evidence supports a topic hub; no supporting hub exists in the crawl.",
+      "requirements": [
+        "Human approval and original useful explanation before page creation.",
+        "Credit the studio role accurately; do not infer services or technical claims from categorization.",
+        "Link to real examples; avoid repeating project descriptions."
+      ]
+    },
+    {
+      "id": "dd470f00e84330f5e62371cdd1e4f4788bc264f3c64e20a781c5b2c86a342f3a",
+      "language": "en",
+      "kind": "pillar",
+      "topic": "retail",
+      "title": "Retail project implementation and coordination",
+      "proposed_url": "https://pusnco.com/en/services/retail-project-implementation/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "Understand concept adaptation, detailing and site coordination in retail projects",
+      "source_urls": [
+        "https://pusnco.com/en/projects/hermes-bodrum/",
+        "https://pusnco.com/en/projects/hermes-istinyepark/",
+        "https://pusnco.com/en/projects/rolex-suadiye/"
+      ],
+      "reason": "Existing project evidence supports a topic hub; no supporting hub exists in the crawl.",
+      "requirements": [
+        "Human approval and original useful explanation before page creation.",
+        "Credit the studio role accurately; do not infer services or technical claims from categorization.",
+        "Link to real examples; avoid repeating project descriptions."
+      ]
+    },
+    {
+      "id": "7c9e700441149484cda6710604805201189caa85fbd3bfaf3fe1a4f1eeeaf657",
+      "language": "en",
+      "kind": "pillar",
+      "topic": "transport",
+      "title": "Transport and garage campuses",
+      "proposed_url": "https://pusnco.com/en/services/transport-campuses/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "Understand the organization of operational units in bus garage campuses",
+      "source_urls": [
+        "https://pusnco.com/en/projects/bbs-1/",
+        "https://pusnco.com/en/projects/bbs-2/"
+      ],
+      "reason": "Existing project evidence supports a topic hub; no supporting hub exists in the crawl.",
+      "requirements": [
+        "Human approval and original useful explanation before page creation.",
+        "Credit the studio role accurately; do not infer services or technical claims from categorization.",
+        "Link to real examples; avoid repeating project descriptions."
+      ]
+    },
+    {
+      "id": "44ff44a035f029843bfaae1604a16602fb1834995e9ad6166cb54bccfde6a6dc",
+      "language": "en",
+      "kind": "pillar",
+      "topic": "operations",
+      "title": "Operational facilities and controlled circulation",
+      "proposed_url": "https://pusnco.com/en/services/operational-facilities/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "Understand how user groups and operational needs inform facility planning",
+      "source_urls": [
+        "https://pusnco.com/en/projects/dragon-oil-hazar/",
+        "https://pusnco.com/en/projects/gms-ashgabat/"
+      ],
+      "reason": "Existing project evidence supports a topic hub; no supporting hub exists in the crawl.",
+      "requirements": [
+        "Human approval and original useful explanation before page creation.",
+        "Credit the studio role accurately; do not infer services or technical claims from categorization.",
+        "Link to real examples; avoid repeating project descriptions."
+      ]
+    },
+    {
+      "id": "9c6458ced8c06e34474ea74f3c35fc49f7f73b75d44c65791838607ef610c6c8",
+      "language": "en",
+      "kind": "guide",
+      "topic": "privacy-shared-living",
+      "title": "How can a house balance shared living and privacy?",
+      "proposed_url": "https://pusnco.com/en/guides/privacy-shared-living/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "How can a house balance shared living and privacy?",
+      "source_urls": [
+        "https://pusnco.com/en/projects/gu-house/",
+        "https://pusnco.com/en/projects/tk-house/",
+        "https://pusnco.com/en/projects/uc-house/"
+      ],
+      "reason": "At least two real project descriptions mention this theme; no substantial supporting guide exists.",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/en/projects/gu-house/",
+          "matched_terms": [
+            "privacy"
+          ],
+          "excerpt": "The composition balances openness and privacy, allowing natural light and outdoor spaces to become an integral part of daily life."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/tk-house/",
+          "matched_terms": [
+            "privacy"
+          ],
+          "excerpt": "In contrast, the street-facing elevation uses more controlled openings to maintain privacy."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/uc-house/",
+          "matched_terms": [
+            "privacy",
+            "multi-generational",
+            "shared living"
+          ],
+          "excerpt": "All projects Project UÇ House Overview Location İstanbul / Gebze Typology Residential UÇ House reinterprets multi-generational living through a composition of interconnected volumes."
+        }
+      ],
+      "requirements": [
+        "Compare the documented examples instead of duplicating their text.",
+        "Any additional explanation or technical assertion requires studio review.",
+        "Add FAQ only if it answers actual useful questions; no automatic FAQ schema."
+      ]
+    },
+    {
+      "id": "fc74c81c0c132ca39deb626c78b0b2b6966e49af27e54741ce406f9d1e5a5675",
+      "language": "en",
+      "kind": "guide",
+      "topic": "context-landscape",
+      "title": "How can a building relate to landscape and outdoor spaces?",
+      "proposed_url": "https://pusnco.com/en/guides/architecture-landscape-relationship/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "How can a building relate to landscape and outdoor spaces?",
+      "source_urls": [
+        "https://pusnco.com/en/projects/gu-house/",
+        "https://pusnco.com/en/projects/tk-house/",
+        "https://pusnco.com/en/projects/uc-house/"
+      ],
+      "reason": "At least two real project descriptions mention this theme; no substantial supporting guide exists.",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/en/projects/gu-house/",
+          "matched_terms": [
+            "courtyard"
+          ],
+          "excerpt": "All projects Project GU House Overview Location Dalaman / Ortaca Typology Residential GU House is designed around a sheltered inner courtyard that responds to the region's intense sunlight while creating a private living environment protected from neighboring properties."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/tk-house/",
+          "matched_terms": [
+            "forest",
+            "landscape"
+          ],
+          "excerpt": "The façade facing the forest is conceived as a transparent interface, with extensive glazing strengthening the continuity between interior spaces and the landscape."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/uc-house/",
+          "matched_terms": [
+            "landscape",
+            "panoramic"
+          ],
+          "excerpt": "The roof geometry draws inspiration from the surrounding mountain silhouettes and the changing path of the sun throughout the day, while natural stone, timber, and expansive glazing connect the house to its panoramic setting and the surrounding landscape."
+        }
+      ],
+      "requirements": [
+        "Compare the documented examples instead of duplicating their text.",
+        "Any additional explanation or technical assertion requires studio review.",
+        "Add FAQ only if it answers actual useful questions; no automatic FAQ schema."
+      ]
+    },
+    {
+      "id": "af6f116db413f2886245ca75952b59b2f948a41696f35a8ef01b502268a4a4de",
+      "language": "en",
+      "kind": "guide",
+      "topic": "reuse-adaptation",
+      "title": "How can an existing building or space be adapted to a new use?",
+      "proposed_url": "https://pusnco.com/en/guides/adapting-existing-spaces/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "How can an existing building or space be adapted to a new use?",
+      "source_urls": [
+        "https://pusnco.com/en/projects/hermes-istinyepark/",
+        "https://pusnco.com/en/projects/rolex-suadiye/",
+        "https://pusnco.com/en/projects/tk-house/"
+      ],
+      "reason": "At least two real project descriptions mention this theme; no substantial supporting guide exists.",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/en/projects/hermes-istinyepark/",
+          "matched_terms": [
+            "existing leased"
+          ],
+          "excerpt": "All projects Project Hermès Store — İstinyePark Overview Location Istanbul, Türkiye Year 2011 Typology Retail The Hermès Store at İstinyePark Mall was developed by adapting the concept design provided by the brand’s team in France to the existing leased retail space."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/rolex-suadiye/",
+          "matched_terms": [
+            "existing store"
+          ],
+          "excerpt": "The existing store was fully stripped out and expanded into the adjacent retail unit, creating a larger space that was redesigned and rebuilt."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/tk-house/",
+          "matched_terms": [
+            "existing building"
+          ],
+          "excerpt": "All projects Project TK House Overview Location Urla, Izmir, Türkiye Year 2013 Typology Residential TK House is a private residence reconstructed with a steel structural system while preserving the footprint and original form of the existing building."
+        }
+      ],
+      "requirements": [
+        "Compare the documented examples instead of duplicating their text.",
+        "Any additional explanation or technical assertion requires studio review.",
+        "Add FAQ only if it answers actual useful questions; no automatic FAQ schema."
+      ]
+    },
+    {
+      "id": "6ae4b998f2e5c28a25f7da01e5ab5d8a6c68f349ffbd243cb253e688086e22fa",
+      "language": "en",
+      "kind": "guide",
+      "topic": "material-detail",
+      "title": "How do material and structural choices influence implementation details?",
+      "proposed_url": "https://pusnco.com/en/guides/materials-structure-details/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "How do material and structural choices influence implementation details?",
+      "source_urls": [
+        "https://pusnco.com/en/projects/gu-house/",
+        "https://pusnco.com/en/projects/hazar-cultural-centre/",
+        "https://pusnco.com/en/projects/hermes-istinyepark/",
+        "https://pusnco.com/en/projects/hisaronu-house/",
+        "https://pusnco.com/en/projects/museum-hotel-antakya-spa/",
+        "https://pusnco.com/en/projects/rolex-suadiye/",
+        "https://pusnco.com/en/projects/tk-house/"
+      ],
+      "reason": "At least two real project descriptions mention this theme; no substantial supporting guide exists.",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/en/projects/gu-house/",
+          "matched_terms": [
+            "concrete"
+          ],
+          "excerpt": "The complexity of the architectural geometry is unified through the consistent use of board-formed concrete, creating a calm and timeless architectural expression."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/hazar-cultural-centre/",
+          "matched_terms": [
+            "detail"
+          ],
+          "excerpt": "Original architectural details documented in the available measured survey records were retained, while missing sections were reinterpreted through a contemporary design approach."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/hermes-istinyepark/",
+          "matched_terms": [
+            "detail"
+          ],
+          "excerpt": "In addition to translating the concept into detailed construction documentation and coordinating it with the existing site conditions, project management, site architecture and shop drawing services were provided on behalf of the general contractor throughout the construction process."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/hisaronu-house/",
+          "matched_terms": [
+            "material"
+          ],
+          "excerpt": "All projects Project Hisarönü House Overview Location Hisarönü, Marmaris Year 2024 Typology Residential Hisarönü House is a residential project centered on natural and traditional materials, with an emphasis on local building techniques."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/museum-hotel-antakya-spa/",
+          "matched_terms": [
+            "steel",
+            "detail"
+          ],
+          "excerpt": "All projects Project The Museum Hotel Antakya — Balance SPA & GYM Overview Location Antakya, Hatay, Türkiye Year 2018 Typology SPA & Fitness Construction documentation and bespoke detailing were developed for the Balance SPA & GYM facilities at The Museum Hotel Antakya."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/rolex-suadiye/",
+          "matched_terms": [
+            "material",
+            "detail"
+          ],
+          "excerpt": "The project followed Rolex’s global material specifications and detailing standards."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/tk-house/",
+          "matched_terms": [
+            "material",
+            "steel"
+          ],
+          "excerpt": "All projects Project TK House Overview Location Urla, Izmir, Türkiye Year 2013 Typology Residential TK House is a private residence reconstructed with a steel structural system while preserving the footprint and original form of the existing building."
+        }
+      ],
+      "requirements": [
+        "Compare the documented examples instead of duplicating their text.",
+        "Any additional explanation or technical assertion requires studio review.",
+        "Add FAQ only if it answers actual useful questions; no automatic FAQ schema."
+      ]
+    },
+    {
+      "id": "81c85ad5df297b5c818c21b82fa077380705d45eeff930875491bd76fd039d4f",
+      "language": "en",
+      "kind": "guide",
+      "topic": "technical-coordination",
+      "title": "How are implementation drawings coordinated with construction on site?",
+      "proposed_url": "https://pusnco.com/en/guides/drawings-site-coordination/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "How are implementation drawings coordinated with construction on site?",
+      "source_urls": [
+        "https://pusnco.com/en/projects/hermes-bodrum/",
+        "https://pusnco.com/en/projects/hermes-istinyepark/",
+        "https://pusnco.com/en/projects/museum-hotel-antakya-spa/"
+      ],
+      "reason": "At least two real project descriptions mention this theme; no substantial supporting guide exists.",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/en/projects/hermes-bodrum/",
+          "matched_terms": [
+            "shop drawing",
+            "site architect",
+            "project management",
+            "technical coordination"
+          ],
+          "excerpt": "All projects Project Hermès Store — Mandarin Oriental Bodrum Overview Location Bodrum, Türkiye Year 2023 Typology Retail For the Hermès Pop-up Store located within the Mandarin Oriental Bodrum resort, the brand’s concept design was developed into a comprehensive construction package, followed by technical coordination throughout the construction process."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/hermes-istinyepark/",
+          "matched_terms": [
+            "shop drawing",
+            "site architect",
+            "project management"
+          ],
+          "excerpt": "In addition to translating the concept into detailed construction documentation and coordinating it with the existing site conditions, project management, site architecture and shop drawing services were provided on behalf of the general contractor throughout the construction process."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/museum-hotel-antakya-spa/",
+          "matched_terms": [
+            "shop drawing",
+            "site architect",
+            "project management"
+          ],
+          "excerpt": "The scope included project management, site architectural supervision, construction drawings and shop drawing services throughout the building process."
+        }
+      ],
+      "requirements": [
+        "Compare the documented examples instead of duplicating their text.",
+        "Any additional explanation or technical assertion requires studio review.",
+        "Add FAQ only if it answers actual useful questions; no automatic FAQ schema."
+      ]
+    },
+    {
+      "id": "1c0467b715265bb377fb3c47bea09aaf8cd2eefbeb307a43d94be01815d92267",
+      "language": "en",
+      "kind": "guide",
+      "topic": "circulation-operations",
+      "title": "How can different users and operational units be organized within a facility?",
+      "proposed_url": "https://pusnco.com/en/guides/circulation-operational-planning/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "How can different users and operational units be organized within a facility?",
+      "source_urls": [
+        "https://pusnco.com/en/projects/bbs-1/",
+        "https://pusnco.com/en/projects/bbs-2/",
+        "https://pusnco.com/en/projects/dragon-oil-hazar/",
+        "https://pusnco.com/en/projects/gms-ashgabat/",
+        "https://pusnco.com/en/projects/tk-house/"
+      ],
+      "reason": "At least two real project descriptions mention this theme; no substantial supporting guide exists.",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/en/projects/bbs-1/",
+          "matched_terms": [
+            "operational",
+            "maintenance"
+          ],
+          "excerpt": "Occupying a site of approximately 1.5 million m², the campus comprises an administration building, driver facilities, a workshop building equipped for pre-service vehicle inspections, maintenance, repair and painting, a dedicated bus washing unit, gas filling stations, and a driver training track incorporating purpose-built training courses."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/bbs-2/",
+          "matched_terms": [
+            "operational",
+            "maintenance"
+          ],
+          "excerpt": "Occupying a site of approximately 800,000 m², the campus comprises an administration building, driver facilities, a workshop building equipped for pre-service vehicle inspections, maintenance, repair and painting, a dedicated bus washing unit, and gas filling stations."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/dragon-oil-hazar/",
+          "matched_terms": [
+            "operational"
+          ],
+          "excerpt": "The campus brings together accommodation and everyday living facilities for field personnel, alongside offices, social and support facilities, and operational buildings including a dedicated fire station."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/gms-ashgabat/",
+          "matched_terms": [
+            "circulation",
+            "operational",
+            "controlled"
+          ],
+          "excerpt": "The primary planning challenge was to accommodate Ministry of Defence and military personnel within the same facility while maintaining independent and controlled circulation systems."
+        },
+        {
+          "url": "https://pusnco.com/en/projects/tk-house/",
+          "matched_terms": [
+            "controlled"
+          ],
+          "excerpt": "In contrast, the street-facing elevation uses more controlled openings to maintain privacy."
+        }
+      ],
+      "requirements": [
+        "Compare the documented examples instead of duplicating their text.",
+        "Any additional explanation or technical assertion requires studio review.",
+        "Add FAQ only if it answers actual useful questions; no automatic FAQ schema."
+      ]
+    },
+    {
+      "id": "f23cbc6695be64e2d51f1cb63398fe06b495e4b9ba637d534f15a30ddc7da623",
+      "language": "tr",
+      "kind": "pillar",
+      "topic": "residential",
+      "title": "Konut mimarisi",
+      "proposed_url": "https://pusnco.com/tr/services/residential-architecture/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "Konut projelerinde mahremiyet, ortak yaşam ve çevreyle ilişkiyi değerlendirmek",
+      "source_urls": [
+        "https://pusnco.com/tr/projects/gu-house/",
+        "https://pusnco.com/tr/projects/haiti-social-housing/",
+        "https://pusnco.com/tr/projects/hisaronu-house/",
+        "https://pusnco.com/tr/projects/tk-house/",
+        "https://pusnco.com/tr/projects/uc-house/"
+      ],
+      "reason": "Existing project evidence supports a topic hub; no supporting hub exists in the crawl.",
+      "requirements": [
+        "Human approval and original useful explanation before page creation.",
+        "Credit the studio role accurately; do not infer services or technical claims from categorization.",
+        "Link to real examples; avoid repeating project descriptions."
+      ]
+    },
+    {
+      "id": "6b098a26191989a362ea81230e9ba51b1c3c0b6710249b09e398cca5dc457d31",
+      "language": "tr",
+      "kind": "pillar",
+      "topic": "retail",
+      "title": "Mağaza projelerinde uygulama ve koordinasyon",
+      "proposed_url": "https://pusnco.com/tr/services/retail-project-implementation/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "Mağaza projelerinde konsept adaptasyonu, detay ve saha koordinasyonunu anlamak",
+      "source_urls": [
+        "https://pusnco.com/tr/projects/hermes-bodrum/",
+        "https://pusnco.com/tr/projects/hermes-istinyepark/",
+        "https://pusnco.com/tr/projects/rolex-suadiye/"
+      ],
+      "reason": "Existing project evidence supports a topic hub; no supporting hub exists in the crawl.",
+      "requirements": [
+        "Human approval and original useful explanation before page creation.",
+        "Credit the studio role accurately; do not infer services or technical claims from categorization.",
+        "Link to real examples; avoid repeating project descriptions."
+      ]
+    },
+    {
+      "id": "4e530431da193433e6dc0e85d1ccb004e3c98d21ebab9af81b149d8f36d0681a",
+      "language": "tr",
+      "kind": "pillar",
+      "topic": "transport",
+      "title": "Ulaşım ve garaj kampüsleri",
+      "proposed_url": "https://pusnco.com/tr/services/transport-campuses/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "Otobüs garajı kampüslerinde operasyon birimlerinin nasıl düzenlendiğini anlamak",
+      "source_urls": [
+        "https://pusnco.com/tr/projects/bbs-1/",
+        "https://pusnco.com/tr/projects/bbs-2/"
+      ],
+      "reason": "Existing project evidence supports a topic hub; no supporting hub exists in the crawl.",
+      "requirements": [
+        "Human approval and original useful explanation before page creation.",
+        "Credit the studio role accurately; do not infer services or technical claims from categorization.",
+        "Link to real examples; avoid repeating project descriptions."
+      ]
+    },
+    {
+      "id": "d8f9157f5b50de82d13c45363aea215fb98609ef0cec846fd5e3ac1088308ed8",
+      "language": "tr",
+      "kind": "pillar",
+      "topic": "operations",
+      "title": "Operasyon tesisleri ve kontrollü dolaşım",
+      "proposed_url": "https://pusnco.com/tr/services/operational-facilities/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "Farklı kullanıcı ve operasyon ihtiyaçlarının yerleşke planına yansımasını değerlendirmek",
+      "source_urls": [
+        "https://pusnco.com/tr/projects/dragon-oil-hazar/",
+        "https://pusnco.com/tr/projects/gms-ashgabat/"
+      ],
+      "reason": "Existing project evidence supports a topic hub; no supporting hub exists in the crawl.",
+      "requirements": [
+        "Human approval and original useful explanation before page creation.",
+        "Credit the studio role accurately; do not infer services or technical claims from categorization.",
+        "Link to real examples; avoid repeating project descriptions."
+      ]
+    },
+    {
+      "id": "f547769224b1ae6eb8644f493e4f0cc865865c5d38800eb1f35d6f727f1c684e",
+      "language": "tr",
+      "kind": "guide",
+      "topic": "privacy-shared-living",
+      "title": "Konutlarda ortak yaşam ile mahremiyet nasıl dengelenir?",
+      "proposed_url": "https://pusnco.com/tr/guides/privacy-shared-living/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "Konutlarda ortak yaşam ile mahremiyet nasıl dengelenir?",
+      "source_urls": [
+        "https://pusnco.com/tr/projects/gu-house/",
+        "https://pusnco.com/tr/projects/tk-house/",
+        "https://pusnco.com/tr/projects/uc-house/"
+      ],
+      "reason": "At least two real project descriptions mention this theme; no substantial supporting guide exists.",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/tr/projects/gu-house/",
+          "matched_terms": [
+            "mahremiyet"
+          ],
+          "excerpt": "Tüm projeler Proje GU House Künye Konum Dalaman / Ortaca Tipoloji Konut GU House, bölgenin yoğun güneş iklimine yanıt veren ve komşu parsellerden mahremiyet sağlayan korunaklı bir iç avlu etrafında kurgulanmıştır."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/tk-house/",
+          "matched_terms": [
+            "mahremiyet"
+          ],
+          "excerpt": "Ormana yönelen cephe, iç ve dış mekân arasındaki sürekliliği güçlendiren geniş cam yüzeylerle şeffaf bir karakter kazanırken; yola bakan cephede daha kontrollü açıklıklar kullanılarak konutun mahremiyeti korunmuştur."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/uc-house/",
+          "matched_terms": [
+            "mahremiyet",
+            "çoklu yaşam"
+          ],
+          "excerpt": "Tüm projeler Proje UÇ House Künye Konum İstanbul / Gebze Tipoloji Konut UÇ House, çoklu yaşamı birbirine entegre hacimler üzerinden kurgular."
+        }
+      ],
+      "requirements": [
+        "Compare the documented examples instead of duplicating their text.",
+        "Any additional explanation or technical assertion requires studio review.",
+        "Add FAQ only if it answers actual useful questions; no automatic FAQ schema."
+      ]
+    },
+    {
+      "id": "0706855545f8f79e3a2a6ffa283a638c9578a2e668351f07874c2ed068b6c99c",
+      "language": "tr",
+      "kind": "guide",
+      "topic": "context-landscape",
+      "title": "Yapı, manzara ve açık alanlarla nasıl ilişki kurar?",
+      "proposed_url": "https://pusnco.com/tr/guides/architecture-landscape-relationship/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "Yapı, manzara ve açık alanlarla nasıl ilişki kurar?",
+      "source_urls": [
+        "https://pusnco.com/tr/projects/gu-house/",
+        "https://pusnco.com/tr/projects/hazar-cultural-centre/",
+        "https://pusnco.com/tr/projects/tk-house/",
+        "https://pusnco.com/tr/projects/uc-house/"
+      ],
+      "reason": "At least two real project descriptions mention this theme; no substantial supporting guide exists.",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/tr/projects/gu-house/",
+          "matched_terms": [
+            "avlu"
+          ],
+          "excerpt": "Tüm projeler Proje GU House Künye Konum Dalaman / Ortaca Tipoloji Konut GU House, bölgenin yoğun güneş iklimine yanıt veren ve komşu parsellerden mahremiyet sağlayan korunaklı bir iç avlu etrafında kurgulanmıştır."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/hazar-cultural-centre/",
+          "matched_terms": [
+            "kent parkı"
+          ],
+          "excerpt": "Sovyet döneminden kalan ve harabe durumundaki kültür merkezinin güncel ihtiyaçlara göre yeniden işlevlendirilmesini, yapıyla bütünleşen bir kent parkı ve kent meydanının tasarımını kapsamaktadır."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/tk-house/",
+          "matched_terms": [
+            "doğayla",
+            "orman"
+          ],
+          "excerpt": "Ormana yönelen cephe, iç ve dış mekân arasındaki sürekliliği güçlendiren geniş cam yüzeylerle şeffaf bir karakter kazanırken; yola bakan cephede daha kontrollü açıklıklar kullanılarak konutun mahremiyeti korunmuştur."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/uc-house/",
+          "matched_terms": [
+            "doğal çevre"
+          ],
+          "excerpt": "Çatı formu, çevredeki dağ siluetleri ve gün boyunca değişen güneş hareketlerinden ilham alırken; taş, ahşap ve geniş cam yüzeyler yapıyı hâkim olduğu manzara ve doğal çevreyle bütünleştirir."
+        }
+      ],
+      "requirements": [
+        "Compare the documented examples instead of duplicating their text.",
+        "Any additional explanation or technical assertion requires studio review.",
+        "Add FAQ only if it answers actual useful questions; no automatic FAQ schema."
+      ]
+    },
+    {
+      "id": "5357a433b5ad1b17836a134463276f304fe32bd89c347a69cf669366ae5609b3",
+      "language": "tr",
+      "kind": "guide",
+      "topic": "reuse-adaptation",
+      "title": "Mevcut yapı veya mekânın sınırları yeni kullanıma nasıl uyarlanır?",
+      "proposed_url": "https://pusnco.com/tr/guides/adapting-existing-spaces/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "Mevcut yapı veya mekânın sınırları yeni kullanıma nasıl uyarlanır?",
+      "source_urls": [
+        "https://pusnco.com/tr/projects/hazar-cultural-centre/",
+        "https://pusnco.com/tr/projects/hermes-istinyepark/",
+        "https://pusnco.com/tr/projects/rolex-suadiye/",
+        "https://pusnco.com/tr/projects/tk-house/"
+      ],
+      "reason": "At least two real project descriptions mention this theme; no substantial supporting guide exists.",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/tr/projects/hazar-cultural-centre/",
+          "matched_terms": [
+            "yeniden işlev"
+          ],
+          "excerpt": "Sovyet döneminden kalan ve harabe durumundaki kültür merkezinin güncel ihtiyaçlara göre yeniden işlevlendirilmesini, yapıyla bütünleşen bir kent parkı ve kent meydanının tasarımını kapsamaktadır."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/hermes-istinyepark/",
+          "matched_terms": [
+            "mevcut kiralık"
+          ],
+          "excerpt": "Tüm projeler Proje Hermès Store — İstinyePark Künye Konum İstanbul, Türkiye Yıl 2011 Tipoloji Mağaza İstinyePark AVM’de yer alan Hermès mağazası, markanın Fransa’dan iletilen konsept tasarımı doğrultusunda mevcut kiralık alana adapte edilerek projelendirilmiştir."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/rolex-suadiye/",
+          "matched_terms": [
+            "mevcut mağaza"
+          ],
+          "excerpt": "Mevcut mağaza tamamen sökülmüş, bitişiğindeki mağaza alanı da projeye dahil edilerek genişleyen mekân yeniden tasarlanmış ve inşa edilmiştir."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/tk-house/",
+          "matched_terms": [
+            "mevcut yapının"
+          ],
+          "excerpt": "Tüm projeler Proje TK House Künye Konum Urla, İzmir Yıl 2013 Tipoloji Konut TK House, mevcut yapının sınırları ve özgün formu korunarak çelik taşıyıcı sistemle yeniden inşa edilen müstakil bir konut projesidir."
+        }
+      ],
+      "requirements": [
+        "Compare the documented examples instead of duplicating their text.",
+        "Any additional explanation or technical assertion requires studio review.",
+        "Add FAQ only if it answers actual useful questions; no automatic FAQ schema."
+      ]
+    },
+    {
+      "id": "31758d729ead6a67a69accdd7e47cdf8c51dcf4422640378e112efb7579b453d",
+      "language": "tr",
+      "kind": "guide",
+      "topic": "material-detail",
+      "title": "Malzeme ve taşıyıcı sistem tercihleri uygulama detaylarını nasıl etkiler?",
+      "proposed_url": "https://pusnco.com/tr/guides/materials-structure-details/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "Malzeme ve taşıyıcı sistem tercihleri uygulama detaylarını nasıl etkiler?",
+      "source_urls": [
+        "https://pusnco.com/tr/projects/gu-house/",
+        "https://pusnco.com/tr/projects/hazar-cultural-centre/",
+        "https://pusnco.com/tr/projects/hermes-istinyepark/",
+        "https://pusnco.com/tr/projects/hisaronu-house/",
+        "https://pusnco.com/tr/projects/museum-hotel-antakya-spa/",
+        "https://pusnco.com/tr/projects/rolex-suadiye/",
+        "https://pusnco.com/tr/projects/tk-house/"
+      ],
+      "reason": "At least two real project descriptions mention this theme; no substantial supporting guide exists.",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/tr/projects/gu-house/",
+          "matched_terms": [
+            "malzeme",
+            "beton"
+          ],
+          "excerpt": "Hareketli cephe geometrisi, formwork betonun tek ve tutarlı bir malzeme olarak kullanılmasıyla dengelenerek yalın, güçlü ve zamansız bir mimari kimlik kazanır."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/hazar-cultural-centre/",
+          "matched_terms": [
+            "detay"
+          ],
+          "excerpt": "Yapının ulaşılabilen rölöve kayıtlarında belgelenen özgün detayları korunmuş, kaybolan bölümleri ise çağdaş bir mimari yaklaşımla yeniden tasarlanmıştır."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/hermes-istinyepark/",
+          "matched_terms": [
+            "detay"
+          ],
+          "excerpt": "Proje, markanın global tasarım standartlarının ve detay kalitesinin uygulama sürecinin tüm aşamalarında korunması hedefiyle yürütülmüştür."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/hisaronu-house/",
+          "matched_terms": [
+            "malzeme"
+          ],
+          "excerpt": "Tüm projeler Proje Hisarönü Evi Künye Konum Hisarönü, Marmaris Yıl 2024 Tipoloji Konut Hisarönü Evi, doğal ve geleneksel malzemelerin yanı sıra yerel yapım tekniklerini de tasarımın merkezine alan bir konut projesidir."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/museum-hotel-antakya-spa/",
+          "matched_terms": [
+            "çelik",
+            "detay"
+          ],
+          "excerpt": "Tüm projeler Proje The Museum Hotel Antakya — Balance SPA & GYM Künye Konum Antakya, Hatay Yıl 2018 Tipoloji SPA ve Spor Alanları İnşaat sırasında gerçekleştirilen kazılarda üç farklı antik döneme ait yerleşim katmanlarının ortaya çıkmasıyla yeniden planlanan The Museum Hotel Antakya’nın Balance SPA & GYM alanları için uygulama projesi ve detay çözümleri geliştirilmiştir."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/rolex-suadiye/",
+          "matched_terms": [
+            "malzeme",
+            "detay"
+          ],
+          "excerpt": "Proje, Rolex’in dünya genelinde tanımlı malzeme ve detay standartlarına uygun olarak geliştirilmiştir."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/tk-house/",
+          "matched_terms": [
+            "malzeme",
+            "çelik"
+          ],
+          "excerpt": "Tüm projeler Proje TK House Künye Konum Urla, İzmir Yıl 2013 Tipoloji Konut TK House, mevcut yapının sınırları ve özgün formu korunarak çelik taşıyıcı sistemle yeniden inşa edilen müstakil bir konut projesidir."
+        }
+      ],
+      "requirements": [
+        "Compare the documented examples instead of duplicating their text.",
+        "Any additional explanation or technical assertion requires studio review.",
+        "Add FAQ only if it answers actual useful questions; no automatic FAQ schema."
+      ]
+    },
+    {
+      "id": "4fd14319f18b4693bc789d7447b1cb6adeeeb2092482dfa2e745210cbd177c46",
+      "language": "tr",
+      "kind": "guide",
+      "topic": "technical-coordination",
+      "title": "Uygulama çizimleri ile sahadaki imalat süreci nasıl koordine edilir?",
+      "proposed_url": "https://pusnco.com/tr/guides/drawings-site-coordination/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "Uygulama çizimleri ile sahadaki imalat süreci nasıl koordine edilir?",
+      "source_urls": [
+        "https://pusnco.com/tr/projects/hermes-bodrum/",
+        "https://pusnco.com/tr/projects/hermes-istinyepark/",
+        "https://pusnco.com/tr/projects/museum-hotel-antakya-spa/"
+      ],
+      "reason": "At least two real project descriptions mention this theme; no substantial supporting guide exists.",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/tr/projects/hermes-bodrum/",
+          "matched_terms": [
+            "shop drawing",
+            "saha mimarlığı",
+            "proje müdürlüğü",
+            "teknik koordinasyon"
+          ],
+          "excerpt": "Tüm projeler Proje Hermès Store — Mandarin Oriental Bodrum Künye Konum Bodrum, Türkiye Yıl 2023 Tipoloji Mağaza Mandarin Oriental Bodrum kompleksi içerisinde yer alan Hermès Pop-up Store projesinde, marka tarafından geliştirilen konsept tasarımın uygulama projesine dönüştürülmesi ve yapım sürecinin teknik koordinasyonu üstlenildi."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/hermes-istinyepark/",
+          "matched_terms": [
+            "shop drawing",
+            "saha mimarlığı"
+          ],
+          "excerpt": "Konsept tasarımın uygulama projesine dönüştürülmesi ve mevcut mekânın fiziksel koşullarına uyarlanmasının yanı sıra, yapım süreci boyunca ana yüklenici adına proje yönetimi, saha mimarlığı ve shop drawing hizmetleri verilmiştir."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/museum-hotel-antakya-spa/",
+          "matched_terms": [
+            "shop drawing",
+            "saha mimarlığı",
+            "proje müdürlüğü"
+          ],
+          "excerpt": "Çalışma kapsamında proje müdürlüğü, saha mimarlığı, uygulama çizimleri ve yapım sürecinde shop drawing hizmetleri sunulmuştur."
+        }
+      ],
+      "requirements": [
+        "Compare the documented examples instead of duplicating their text.",
+        "Any additional explanation or technical assertion requires studio review.",
+        "Add FAQ only if it answers actual useful questions; no automatic FAQ schema."
+      ]
+    },
+    {
+      "id": "d97279ab061f8a003e652636aab3bac729f2c75162cb71c79ad3d7eec69d8b6b",
+      "language": "tr",
+      "kind": "guide",
+      "topic": "circulation-operations",
+      "title": "Farklı kullanıcı ve operasyon birimleri bir yerleşkede nasıl düzenlenir?",
+      "proposed_url": "https://pusnco.com/tr/guides/circulation-operational-planning/",
+      "priority": "MEDIUM",
+      "status": "REVIEW",
+      "search_intent": "Farklı kullanıcı ve operasyon birimleri bir yerleşkede nasıl düzenlenir?",
+      "source_urls": [
+        "https://pusnco.com/tr/projects/bbs-1/",
+        "https://pusnco.com/tr/projects/bbs-2/",
+        "https://pusnco.com/tr/projects/dragon-oil-hazar/",
+        "https://pusnco.com/tr/projects/gms-ashgabat/",
+        "https://pusnco.com/tr/projects/tk-house/"
+      ],
+      "reason": "At least two real project descriptions mention this theme; no substantial supporting guide exists.",
+      "evidence": [
+        {
+          "url": "https://pusnco.com/tr/projects/bbs-1/",
+          "matched_terms": [
+            "operasyonel",
+            "bakım"
+          ],
+          "excerpt": "Yaklaşık 1,5 milyon m² alan üzerine kurulu kampüs; yönetim binası, sürücülerin günlük ihtiyaçlarına yönelik sosyal tesisler, araçların sefer öncesi kontrollerinin yanı sıra bakım, onarım ve boya işlemlerinin gerçekleştirildiği atölye binası, günlük araç temizliğine hizmet eden yıkama ünitesi, gaz dolum istasyonları ve sürücü eğitimine yönelik özel parkurlar içeren bir eğitim pistinden oluşmaktadır."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/bbs-2/",
+          "matched_terms": [
+            "operasyonel",
+            "bakım"
+          ],
+          "excerpt": "Yaklaşık 800.000 m² alan üzerine kurulu kampüs; yönetim binası, sürücülerin günlük ihtiyaçlarına yönelik sosyal tesisler, araçların sefer öncesi kontrollerinin yanı sıra bakım, onarım ve boya işlemlerinin gerçekleştirildiği atölye binası, günlük araç temizliğine hizmet eden yıkama ünitesi ve gaz dolum istasyonlarından oluşmaktadır."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/dragon-oil-hazar/",
+          "matched_terms": [
+            "operasyonel"
+          ],
+          "excerpt": "Yerleşke; saha çalışanlarının konaklama ve günlük ihtiyaçlarına yönelik yaşam alanlarının yanı sıra ofisler, sosyal ve destek birimleri ile itfaiye binası gibi operasyonel yapıları bir araya getirmektedir."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/gms-ashgabat/",
+          "matched_terms": [
+            "dolaşım",
+            "operasyonel",
+            "kontrollü"
+          ],
+          "excerpt": "Projenin temel planlama yaklaşımı, yapıyı eş zamanlı olarak kullanan Savunma Bakanlığı ve askeri personelin çalışma alanlarını birbirinden bağımsız ve kontrollü dolaşım sistemleriyle organize etmek üzerine kurulmuştur."
+        },
+        {
+          "url": "https://pusnco.com/tr/projects/tk-house/",
+          "matched_terms": [
+            "kontrollü"
+          ],
+          "excerpt": "Ormana yönelen cephe, iç ve dış mekân arasındaki sürekliliği güçlendiren geniş cam yüzeylerle şeffaf bir karakter kazanırken; yola bakan cephede daha kontrollü açıklıklar kullanılarak konutun mahremiyeti korunmuştur."
+        }
+      ],
+      "requirements": [
+        "Compare the documented examples instead of duplicating their text.",
+        "Any additional explanation or technical assertion requires studio review.",
+        "Add FAQ only if it answers actual useful questions; no automatic FAQ schema."
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "9fdea02988d5e34b049622ee5b308badb9334e45951c2c49ed1e3b13b750f358",
+      "url": "https://pusnco.com/en/projects/bbs-1/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "0a0cd8b47c5019b230b6baedb3a50cc97ab5c2c44e6c6833c89b416fc6ae2f80",
+      "url": "https://pusnco.com/en/projects/bbs-2/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "262a8a1e030615384e0117c65cf0f9d9d645ed648205c1ef13b3db17fa3ae21d",
+      "url": "https://pusnco.com/en/projects/dragon-oil-hazar/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "a0940f4cd8ab4bada0e1de2c2e0b2e775fbe2a35ab6640ae629e6c7d20956795",
+      "url": "https://pusnco.com/en/projects/gms-ashgabat/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "fbb56226c8eaae4586900feed36c70b8b6562124a5a2cda1f8cc4d029d840903",
+      "url": "https://pusnco.com/en/projects/haiti-social-housing/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "646d69036049f76c7906d5edde1f7b5b9bf23b5c656e37295822f77e2030112b",
+      "url": "https://pusnco.com/en/projects/hazar-cultural-centre/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "e381135a79ea6d7db11b62c05d307f178ba043c223942c712da527a98d60ecfd",
+      "url": "https://pusnco.com/en/projects/hermes-bodrum/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "a4fd7d04b35ff0cb823148ab22a6fd2ed9269e1c674e5da09ce61aa97a707c16",
+      "url": "https://pusnco.com/en/projects/hermes-istinyepark/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "d756bd1648d2a2347561b71bf816c920c632e5db36bc641fd4ee59333af953c2",
+      "url": "https://pusnco.com/en/projects/hisaronu-house/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "4995748a55e6203d8d228cbe150e73cdaf874d93eedda54b6ee8444d45375528",
+      "url": "https://pusnco.com/en/projects/museum-hotel-antakya-spa/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "bda5aa5a8e89c604776b1f3d7629f82758a9f9e1b0785884de3d3862c4c312de",
+      "url": "https://pusnco.com/en/projects/rolex-suadiye/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "c12d5217869c2a9a87c72b0e81d3c0cf73d32fd35e3f03aa1d74ab811243b077",
+      "url": "https://pusnco.com/tr/projects/bbs-1/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "cfee47597051b38ac32e3283f9376343bc2b51b4c3df5c83fd0697f090ab81cb",
+      "url": "https://pusnco.com/tr/projects/bbs-2/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "9de979aaf47b7f554dc0c107c5d9f29e1e1e4503fba53ec4e56d497a1b899dc9",
+      "url": "https://pusnco.com/tr/projects/dragon-oil-hazar/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "268f40369940e1ae807d47e60e7a2bf22d9cfbb70684736f945151555d4aabea",
+      "url": "https://pusnco.com/tr/projects/gms-ashgabat/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "56bd0cc5abcc3f43999f9e0c2382d76ebd4cf379252078e65ef568590b136a85",
+      "url": "https://pusnco.com/tr/projects/haiti-social-housing/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "dc3f9426818b3b9730fb7a314e888819cd1a84aa3fcf210caa2bf5f9af83fa9b",
+      "url": "https://pusnco.com/tr/projects/hazar-cultural-centre/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "4e1eb1b809d15af18413811b52b6a3504ffc3524b59f6700ba1c83e39e82f177",
+      "url": "https://pusnco.com/tr/projects/hermes-bodrum/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "59151f414097f05935258de94f413ce6c10d487200230a9fc7aa43b82610c99a",
+      "url": "https://pusnco.com/tr/projects/hermes-istinyepark/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "fa4e7eb3f3511c6d7e0175f42eafa82511d697c2eae4440878f7c3cb3d58c4a6",
+      "url": "https://pusnco.com/tr/projects/hisaronu-house/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "1bbe3723ddd06263cd1714e32dbe6a42decfbca4431f4dae9329b66e30c21a6e",
+      "url": "https://pusnco.com/tr/projects/museum-hotel-antakya-spa/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    },
+    {
+      "id": "af02a07630cdea5e8f805eb5e860f16d841bb2db767ee0339e8f3797aab7c677",
+      "url": "https://pusnco.com/tr/projects/rolex-suadiye/",
+      "code": "weak_contextual_links",
+      "priority": "MEDIUM",
+      "message": "Review relevant contextual inbound links; navigation alone does not establish topic relationships."
+    }
+  ],
+  "editorial_rules": [
+    "Konu ve hizmet kapsamı yayımlanmış proje açıklamalarıyla doğrulanmalıdır; sınıflandırma hizmet taahhüdü değildir.",
+    "Hermès projelerinde marka tarafından sağlanan konseptin tasarım yazarlığı ofise atfedilmemelidir.",
+    "GMS için kamusal proje açıklamasının ötesinde güvenlik, operasyon veya teknik tesis ayrıntısı üretilmemelidir.",
+    "Mühendislik, mevzuat, performans, sürdürülebilirlik veya maliyet iddiaları kaynaksız eklenmemelidir.",
+    "Tek proje ile desteklenen kategoriler için yeni hizmet/pillar sayfası otomatik önerilmez.",
+    "Planlanan sayfa adresleri canlı URL değildir; onay ve yeterli özgün içerik olmadan bağlantı eklenmez."
+  ],
+  "method": "Verified taxonomy + explicit phrase evidence + same-language TF-IDF cosine; no embeddings, automatic insertion or publishing."
+}
