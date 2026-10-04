@@ -1,6 +1,7 @@
 ---
 import { type Lang, useTranslations } from '../i18n/ui';
 import SeoImage from './ui/SeoImage.astro';
+import { editorialEntries } from '../lib/editorial';
 
 interface Props {
   lang: Lang;
@@ -8,6 +9,7 @@ interface Props {
 const { lang } = Astro.props;
 const t = useTranslations(lang);
 const year = 2026; // build-time sabit; gerekirse Sanity ayarlarından alınabilir
+const editorial = editorialEntries().filter(entry => entry.content.lang === lang);
 ---
 
 <footer class="footer">
@@ -44,6 +46,7 @@ const year = 2026; // build-time sabit; gerekirse Sanity ayarlarından alınabil
     </div>
 
     <div class="footer__legal">
+      {['guides','services'].filter(kind => editorial.some(entry => entry.content.kind === kind)).map(kind => <a href={`/${lang}/${kind}/`}>{kind === 'guides' ? (lang === 'tr' ? 'Rehberler' : 'Guides') : (lang === 'tr' ? 'Hizmetler' : 'Services')}</a>)}
       <span>© {year} {t('site.name')}</span>
       <span>{t('footer.rights')}</span>
     </div>

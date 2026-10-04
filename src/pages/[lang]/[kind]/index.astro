@@ -1,0 +1,13 @@
+---
+import EditorialIndex from '../../../components/pages/EditorialIndex.astro';
+import { editorialEntries } from '../../../lib/editorial';
+export function getStaticPaths() {
+  const all = editorialEntries();
+  return ['en','tr'].flatMap(lang => ['guides','services'].flatMap(kind => {
+    const entries = all.filter(e => e.content.lang === lang && e.content.kind === kind);
+    return entries.length ? [{params:{lang,kind},props:{lang,kind,entries}}] : [];
+  }));
+}
+const {lang,kind,entries} = Astro.props;
+---
+<EditorialIndex lang={lang} kind={kind} entries={entries} />

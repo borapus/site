@@ -16,7 +16,6 @@ if (preview) {
   assert.equal(locs.length, 0, 'Preview sitemap must be empty');
   assert.ok(read('robots.txt').includes('Disallow: /'), 'Preview robots must block crawling');
 } else {
-  assert.equal(locs.length, 36, 'Expected 8 main pages + 28 project pages');
   assert.ok(read('robots.txt').includes(`Sitemap: ${site}/sitemap.xml`));
 }
 const paths = [];
@@ -26,6 +25,14 @@ for (const lang of ['en', 'tr']) {
     if (entry.isDirectory() && entry.name !== 'detail') paths.push(`/${lang}/projects/${entry.name}/`);
   }
   assert.ok(read(`${lang}/projects/detail/index.html`).includes('noindex'), 'Legacy details must be noindex');
+  for (const section of ['guides', 'services']) {
+    const root = join(dist, lang, section);
+    if (!existsSync(root)) continue;
+    if (existsSync(join(root, 'index.html'))) paths.push(`/${lang}/${section}/`);
+    for (const entry of readdirSync(root, {withFileTypes:true})) {
+      if (entry.isDirectory() && existsSync(join(root, entry.name, 'index.html'))) paths.push(`/${lang}/${section}/${entry.name}/`);
+    }
+  }
 }
 const titles = [], descriptions = [];
 let imageCount = 0;
@@ -56,6 +63,11 @@ for (const path of paths) {
     assert.ok((html.match(/class="detail__desc"[^>]*>([^<]+)/)?.[1] || '').length > 100, `${path}: static project description`);
     assert.ok(!html.includes('projects/detail/?id='), `${path}: legacy internal project link`);
   }
+  if (/\/(guides|services)\/[^/]+\/$/.test(path)) {
+    assert.ok(graph.some(g => g['@graph'].some(n => ['Article','Service'].includes(n['@type']))), `${path}: editorial schema`);
+    assert.ok(graph.some(g => g['@graph'].some(n => n['@type'] === 'BreadcrumbList')), `${path}: editorial breadcrumb`);
+    assert.ok(/data-content-hash="[a-f0-9]{64}"/.test(html), `${path}: approved content identity`);
+  }
   for (const match of html.matchAll(/<img\b([^>]+)>/g)) {
     const attrs = match[1]; imageCount++;
     assert.ok(/\balt(?:="[^"]*"|(?=\s|$))/.test(attrs), `${path}: missing alt`);
@@ -71,5 +83,6 @@ for (const path of paths) {
 }
 assert.equal(titles.length, new Set(titles).size, 'Duplicate public titles');
 assert.equal(descriptions.length, new Set(descriptions).size, 'Duplicate public descriptions');
-assert.equal(paths.length, 36);
+assert.ok(paths.length >= 8);
+if (!preview) assert.deepEqual([...locs].sort(), paths.map(path => `${site}${path}`).sort(), 'Sitemap must cover every public content route exactly');
 console.log(`PASS: ${paths.length} content pages, ${imageCount} image tags, metadata, schema, internal links, ${preview ? 'preview noindex' : 'production sitemap coverage'}.`);

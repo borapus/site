@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "minimum_words": 220,
+  "minimum_sources": 2,
+  "minimum_sections": 3,
+  "duplicate_threshold": 0.5,
+  "max_drafts_per_run": 4,
+  "max_publish_per_run": 2,
+  "require_bilingual_pair": true,
+  "require_human_factual_review": true,
+  "require_service_scope_confirmation": true,
+  "allowed_kinds": ["guides", "services"],
+  "auto_approve": false
+}

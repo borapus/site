@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import type { EditorialEntry } from '../../lib/editorial';
+import type { Lang } from '../../i18n/ui';
+interface Props { lang: Lang; kind: 'guides'|'services'; entries: EditorialEntry[] }
+const {lang,kind,entries} = Astro.props;
+const title = kind === 'guides' ? (lang === 'tr' ? 'Mimarlık rehberleri' : 'Architecture guides') : (lang === 'tr' ? 'Mimarlık hizmetleri' : 'Architecture services');
+const description = kind === 'guides' ? (lang === 'tr' ? 'PUS&CO’nun gerçek proje örneklerinden hareketle hazırlanan mimarlık rehberlerini ve tasarım yaklaşımlarını keşfedin.' : 'Explore architecture guides and design approaches grounded in real PUS&CO project examples.') : (lang === 'tr' ? 'PUS&CO’nun doğrulanmış hizmet kapsamını, proje örneklerini ve çalışma yaklaşımlarını inceleyin.' : 'Explore PUS&CO’s confirmed service scope, project examples and working approaches.');
+---
+<BaseLayout lang={lang} title={`${title} — PUS&CO`} description={description}>
+  <section class="editorial-index u-container"><h1>{title}</h1>
+    {entries.map(({content:c}) => <article><h2><a href={`/${lang}/${kind}/${c.slug}/`}>{c.h1}</a></h2><p>{c.description}</p></article>)}
+  </section>
+</BaseLayout>
+<style>.editorial-index { padding-top: 180px; padding-bottom: var(--section-gap); } h1 { font-size: var(--fs-h1); } article { margin-top: 48px; max-width: 65ch; } h2 { font-size: var(--fs-h2); margin-bottom: 18px; }</style>

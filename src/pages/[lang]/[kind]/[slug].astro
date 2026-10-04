@@ -1,0 +1,7 @@
+---
+import EditorialPage from '../../../components/pages/EditorialPage.astro';
+import { editorialRoutes } from '../../../lib/editorial';
+export function getStaticPaths() { return ['en','tr'].flatMap(lang => ['guides','services'].flatMap(kind => editorialRoutes(kind as 'guides'|'services',lang as 'en'|'tr').map(route => ({...route,params:{...route.params,lang,kind}})))); }
+const {entry} = Astro.props;
+---
+<EditorialPage entry={entry} />
