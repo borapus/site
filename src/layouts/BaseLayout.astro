@@ -5,6 +5,9 @@ import '@fontsource/cormorant-garamond/500.css';
 import '@fontsource/montserrat/300.css';
 import '@fontsource/montserrat/400.css';
 import '@fontsource/montserrat/500.css';
+import displayFont from '@fontsource/cormorant-garamond/files/cormorant-garamond-latin-300-normal.woff2?url';
+import bodyFont from '@fontsource/montserrat/files/montserrat-latin-300-normal.woff2?url';
+import labelFont from '@fontsource/montserrat/files/montserrat-latin-500-normal.woff2?url';
 import '../styles/global.css';
 
 import Navbar from '../components/nav/Navbar.astro';
@@ -49,6 +52,7 @@ const graph = [organization,
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {[displayFont, bodyFont, labelFont].map(href => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin="anonymous" />)}
 
     <title>{title}</title>
     {metaDescription && <meta name="description" content={metaDescription} />}

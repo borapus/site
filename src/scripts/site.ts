@@ -26,7 +26,9 @@ if (!reduce) {
 function initReveals(scope: ParentNode = document) {
   const els = gsap.utils.toArray<HTMLElement>(scope.querySelectorAll('[data-reveal]'));
   els.forEach((el) => {
-    if (reduce) {
+    const rect = el.getBoundingClientRect();
+    // Keep initially visible content painted; entrance animations must not delay LCP.
+    if (reduce || (rect.top < window.innerHeight && rect.bottom > 0)) {
       gsap.set(el, { autoAlpha: 1 });
       return;
     }

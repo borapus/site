@@ -4,15 +4,19 @@
     "height": 855,
     "variants": [
       {
-        "src": "/images/optimized/695c00c8f9bb44c1-640.webp",
+        "src": "/images/optimized/1e989a7309fd8d97-640.webp",
         "width": 640
       },
       {
-        "src": "/images/optimized/695c00c8f9bb44c1-1280.webp",
+        "src": "/images/optimized/1e989a7309fd8d97-960.webp",
+        "width": 960
+      },
+      {
+        "src": "/images/optimized/1e989a7309fd8d97-1280.webp",
         "width": 1280
       },
       {
-        "src": "/images/optimized/695c00c8f9bb44c1-1600.webp",
+        "src": "/images/optimized/1e989a7309fd8d97-1600.webp",
         "width": 1600
       }
     ]
@@ -78,6 +82,10 @@
       {
         "src": "/images/optimized/96b353379948add3-640.webp",
         "width": 640
+      },
+      {
+        "src": "/images/optimized/96b353379948add3-960.webp",
+        "width": 960
       },
       {
         "src": "/images/optimized/96b353379948add3-1280.webp",
@@ -238,6 +246,10 @@
       {
         "src": "/images/optimized/bc8ec45524d7ca85-640.webp",
         "width": 640
+      },
+      {
+        "src": "/images/optimized/bc8ec45524d7ca85-960.webp",
+        "width": 960
       },
       {
         "src": "/images/optimized/bc8ec45524d7ca85-1280.webp",
@@ -484,6 +496,10 @@
         "width": 640
       },
       {
+        "src": "/images/optimized/cf8524490edab5d6-960.webp",
+        "width": 960
+      },
+      {
         "src": "/images/optimized/cf8524490edab5d6-1280.webp",
         "width": 1280
       },
@@ -592,6 +608,10 @@
         "width": 640
       },
       {
+        "src": "/images/optimized/c0db7fb61c374274-960.webp",
+        "width": 960
+      },
+      {
         "src": "/images/optimized/c0db7fb61c374274-1280.webp",
         "width": 1280
       },
@@ -698,6 +718,10 @@
       {
         "src": "/images/optimized/1b137e2a4c3d3a38-640.webp",
         "width": 640
+      },
+      {
+        "src": "/images/optimized/1b137e2a4c3d3a38-960.webp",
+        "width": 960
       },
       {
         "src": "/images/optimized/1b137e2a4c3d3a38-1280.webp",
@@ -970,6 +994,10 @@
         "width": 640
       },
       {
+        "src": "/images/optimized/c5e6f9321d107a6c-960.webp",
+        "width": 960
+      },
+      {
         "src": "/images/optimized/c5e6f9321d107a6c-1280.webp",
         "width": 1280
       },
@@ -1124,6 +1152,10 @@
         "width": 640
       },
       {
+        "src": "/images/optimized/33b6b405e2e6ac14-960.webp",
+        "width": 960
+      },
+      {
         "src": "/images/optimized/33b6b405e2e6ac14-1280.webp",
         "width": 1280
       },
@@ -1230,6 +1262,10 @@
       {
         "src": "/images/optimized/2b182797127a7cb1-640.webp",
         "width": 640
+      },
+      {
+        "src": "/images/optimized/2b182797127a7cb1-960.webp",
+        "width": 960
       },
       {
         "src": "/images/optimized/2b182797127a7cb1-1280.webp",
@@ -1484,6 +1520,10 @@
         "width": 640
       },
       {
+        "src": "/images/optimized/63f78546667cadd6-960.webp",
+        "width": 960
+      },
+      {
         "src": "/images/optimized/63f78546667cadd6-1280.webp",
         "width": 1280
       },
@@ -1586,6 +1626,10 @@
       {
         "src": "/images/optimized/84e0666dd808b276-640.webp",
         "width": 640
+      },
+      {
+        "src": "/images/optimized/84e0666dd808b276-960.webp",
+        "width": 960
       },
       {
         "src": "/images/optimized/84e0666dd808b276-1280.webp",
@@ -1714,6 +1758,10 @@
       {
         "src": "/images/optimized/2d2e873d869b5c51-640.webp",
         "width": 640
+      },
+      {
+        "src": "/images/optimized/2d2e873d869b5c51-960.webp",
+        "width": 960
       },
       {
         "src": "/images/optimized/2d2e873d869b5c51-1086.webp",
@@ -1984,6 +2032,10 @@
         "width": 640
       },
       {
+        "src": "/images/optimized/6b82142238f1ae83-960.webp",
+        "width": 960
+      },
+      {
         "src": "/images/optimized/6b82142238f1ae83-1280.webp",
         "width": 1280
       },
@@ -2090,6 +2142,10 @@
         "width": 640
       },
       {
+        "src": "/images/optimized/5bd1ce665c7075ba-960.webp",
+        "width": 960
+      },
+      {
         "src": "/images/optimized/5bd1ce665c7075ba-1280.webp",
         "width": 1280
       },
@@ -2162,6 +2218,10 @@
         "width": 640
       },
       {
+        "src": "/images/optimized/502132485e55d5a1-960.webp",
+        "width": 960
+      },
+      {
         "src": "/images/optimized/502132485e55d5a1-1280.webp",
         "width": 1280
       },
@@ -2182,6 +2242,20 @@
       {
         "src": "/images/optimized/405980a76721f65e-1122.webp",
         "width": 1122
+      }
+    ]
+  },
+  "/logo-pusco.png": {
+    "width": 12750,
+    "height": 4182,
+    "variants": [
+      {
+        "src": "/images/optimized/3256785bae6a5746-340.webp",
+        "width": 340
+      },
+      {
+        "src": "/images/optimized/3256785bae6a5746-680.webp",
+        "width": 680
       }
     ]
   }

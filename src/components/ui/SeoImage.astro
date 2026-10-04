@@ -1,8 +1,8 @@
 ---
 import manifest from '../../data/imageManifest.json';
 import { img } from '../../lib/projects';
-interface Props { src: string; alt: string; eager?: boolean; sizes?: string; width?: number; height?: number }
-const { src, alt, eager = false, sizes = '(min-width: 900px) 80vw, 100vw', width, height } = Astro.props;
+interface Props { src: string; alt: string; eager?: boolean; sizes?: string; width?: number; height?: number; class?: string }
+const { src, alt, eager = false, sizes = '(min-width: 900px) 80vw, 100vw', width, height, class: className } = Astro.props;
 const entry = (manifest as Record<string, {width: number; height: number; variants: {src: string; width: number}[]}>)[src];
 const fallback = src.startsWith('https://cdn.sanity.io/') ? /-(\d+)x(\d+)\.[a-z]+(?:\?|$)/.exec(src) : null;
 const w = entry?.width ?? width ?? (fallback ? Number(fallback[1]) : undefined);
@@ -10,5 +10,5 @@ const h = entry?.height ?? height ?? (fallback ? Number(fallback[2]) : undefined
 const source = entry ? entry.variants[entry.variants.length - 1].src : img(src, 1600);
 const srcset = entry ? entry.variants.map(v => `${v.src} ${v.width}w`).join(', ') : undefined;
 ---
-<img src={source} srcset={srcset} sizes={srcset ? sizes : undefined} alt={alt} width={w} height={h}
+<img class={className} src={source} srcset={srcset} sizes={srcset ? sizes : undefined} alt={alt} width={w} height={h}
   loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : 'auto'} decoding="async" />

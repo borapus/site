@@ -41,6 +41,13 @@ for (const path of paths) {
   assert.ok(html.includes(preview ? 'content="noindex, nofollow"' : 'content="index, follow"'), `${path}: robots`);
   for (const lang of ['en', 'tr']) assert.ok(html.includes(`hreflang="${lang}" href="${site}${path.replace(/^\/(en|tr)\//, `/${lang}/`)}"`), `${path}: hreflang`);
   assert.ok(html.includes('property="og:image"') && html.includes('name="twitter:card"'));
+  const fonts = [...html.matchAll(/<link\b[^>]*rel="preload"[^>]*href="([^"]+)"[^>]*as="font"/g)];
+  assert.equal(fonts.length, 3, `${path}: critical font preload coverage`);
+  for (const font of fonts) assert.ok(existsSync(join(dist, font[1].slice(1))), `${path}: missing preloaded font`);
+  if (/^\/(en|tr)\/projects\/$/.test(path)) {
+    const firstImage = html.match(/<img\b[^>]+>/)?.[0] || '';
+    assert.ok(firstImage.includes('loading="eager"') && firstImage.includes('fetchpriority="high"'), `${path}: first project image must load promptly`);
+  }
   const graph = [...html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1]));
   assert.ok(graph.some(g => g['@graph'].some(n => n['@type'] === 'Organization')), `${path}: Organization`);
   if (/\/projects\/[^/]+\/$/.test(path)) {

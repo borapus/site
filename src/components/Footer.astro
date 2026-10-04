@@ -1,5 +1,6 @@
 ---
 import { type Lang, useTranslations } from '../i18n/ui';
+import SeoImage from './ui/SeoImage.astro';
 
 interface Props {
   lang: Lang;
@@ -14,13 +15,11 @@ const year = 2026; // build-time sabit; gerekirse Sanity ayarlarından alınabil
     <hr class="u-line" />
     <div class="footer__grid">
       <div class="footer__brand">
-        <img
+        <SeoImage
           class="footer__logo"
           src="/logo-pusco.png"
           alt="Pus & Co Architects"
-          width="340"
-          height="112"
-          loading="lazy"
+          sizes="(min-width: 900px) 340px, 200px"
         />
       </div>
 
@@ -64,7 +63,7 @@ const year = 2026; // build-time sabit; gerekirse Sanity ayarlarından alınabil
     .footer__grid { grid-template-columns: 2fr 1fr 1fr 1fr; }
   }
 
-  .footer__logo {
+  .footer__brand :global(.footer__logo) {
     width: clamp(200px, 30vw, 320px);
     height: auto;
   }

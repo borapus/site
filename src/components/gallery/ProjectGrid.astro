@@ -7,8 +7,9 @@ interface Props {
   lang: Lang;
   featured?: boolean;
   limit?: number;
+  priorityFirst?: boolean;
 }
-const { lang, featured = false, limit } = Astro.props;
+const { lang, featured = false, limit, priorityFirst = false } = Astro.props;
 const t = useTranslations(lang);
 const projects = await getProjects(lang, { featured, limit });
 ---
@@ -19,11 +20,11 @@ const projects = await getProjects(lang, { featured, limit });
   data-featured={featured ? '' : undefined}
   data-limit={limit ?? undefined}
 >
-  {projects.map((p) => (
+  {projects.map((p, i) => (
     <a class:list={['project-card', p.orientation === 'portrait' ? 'is-portrait' : 'is-landscape']}
       href={`/${lang}/projects/${p.slug}/`}>
       <span class="project-card__media">
-        {p.cover && <SeoImage src={p.cover} alt={p.title} sizes="(min-width: 900px) 45vw, 100vw" />}
+        {p.cover && <SeoImage src={p.cover} alt={p.title} eager={priorityFirst && i === 0} sizes="(min-width: 900px) 45vw, calc(100vw - 48px)" />}
       </span>
       <span class="project-card__meta">
         <span class="project-card__title">{p.title}</span>
