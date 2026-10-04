@@ -26,7 +26,8 @@ export async function getProjects(
   opts: { limit?: number; featured?: boolean } = {},
 ): Promise<ProjectCard[]> {
   if (isSanityConfigured) {
-    const remote = await fetchProjects(lang, { featured: opts.featured }).catch(() => []);
+    const remote = (await fetchProjects(lang, { featured: opts.featured }).catch(() => []))
+      .filter((p) => !uploadedProjects.some((updated) => updated.slug === p.slug));
     const additions = localProjects
       .filter((p) => (!opts.featured || p.featured) && !remote.some((r) => r.slug === p.slug))
       .map((p) => ({ _id: p.slug, title: pick(p.title, lang), slug: p.slug,

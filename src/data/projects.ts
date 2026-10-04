@@ -19,8 +19,7 @@ export type LocalProject = {
   description: { en: string; tr: string };
 };
 
-export const localProjects: LocalProject[] = [
-  ...uploadedProjects,
+const seedProjects: LocalProject[] = [
   {
     slug: 'tk-house',
     year: '',
@@ -75,4 +74,10 @@ export const localProjects: LocalProject[] = [
       tr: 'GU House, bölgenin yoğun güneş iklimine yanıt veren ve komşu parsellerden mahremiyet sağlayan korunaklı bir iç avlu etrafında kurgulanmıştır. Açıklık ve mahremiyet arasında dengeli bir yaşam deneyimi sunan tasarım, gün ışığını ve açık yaşam alanlarını gündelik hayatın ayrılmaz bir parçası hâline getirir. Hareketli cephe geometrisi, formwork betonun tek ve tutarlı bir malzeme olarak kullanılmasıyla dengelenerek yalın, güçlü ve zamansız bir mimari kimlik kazanır.',
     },
   },
+];
+
+// Güncellenmiş proje dosyaları aynı slug için eski başlangıç verisinin yerini alır.
+export const localProjects: LocalProject[] = [
+  ...uploadedProjects,
+  ...seedProjects.filter((p) => !uploadedProjects.some((updated) => updated.slug === p.slug)),
 ];

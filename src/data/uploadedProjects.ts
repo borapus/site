@@ -20,8 +20,8 @@ export const uploadedProjects: LocalProject[] = [
       "/images/projects/bbs-1/11.jpg"
     ],
     "title": {
-      "tr": "BBS-1",
-      "en": "BBS-1"
+      "tr": "Baku Bus Station-1",
+      "en": "Baku Bus Station-1"
     },
     "location": {
       "tr": "Bakü, Azerbaycan",
@@ -35,8 +35,8 @@ export const uploadedProjects: LocalProject[] = [
     "client": "",
     "photographer": "",
     "description": {
-      "tr": "BBS-1, Azerbaycan Hükümeti’nin Bakü’deki mevcut ve parçalı kent içi otobüs işletme sistemini Baku Bus Station çatısı altında daha düzenli ve merkezi bir yapıya kavuşturma hedefi doğrultusunda geliştirilen ana garaj kampüslerinin ilkidir.\n\nYaklaşık 1,5 milyon m² alan üzerine kurulu kampüs; yönetim binası, sürücülerin günlük ihtiyaçlarına yönelik sosyal tesisler, araçların sefer öncesi kontrollerinin yanı sıra bakım, onarım ve boya işlemlerinin gerçekleştirildiği atölye binası, günlük araç temizliğine hizmet eden yıkama ünitesi, gaz dolum istasyonları ve sürücü eğitimine yönelik özel parkurlar içeren bir eğitim pistinden oluşmaktadır.\n\nProje, farklı operasyonel süreçleri tek bir kampüs içerisinde bir araya getirerek araçların bakım, hazırlık, sevk ve eğitim süreçlerinin bütüncül ve verimli bir sistem içerisinde yürütülmesini sağlayacak şekilde planlanmıştır.",
-      "en": "BBS-1 is the first of a series of major bus depot campuses developed as part of the Azerbaijani Government’s initiative to consolidate Baku’s fragmented urban bus operations under the Baku Bus Station network.\n\nOccupying a site of approximately 1.5 million m², the campus comprises an administration building, driver facilities, a workshop building equipped for pre-service vehicle inspections, maintenance, repair and painting, a dedicated bus washing unit, gas filling stations, and a driver training track incorporating purpose-built training courses.\n\nThe project brings together a wide range of operational functions within a single campus, creating an integrated and efficient infrastructure for vehicle maintenance, preparation, dispatch and driver training."
+      "tr": "Baku Bus Station-1, Azerbaycan Hükümeti’nin Bakü’deki mevcut ve parçalı kent içi otobüs işletme sistemini Baku Bus Station çatısı altında daha düzenli ve merkezi bir yapıya kavuşturma hedefi doğrultusunda geliştirilen ana garaj kampüslerinin ilkidir.\n\nYaklaşık 1,5 milyon m² alan üzerine kurulu kampüs; yönetim binası, sürücülerin günlük ihtiyaçlarına yönelik sosyal tesisler, araçların sefer öncesi kontrollerinin yanı sıra bakım, onarım ve boya işlemlerinin gerçekleştirildiği atölye binası, günlük araç temizliğine hizmet eden yıkama ünitesi, gaz dolum istasyonları ve sürücü eğitimine yönelik özel parkurlar içeren bir eğitim pistinden oluşmaktadır.\n\nProje, farklı operasyonel süreçleri tek bir kampüs içerisinde bir araya getirerek araçların bakım, hazırlık, sevk ve eğitim süreçlerinin bütüncül ve verimli bir sistem içerisinde yürütülmesini sağlayacak şekilde planlanmıştır.",
+      "en": "Baku Bus Station-1 is the first of a series of major bus depot campuses developed as part of the Azerbaijani Government’s initiative to consolidate Baku’s fragmented urban bus operations under the Baku Bus Station network.\n\nOccupying a site of approximately 1.5 million m², the campus comprises an administration building, driver facilities, a workshop building equipped for pre-service vehicle inspections, maintenance, repair and painting, a dedicated bus washing unit, gas filling stations, and a driver training track incorporating purpose-built training courses.\n\nThe project brings together a wide range of operational functions within a single campus, creating an integrated and efficient infrastructure for vehicle maintenance, preparation, dispatch and driver training."
     }
   },
   {
@@ -77,23 +77,23 @@ export const uploadedProjects: LocalProject[] = [
     "year": "2016",
     "featured": false,
     "orientation": "landscape",
-    "cover": "/images/projects/dragon-oil-hazar/10.jpg",
+    "cover": "/images/projects/dragon-oil-hazar/11.png",
     "gallery": [
-      "/images/projects/dragon-oil-hazar/01.jpg",
-      "/images/projects/dragon-oil-hazar/02.jpg",
-      "/images/projects/dragon-oil-hazar/03.jpg",
-      "/images/projects/dragon-oil-hazar/04.jpg",
-      "/images/projects/dragon-oil-hazar/05.jpg",
-      "/images/projects/dragon-oil-hazar/06.jpg",
-      "/images/projects/dragon-oil-hazar/07.jpg",
-      "/images/projects/dragon-oil-hazar/08.jpg",
-      "/images/projects/dragon-oil-hazar/09.jpg",
-      "/images/projects/dragon-oil-hazar/11.jpg",
-      "/images/projects/dragon-oil-hazar/12.jpg",
-      "/images/projects/dragon-oil-hazar/13.jpg",
-      "/images/projects/dragon-oil-hazar/14.jpg",
-      "/images/projects/dragon-oil-hazar/15.jpg",
-      "/images/projects/dragon-oil-hazar/16.jpg"
+      "/images/projects/dragon-oil-hazar/01.png",
+      "/images/projects/dragon-oil-hazar/02.png",
+      "/images/projects/dragon-oil-hazar/03.png",
+      "/images/projects/dragon-oil-hazar/04.png",
+      "/images/projects/dragon-oil-hazar/05.png",
+      "/images/projects/dragon-oil-hazar/06.png",
+      "/images/projects/dragon-oil-hazar/07.png",
+      "/images/projects/dragon-oil-hazar/08.png",
+      "/images/projects/dragon-oil-hazar/09.png",
+      "/images/projects/dragon-oil-hazar/10.png",
+      "/images/projects/dragon-oil-hazar/12.png",
+      "/images/projects/dragon-oil-hazar/13.png",
+      "/images/projects/dragon-oil-hazar/14.png",
+      "/images/projects/dragon-oil-hazar/15.png",
+      "/images/projects/dragon-oil-hazar/16.png"
     ],
     "title": {
       "tr": "Dragon Oil Hazar Facilities",
@@ -153,24 +153,24 @@ export const uploadedProjects: LocalProject[] = [
     "year": "2013",
     "featured": false,
     "orientation": "landscape",
-    "cover": "/images/projects/haiti-social-housing/12.jpg",
+    "cover": "/images/projects/haiti-social-housing/15.png",
     "gallery": [
-      "/images/projects/haiti-social-housing/01.jpg",
-      "/images/projects/haiti-social-housing/02.jpg",
-      "/images/projects/haiti-social-housing/03.jpg",
-      "/images/projects/haiti-social-housing/04.jpg",
-      "/images/projects/haiti-social-housing/05.jpg",
-      "/images/projects/haiti-social-housing/06.jpg",
-      "/images/projects/haiti-social-housing/07.jpg",
-      "/images/projects/haiti-social-housing/08.jpg",
-      "/images/projects/haiti-social-housing/09.jpg",
-      "/images/projects/haiti-social-housing/10.jpg",
-      "/images/projects/haiti-social-housing/11.jpg",
-      "/images/projects/haiti-social-housing/13.jpg",
-      "/images/projects/haiti-social-housing/14.jpg",
-      "/images/projects/haiti-social-housing/15.jpg",
-      "/images/projects/haiti-social-housing/16.jpg",
-      "/images/projects/haiti-social-housing/17.jpg"
+      "/images/projects/haiti-social-housing/01.png",
+      "/images/projects/haiti-social-housing/02.png",
+      "/images/projects/haiti-social-housing/03.png",
+      "/images/projects/haiti-social-housing/04.png",
+      "/images/projects/haiti-social-housing/05.png",
+      "/images/projects/haiti-social-housing/06.png",
+      "/images/projects/haiti-social-housing/07.png",
+      "/images/projects/haiti-social-housing/08.png",
+      "/images/projects/haiti-social-housing/09.png",
+      "/images/projects/haiti-social-housing/10.png",
+      "/images/projects/haiti-social-housing/11.png",
+      "/images/projects/haiti-social-housing/12.png",
+      "/images/projects/haiti-social-housing/13.png",
+      "/images/projects/haiti-social-housing/14.png",
+      "/images/projects/haiti-social-housing/16.png",
+      "/images/projects/haiti-social-housing/17.png"
     ],
     "title": {
       "tr": "Morne à Cabrit Sosyal Konut Projesi",
@@ -297,6 +297,157 @@ export const uploadedProjects: LocalProject[] = [
     "description": {
       "tr": "Hisarönü Evi, doğal ve geleneksel malzemelerin yanı sıra yerel yapım tekniklerini de tasarımın merkezine alan bir konut projesidir. Akdeniz’in geleneksel mimari dilinden beslenen yapı, işverenin yalın ve zamansız bir yaşam alanı isteği doğrultusunda şekillendi.\nSınırlı bir renk paletiyle kurgulanan tasarımda, renk yerine malzemelerin doğal tonları, dokuları ve zaman içinde kazanacakları karakter ön plana çıkarıldı. Geleneksel mimari öğeler çağdaş bir yaklaşımla yeniden yorumlanarak, bulunduğu coğrafyayla güçlü bir bağ kuran sakin ve doğal bir yaşam ortamı oluşturuldu.",
       "en": "Hisarönü House is a residential project centered on natural and traditional materials, with an emphasis on local building techniques. Drawing from the traditional architectural language of the Mediterranean, the house was shaped around the client’s desire for a simple and timeless living environment.\nRather than relying on color, the design employs a restrained palette that allows the natural tones, textures, and evolving character of the materials to define the atmosphere. Traditional architectural elements are reinterpreted through a contemporary approach, creating a calm and natural living environment with a strong connection to its setting."
+    }
+  },
+  {
+    "slug": "hazar-cultural-centre",
+    "year": "2019",
+    "featured": false,
+    "orientation": "landscape",
+    "cover": "/images/projects/hazar-cultural-centre/07.png",
+    "gallery": [
+      "/images/projects/hazar-cultural-centre/01.png",
+      "/images/projects/hazar-cultural-centre/02.png",
+      "/images/projects/hazar-cultural-centre/03.png",
+      "/images/projects/hazar-cultural-centre/04.png",
+      "/images/projects/hazar-cultural-centre/05.png",
+      "/images/projects/hazar-cultural-centre/06.png",
+      "/images/projects/hazar-cultural-centre/08.png",
+      "/images/projects/hazar-cultural-centre/09.png",
+      "/images/projects/hazar-cultural-centre/10.png",
+      "/images/projects/hazar-cultural-centre/11.png",
+      "/images/projects/hazar-cultural-centre/12.png"
+    ],
+    "title": {
+      "tr": "Hazar Kültür Merkezi’nin Yeniden Yapılandırılması",
+      "en": "Reconstruction of Culture Centre in Hazar"
+    },
+    "location": {
+      "tr": "Hazar, Türkmenistan",
+      "en": "Hazar, Turkmenistan"
+    },
+    "typology": {
+      "tr": "Kültür Merkezi",
+      "en": "Cultural Centre"
+    },
+    "area": "",
+    "client": "",
+    "photographer": "",
+    "description": {
+      "tr": "Proje, Türkmenistan hükümeti adına Hazar Denizi’nde petrol çıkarma ve işleme operasyonları yürüten Dragon Oil’in bölgeye yönelik sosyal katkı girişimi kapsamında geliştirilmiştir. Sovyet döneminden kalan ve harabe durumundaki kültür merkezinin güncel ihtiyaçlara göre yeniden işlevlendirilmesini, yapıyla bütünleşen bir kent parkı ve kent meydanının tasarımını kapsamaktadır.\nYapının ulaşılabilen rölöve kayıtlarında belgelenen özgün detayları korunmuş, kaybolan bölümleri ise çağdaş bir mimari yaklaşımla yeniden tasarlanmıştır. Böylece yapının tarihsel kimliği ile yeni kullanım ihtiyaçları arasında bir bütünlük kurulması amaçlanmıştır.\nÇeşitli açık alan donatılarını barındıran kent parkı, günlük sosyal kullanımların yanı sıra tören ve merasimlere de olanak sağlayan kent meydanıyla birlikte ele alınmıştır. Kültür merkezi, park ve meydan, birbirini tamamlayan bir kamusal alan bütünü olarak tasarlanmıştır.",
+      "en": "The project was developed as part of Dragon Oil’s charitable initiative for the region, where the company conducts oil extraction and processing operations in the Caspian Sea on behalf of the Turkmenistan government. It comprises the adaptation of a derelict Soviet-era cultural centre to contemporary needs, alongside the design of an integrated urban park and public square.\nOriginal architectural details documented in the available measured survey records were retained, while missing sections were reinterpreted through a contemporary design approach. The proposal sought to reconcile the building’s historical identity with its new functional requirements.\nThe urban park incorporates a range of outdoor amenities and connects to a public square designed to accommodate both everyday social activities and formal ceremonies. Together, the cultural centre, park and square form a cohesive network of complementary public spaces."
+    }
+  },
+  {
+    "slug": "rolex-suadiye",
+    "year": "2016",
+    "featured": false,
+    "orientation": "landscape",
+    "cover": "/images/projects/rolex-suadiye/01.jpg",
+    "gallery": [
+      "/images/projects/rolex-suadiye/02.jpg",
+      "/images/projects/rolex-suadiye/03.jpg",
+      "/images/projects/rolex-suadiye/04.jpg",
+      "/images/projects/rolex-suadiye/05.jpg",
+      "/images/projects/rolex-suadiye/06.jpg",
+      "/images/projects/rolex-suadiye/07.jpg"
+    ],
+    "title": {
+      "tr": "Rolex Store — Suadiye",
+      "en": "Rolex Store — Suadiye"
+    },
+    "location": {
+      "tr": "İstanbul, Türkiye",
+      "en": "Istanbul, Türkiye"
+    },
+    "typology": {
+      "tr": "Mağaza",
+      "en": "Retail"
+    },
+    "area": "",
+    "client": "",
+    "photographer": "",
+    "description": {
+      "tr": "Rolex’in Bağdat Caddesi, Suadiye’deki mağazası için tasarım ve uygulama hizmetleri sunulmuştur. Mevcut mağaza tamamen sökülmüş, bitişiğindeki mağaza alanı da projeye dahil edilerek genişleyen mekân yeniden tasarlanmış ve inşa edilmiştir.\nProje, Rolex’in dünya genelinde tanımlı malzeme ve detay standartlarına uygun olarak geliştirilmiştir. Uygulama sürecinde yüksek kaliteli malzemeler, hassas detay çözümleri ve titiz işçilik esas alınmıştır.",
+      "en": "Design and construction services were provided for the Rolex store on Bağdat Avenue in Suadiye, Istanbul. The existing store was fully stripped out and expanded into the adjacent retail unit, creating a larger space that was redesigned and rebuilt.\nThe project followed Rolex’s global material specifications and detailing standards. High-quality materials, precise detailing and meticulous craftsmanship guided the construction process."
+    }
+  },
+  {
+    "slug": "museum-hotel-antakya-spa",
+    "year": "2018",
+    "featured": false,
+    "orientation": "landscape",
+    "cover": "/images/projects/museum-hotel-antakya-spa/03.png",
+    "gallery": [
+      "/images/projects/museum-hotel-antakya-spa/01.png",
+      "/images/projects/museum-hotel-antakya-spa/02.png",
+      "/images/projects/museum-hotel-antakya-spa/04.png",
+      "/images/projects/museum-hotel-antakya-spa/05.png",
+      "/images/projects/museum-hotel-antakya-spa/06.png",
+      "/images/projects/museum-hotel-antakya-spa/07.png",
+      "/images/projects/museum-hotel-antakya-spa/08.png",
+      "/images/projects/museum-hotel-antakya-spa/09.png",
+      "/images/projects/museum-hotel-antakya-spa/10.png",
+      "/images/projects/museum-hotel-antakya-spa/11.png",
+      "/images/projects/museum-hotel-antakya-spa/12.png",
+      "/images/projects/museum-hotel-antakya-spa/13.png",
+      "/images/projects/museum-hotel-antakya-spa/14.png",
+      "/images/projects/museum-hotel-antakya-spa/15.png",
+      "/images/projects/museum-hotel-antakya-spa/16.png",
+      "/images/projects/museum-hotel-antakya-spa/17.png",
+      "/images/projects/museum-hotel-antakya-spa/18.png",
+      "/images/projects/museum-hotel-antakya-spa/19.png",
+      "/images/projects/museum-hotel-antakya-spa/20.png"
+    ],
+    "title": {
+      "tr": "The Museum Hotel Antakya — Balance SPA & GYM",
+      "en": "The Museum Hotel Antakya — Balance SPA & GYM"
+    },
+    "location": {
+      "tr": "Antakya, Hatay",
+      "en": "Antakya, Hatay, Türkiye"
+    },
+    "typology": {
+      "tr": "SPA ve Spor Alanları",
+      "en": "SPA & Fitness"
+    },
+    "area": "",
+    "client": "",
+    "photographer": "",
+    "description": {
+      "tr": "İnşaat sırasında gerçekleştirilen kazılarda üç farklı antik döneme ait yerleşim katmanlarının ortaya çıkmasıyla yeniden planlanan The Museum Hotel Antakya’nın Balance SPA & GYM alanları için uygulama projesi ve detay çözümleri geliştirilmiştir. Çalışma kapsamında proje müdürlüğü, saha mimarlığı, uygulama çizimleri ve yapım sürecinde shop drawing hizmetleri sunulmuştur.\nOtellerde genellikle bodrum veya zemin katlarda konumlandırılan spa ve spor alanları, bu projede yapının çatı katında tasarlanmış ve uygulanmıştır. Bu yerleşim, tamamen çelik taşıyıcı sisteme sahip yapının hareketlerine uyum sağlayan özel uygulama detaylarını gerekli kılmıştır.\nGece ve gündüz arasındaki yüksek sıcaklık farklarının çelik konstrüksiyonda oluşturduğu genleşme, büzülme ve deformasyonlar değerlendirilerek gerekli hareket payları belirlenmiştir. Özellikle rijit yüzeyler ve birleşim detayları bu hareketlere uyum sağlayacak şekilde geliştirilmiş; projenin yapım koşullarına özgü teknik bilgi birikimine dayanan imalat çözümleri üretilmiştir.",
+      "en": "Construction documentation and bespoke detailing were developed for the Balance SPA & GYM facilities at The Museum Hotel Antakya. The building was replanned as a museum hotel following the discovery of archaeological settlement layers spanning three ancient periods during construction. The scope included project management, site architectural supervision, construction drawings and shop drawing services throughout the building process.\nWhile spa and fitness facilities are typically located on the basement or ground floors of hotels, this project placed the entire programme on the rooftop level. This arrangement required tailored construction details capable of accommodating movement within the building’s all-steel structural system.\nThermal expansion, contraction and deformation caused by significant day-to-night temperature variations were assessed to establish the required movement allowances. Particular attention was given to rigid finishes and junctions, with bespoke fabrication and installation details developed to accommodate these movements. The resulting solutions reflect technical expertise specific to the project’s structural and construction conditions."
+    }
+  },
+  {
+    "slug": "tk-house",
+    "year": "2013",
+    "featured": true,
+    "orientation": "landscape",
+    "cover": "/images/projects/tk-house/01.png",
+    "gallery": [
+      "/images/projects/tk-house/02.png",
+      "/images/projects/tk-house/03.png",
+      "/images/projects/tk-house/04.png"
+    ],
+    "title": {
+      "tr": "TK House",
+      "en": "TK House"
+    },
+    "location": {
+      "tr": "Urla, İzmir",
+      "en": "Urla, Izmir, Türkiye"
+    },
+    "typology": {
+      "tr": "Konut",
+      "en": "Residential"
+    },
+    "area": "",
+    "client": "",
+    "photographer": "",
+    "description": {
+      "tr": "TK House, mevcut yapının sınırları ve özgün formu korunarak çelik taşıyıcı sistemle yeniden inşa edilen müstakil bir konut projesidir.\nTasarımda çeliğin yalın ve hafif karakteri doğal malzemelerle bir araya getirilirken, yapının çevresiyle kurduğu ilişki cephelere göre farklılaştırılmıştır. Ormana yönelen cephe, iç ve dış mekân arasındaki sürekliliği güçlendiren geniş cam yüzeylerle şeffaf bir karakter kazanırken; yola bakan cephede daha kontrollü açıklıklar kullanılarak konutun mahremiyeti korunmuştur.\nBu yaklaşım, mevcut yapının izlerini korurken doğayla daha güçlü bir ilişki kuran, açık ve çağdaş bir yaşam alanı oluşturmayı amaçlamaktadır.",
+      "en": "TK House is a private residence reconstructed with a steel structural system while preserving the footprint and original form of the existing building.\nThe design combines the light and refined character of steel with natural materials, while responding differently to the contrasting conditions of its surroundings. The façade facing the forest is conceived as a transparent interface, with extensive glazing strengthening the continuity between interior spaces and the landscape. In contrast, the street-facing elevation uses more controlled openings to maintain privacy.\nThe resulting architecture preserves the traces of the existing structure while creating an open, contemporary living environment with a stronger connection to nature."
     }
   }
 ];
