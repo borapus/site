@@ -1,6 +1,7 @@
 ---
 import { type Lang, useTranslations } from '../../i18n/ui';
-import { getProjects, img } from '../../lib/projects';
+import { getProjects } from '../../lib/projects';
+import SeoImage from '../ui/SeoImage.astro';
 
 interface Props {
   lang: Lang;
@@ -20,9 +21,9 @@ const projects = await getProjects(lang, { featured, limit });
 >
   {projects.map((p) => (
     <a class:list={['project-card', p.orientation === 'portrait' ? 'is-portrait' : 'is-landscape']}
-      href={`/${lang}/projects/detail/?id=${p.slug}`}>
+      href={`/${lang}/projects/${p.slug}/`}>
       <span class="project-card__media">
-        {p.cover && <img src={img(p.cover, 1400)} alt={p.title} loading="lazy" />}
+        {p.cover && <SeoImage src={p.cover} alt={p.title} sizes="(min-width: 900px) 45vw, 100vw" />}
       </span>
       <span class="project-card__meta">
         <span class="project-card__title">{p.title}</span>

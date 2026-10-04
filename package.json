@@ -8,7 +8,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test:seo": "node scripts/test-seo.mjs dist"
   },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.2.11",

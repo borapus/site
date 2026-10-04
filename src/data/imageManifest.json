@@ -1,0 +1,2188 @@
+{
+  "/images/hero.jpg": {
+    "width": 1600,
+    "height": 855,
+    "variants": [
+      {
+        "src": "/images/optimized/695c00c8f9bb44c1-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/695c00c8f9bb44c1-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/695c00c8f9bb44c1-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/projects/bbs-1/01.jpg": {
+    "width": 1603,
+    "height": 788,
+    "variants": [
+      {
+        "src": "/images/optimized/773074d2eaf60996-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/773074d2eaf60996-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/773074d2eaf60996-1603.webp",
+        "width": 1603
+      }
+    ]
+  },
+  "/images/projects/bbs-1/02.jpg": {
+    "width": 1613,
+    "height": 775,
+    "variants": [
+      {
+        "src": "/images/optimized/644617e13d478a02-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/644617e13d478a02-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/644617e13d478a02-1613.webp",
+        "width": 1613
+      }
+    ]
+  },
+  "/images/projects/bbs-1/03.jpg": {
+    "width": 1544,
+    "height": 792,
+    "variants": [
+      {
+        "src": "/images/optimized/ef674642c3f8f143-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/ef674642c3f8f143-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/ef674642c3f8f143-1544.webp",
+        "width": 1544
+      }
+    ]
+  },
+  "/images/projects/bbs-1/04.jpg": {
+    "width": 1621,
+    "height": 791,
+    "variants": [
+      {
+        "src": "/images/optimized/96b353379948add3-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/96b353379948add3-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/96b353379948add3-1621.webp",
+        "width": 1621
+      }
+    ]
+  },
+  "/images/projects/bbs-1/05.jpg": {
+    "width": 1587,
+    "height": 787,
+    "variants": [
+      {
+        "src": "/images/optimized/76691981349f5e2f-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/76691981349f5e2f-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/76691981349f5e2f-1587.webp",
+        "width": 1587
+      }
+    ]
+  },
+  "/images/projects/bbs-1/06.jpg": {
+    "width": 1648,
+    "height": 791,
+    "variants": [
+      {
+        "src": "/images/optimized/1358ed7fb5d2249f-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/1358ed7fb5d2249f-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/1358ed7fb5d2249f-1648.webp",
+        "width": 1648
+      }
+    ]
+  },
+  "/images/projects/bbs-1/07.jpg": {
+    "width": 1631,
+    "height": 781,
+    "variants": [
+      {
+        "src": "/images/optimized/52f96c1f821833da-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/52f96c1f821833da-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/52f96c1f821833da-1631.webp",
+        "width": 1631
+      }
+    ]
+  },
+  "/images/projects/bbs-1/08.jpg": {
+    "width": 1689,
+    "height": 787,
+    "variants": [
+      {
+        "src": "/images/optimized/15a9eec771154022-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/15a9eec771154022-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/15a9eec771154022-1689.webp",
+        "width": 1689
+      }
+    ]
+  },
+  "/images/projects/bbs-1/09.jpg": {
+    "width": 622,
+    "height": 789,
+    "variants": [
+      {
+        "src": "/images/optimized/f108b70fdede75ed-622.webp",
+        "width": 622
+      }
+    ]
+  },
+  "/images/projects/bbs-1/10.jpg": {
+    "width": 625,
+    "height": 789,
+    "variants": [
+      {
+        "src": "/images/optimized/782943f5de251f8d-625.webp",
+        "width": 625
+      }
+    ]
+  },
+  "/images/projects/bbs-1/11.jpg": {
+    "width": 1372,
+    "height": 789,
+    "variants": [
+      {
+        "src": "/images/optimized/7e526dd779dd41c7-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/7e526dd779dd41c7-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/7e526dd779dd41c7-1372.webp",
+        "width": 1372
+      }
+    ]
+  },
+  "/images/projects/bbs-2/01.jpg": {
+    "width": 1524,
+    "height": 806,
+    "variants": [
+      {
+        "src": "/images/optimized/5ad6c36ace66e6db-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/5ad6c36ace66e6db-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/5ad6c36ace66e6db-1524.webp",
+        "width": 1524
+      }
+    ]
+  },
+  "/images/projects/bbs-2/02.jpg": {
+    "width": 1262,
+    "height": 815,
+    "variants": [
+      {
+        "src": "/images/optimized/8bea16f46f7f0700-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/8bea16f46f7f0700-1262.webp",
+        "width": 1262
+      }
+    ]
+  },
+  "/images/projects/bbs-2/03.jpg": {
+    "width": 1524,
+    "height": 604,
+    "variants": [
+      {
+        "src": "/images/optimized/bc8ec45524d7ca85-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/bc8ec45524d7ca85-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/bc8ec45524d7ca85-1524.webp",
+        "width": 1524
+      }
+    ]
+  },
+  "/images/projects/bbs-2/04.jpg": {
+    "width": 1521,
+    "height": 806,
+    "variants": [
+      {
+        "src": "/images/optimized/91410189dda187eb-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/91410189dda187eb-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/91410189dda187eb-1521.webp",
+        "width": 1521
+      }
+    ]
+  },
+  "/images/projects/bbs-2/05.jpg": {
+    "width": 574,
+    "height": 811,
+    "variants": [
+      {
+        "src": "/images/optimized/3b52d9812aed4e5d-574.webp",
+        "width": 574
+      }
+    ]
+  },
+  "/images/projects/bbs-2/06.jpg": {
+    "width": 1519,
+    "height": 811,
+    "variants": [
+      {
+        "src": "/images/optimized/053fdaf3c3f50726-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/053fdaf3c3f50726-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/053fdaf3c3f50726-1519.webp",
+        "width": 1519
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/01.png": {
+    "width": 1719,
+    "height": 915,
+    "variants": [
+      {
+        "src": "/images/optimized/6972bbc9270bb31b-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/6972bbc9270bb31b-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/6972bbc9270bb31b-1719.webp",
+        "width": 1719
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/02.png": {
+    "width": 1723,
+    "height": 913,
+    "variants": [
+      {
+        "src": "/images/optimized/ee4efc40d6edd543-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/ee4efc40d6edd543-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/ee4efc40d6edd543-1723.webp",
+        "width": 1723
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/03.png": {
+    "width": 1719,
+    "height": 915,
+    "variants": [
+      {
+        "src": "/images/optimized/9593bc18592dc46d-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/9593bc18592dc46d-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/9593bc18592dc46d-1719.webp",
+        "width": 1719
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/04.png": {
+    "width": 1721,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/fa48c75d135732c0-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/fa48c75d135732c0-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/fa48c75d135732c0-1721.webp",
+        "width": 1721
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/05.png": {
+    "width": 1724,
+    "height": 912,
+    "variants": [
+      {
+        "src": "/images/optimized/3757821f9dd52fbc-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/3757821f9dd52fbc-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/3757821f9dd52fbc-1724.webp",
+        "width": 1724
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/06.png": {
+    "width": 1720,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/89f4914f7c845b66-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/89f4914f7c845b66-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/89f4914f7c845b66-1720.webp",
+        "width": 1720
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/07.png": {
+    "width": 1721,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/a1c9d9da8fd46afe-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/a1c9d9da8fd46afe-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/a1c9d9da8fd46afe-1721.webp",
+        "width": 1721
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/08.png": {
+    "width": 1721,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/a7d6287e3a229d66-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/a7d6287e3a229d66-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/a7d6287e3a229d66-1721.webp",
+        "width": 1721
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/09.png": {
+    "width": 1721,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/f9c3decc919c691f-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/f9c3decc919c691f-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/f9c3decc919c691f-1721.webp",
+        "width": 1721
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/10.png": {
+    "width": 1724,
+    "height": 912,
+    "variants": [
+      {
+        "src": "/images/optimized/411482cfca98d6c0-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/411482cfca98d6c0-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/411482cfca98d6c0-1724.webp",
+        "width": 1724
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/11.png": {
+    "width": 1723,
+    "height": 913,
+    "variants": [
+      {
+        "src": "/images/optimized/cf8524490edab5d6-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/cf8524490edab5d6-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/cf8524490edab5d6-1723.webp",
+        "width": 1723
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/12.png": {
+    "width": 1719,
+    "height": 915,
+    "variants": [
+      {
+        "src": "/images/optimized/74406802af3892fd-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/74406802af3892fd-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/74406802af3892fd-1719.webp",
+        "width": 1719
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/13.png": {
+    "width": 1777,
+    "height": 885,
+    "variants": [
+      {
+        "src": "/images/optimized/c9f99618ab89e617-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/c9f99618ab89e617-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/c9f99618ab89e617-1777.webp",
+        "width": 1777
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/14.png": {
+    "width": 1723,
+    "height": 913,
+    "variants": [
+      {
+        "src": "/images/optimized/83177c57d26d2da7-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/83177c57d26d2da7-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/83177c57d26d2da7-1723.webp",
+        "width": 1723
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/15.png": {
+    "width": 1721,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/0ea7a00ca7f9fe4b-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/0ea7a00ca7f9fe4b-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/0ea7a00ca7f9fe4b-1721.webp",
+        "width": 1721
+      }
+    ]
+  },
+  "/images/projects/dragon-oil-hazar/16.png": {
+    "width": 1721,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/1442f3a4cf149b7a-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/1442f3a4cf149b7a-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/1442f3a4cf149b7a-1721.webp",
+        "width": 1721
+      }
+    ]
+  },
+  "/images/projects/gms-ashgabat/01.jpg": {
+    "width": 1335,
+    "height": 811,
+    "variants": [
+      {
+        "src": "/images/optimized/c0db7fb61c374274-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/c0db7fb61c374274-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/c0db7fb61c374274-1335.webp",
+        "width": 1335
+      }
+    ]
+  },
+  "/images/projects/gms-ashgabat/02.png": {
+    "width": 1667,
+    "height": 944,
+    "variants": [
+      {
+        "src": "/images/optimized/08aba42b5b3384fb-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/08aba42b5b3384fb-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/08aba42b5b3384fb-1667.webp",
+        "width": 1667
+      }
+    ]
+  },
+  "/images/projects/gms-ashgabat/03.png": {
+    "width": 1666,
+    "height": 944,
+    "variants": [
+      {
+        "src": "/images/optimized/aa13c9cc712db793-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/aa13c9cc712db793-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/aa13c9cc712db793-1666.webp",
+        "width": 1666
+      }
+    ]
+  },
+  "/images/projects/gms-ashgabat/04.png": {
+    "width": 1661,
+    "height": 947,
+    "variants": [
+      {
+        "src": "/images/optimized/094b45b70e203ded-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/094b45b70e203ded-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/094b45b70e203ded-1661.webp",
+        "width": 1661
+      }
+    ]
+  },
+  "/images/projects/gms-ashgabat/05.png": {
+    "width": 1661,
+    "height": 947,
+    "variants": [
+      {
+        "src": "/images/optimized/9fb7cca4b63a3485-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/9fb7cca4b63a3485-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/9fb7cca4b63a3485-1661.webp",
+        "width": 1661
+      }
+    ]
+  },
+  "/images/projects/gms-ashgabat/06.png": {
+    "width": 1660,
+    "height": 948,
+    "variants": [
+      {
+        "src": "/images/optimized/f57bce935a7afbc2-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/f57bce935a7afbc2-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/f57bce935a7afbc2-1660.webp",
+        "width": 1660
+      }
+    ]
+  },
+  "/images/projects/gu-house.jpg": {
+    "width": 1600,
+    "height": 731,
+    "variants": [
+      {
+        "src": "/images/optimized/1b137e2a4c3d3a38-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/1b137e2a4c3d3a38-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/1b137e2a4c3d3a38-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/01.png": {
+    "width": 1894,
+    "height": 830,
+    "variants": [
+      {
+        "src": "/images/optimized/91939a061eadd464-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/91939a061eadd464-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/91939a061eadd464-1894.webp",
+        "width": 1894
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/02.png": {
+    "width": 1721,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/c1b45cd3a64650be-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/c1b45cd3a64650be-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/c1b45cd3a64650be-1721.webp",
+        "width": 1721
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/03.png": {
+    "width": 1694,
+    "height": 929,
+    "variants": [
+      {
+        "src": "/images/optimized/b07bfbf38f841503-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/b07bfbf38f841503-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/b07bfbf38f841503-1694.webp",
+        "width": 1694
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/04.png": {
+    "width": 1717,
+    "height": 916,
+    "variants": [
+      {
+        "src": "/images/optimized/e2f1c3f477611a04-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/e2f1c3f477611a04-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/e2f1c3f477611a04-1717.webp",
+        "width": 1717
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/05.png": {
+    "width": 1669,
+    "height": 942,
+    "variants": [
+      {
+        "src": "/images/optimized/c02cf7562d996af3-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/c02cf7562d996af3-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/c02cf7562d996af3-1669.webp",
+        "width": 1669
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/06.png": {
+    "width": 1665,
+    "height": 944,
+    "variants": [
+      {
+        "src": "/images/optimized/39e95184394c0b7e-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/39e95184394c0b7e-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/39e95184394c0b7e-1665.webp",
+        "width": 1665
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/07.png": {
+    "width": 1703,
+    "height": 923,
+    "variants": [
+      {
+        "src": "/images/optimized/3d4b624b77828c29-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/3d4b624b77828c29-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/3d4b624b77828c29-1703.webp",
+        "width": 1703
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/08.png": {
+    "width": 1703,
+    "height": 924,
+    "variants": [
+      {
+        "src": "/images/optimized/db97e67ce31f41b0-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/db97e67ce31f41b0-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/db97e67ce31f41b0-1703.webp",
+        "width": 1703
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/09.png": {
+    "width": 1840,
+    "height": 854,
+    "variants": [
+      {
+        "src": "/images/optimized/27d3af75919b9ac8-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/27d3af75919b9ac8-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/27d3af75919b9ac8-1840.webp",
+        "width": 1840
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/10.png": {
+    "width": 1685,
+    "height": 933,
+    "variants": [
+      {
+        "src": "/images/optimized/ea63ba5152b92ee3-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/ea63ba5152b92ee3-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/ea63ba5152b92ee3-1685.webp",
+        "width": 1685
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/11.png": {
+    "width": 1835,
+    "height": 857,
+    "variants": [
+      {
+        "src": "/images/optimized/81d795efbbe6e9f1-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/81d795efbbe6e9f1-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/81d795efbbe6e9f1-1835.webp",
+        "width": 1835
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/12.png": {
+    "width": 1953,
+    "height": 805,
+    "variants": [
+      {
+        "src": "/images/optimized/f625d6d00d78170f-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/f625d6d00d78170f-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/f625d6d00d78170f-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/13.png": {
+    "width": 1629,
+    "height": 965,
+    "variants": [
+      {
+        "src": "/images/optimized/9e533e0b0002f6bc-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/9e533e0b0002f6bc-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/9e533e0b0002f6bc-1629.webp",
+        "width": 1629
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/14.png": {
+    "width": 1639,
+    "height": 960,
+    "variants": [
+      {
+        "src": "/images/optimized/306799c9278898e3-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/306799c9278898e3-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/306799c9278898e3-1639.webp",
+        "width": 1639
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/15.png": {
+    "width": 1688,
+    "height": 932,
+    "variants": [
+      {
+        "src": "/images/optimized/c5e6f9321d107a6c-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/c5e6f9321d107a6c-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/c5e6f9321d107a6c-1688.webp",
+        "width": 1688
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/16.png": {
+    "width": 1655,
+    "height": 950,
+    "variants": [
+      {
+        "src": "/images/optimized/6e58d4b72b7aacda-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/6e58d4b72b7aacda-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/6e58d4b72b7aacda-1655.webp",
+        "width": 1655
+      }
+    ]
+  },
+  "/images/projects/haiti-social-housing/17.png": {
+    "width": 1132,
+    "height": 1389,
+    "variants": [
+      {
+        "src": "/images/optimized/28dec589fdb54748-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/28dec589fdb54748-1132.webp",
+        "width": 1132
+      }
+    ]
+  },
+  "/images/projects/hazar-cultural-centre/01.png": {
+    "width": 1679,
+    "height": 937,
+    "variants": [
+      {
+        "src": "/images/optimized/92e2177a2957739c-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/92e2177a2957739c-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/92e2177a2957739c-1679.webp",
+        "width": 1679
+      }
+    ]
+  },
+  "/images/projects/hazar-cultural-centre/02.png": {
+    "width": 1309,
+    "height": 1201,
+    "variants": [
+      {
+        "src": "/images/optimized/113d7c36a1f0607a-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/113d7c36a1f0607a-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/113d7c36a1f0607a-1309.webp",
+        "width": 1309
+      }
+    ]
+  },
+  "/images/projects/hazar-cultural-centre/03.png": {
+    "width": 1518,
+    "height": 1036,
+    "variants": [
+      {
+        "src": "/images/optimized/fa63006b36ab8574-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/fa63006b36ab8574-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/fa63006b36ab8574-1518.webp",
+        "width": 1518
+      }
+    ]
+  },
+  "/images/projects/hazar-cultural-centre/04.png": {
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "src": "/images/optimized/c271bf51c6097d0a-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/c271bf51c6097d0a-1254.webp",
+        "width": 1254
+      }
+    ]
+  },
+  "/images/projects/hazar-cultural-centre/05.png": {
+    "width": 1678,
+    "height": 937,
+    "variants": [
+      {
+        "src": "/images/optimized/6a3478368b9b8f68-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/6a3478368b9b8f68-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/6a3478368b9b8f68-1678.webp",
+        "width": 1678
+      }
+    ]
+  },
+  "/images/projects/hazar-cultural-centre/06.png": {
+    "width": 1721,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/c90c4409915741ab-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/c90c4409915741ab-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/c90c4409915741ab-1721.webp",
+        "width": 1721
+      }
+    ]
+  },
+  "/images/projects/hazar-cultural-centre/07.png": {
+    "width": 1720,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/33b6b405e2e6ac14-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/33b6b405e2e6ac14-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/33b6b405e2e6ac14-1720.webp",
+        "width": 1720
+      }
+    ]
+  },
+  "/images/projects/hazar-cultural-centre/08.png": {
+    "width": 1501,
+    "height": 1048,
+    "variants": [
+      {
+        "src": "/images/optimized/04b9543077ab79d4-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/04b9543077ab79d4-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/04b9543077ab79d4-1501.webp",
+        "width": 1501
+      }
+    ]
+  },
+  "/images/projects/hazar-cultural-centre/09.png": {
+    "width": 1517,
+    "height": 1037,
+    "variants": [
+      {
+        "src": "/images/optimized/c844425a338cb032-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/c844425a338cb032-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/c844425a338cb032-1517.webp",
+        "width": 1517
+      }
+    ]
+  },
+  "/images/projects/hazar-cultural-centre/10.png": {
+    "width": 1720,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/ad515a4f6eb932ec-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/ad515a4f6eb932ec-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/ad515a4f6eb932ec-1720.webp",
+        "width": 1720
+      }
+    ]
+  },
+  "/images/projects/hazar-cultural-centre/11.png": {
+    "width": 1705,
+    "height": 923,
+    "variants": [
+      {
+        "src": "/images/optimized/6feb90d8d34b0203-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/6feb90d8d34b0203-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/6feb90d8d34b0203-1705.webp",
+        "width": 1705
+      }
+    ]
+  },
+  "/images/projects/hazar-cultural-centre/12.png": {
+    "width": 1725,
+    "height": 912,
+    "variants": [
+      {
+        "src": "/images/optimized/fe0c2241c62d0f19-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/fe0c2241c62d0f19-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/fe0c2241c62d0f19-1725.webp",
+        "width": 1725
+      }
+    ]
+  },
+  "/images/projects/hermes-bodrum/01.jpg": {
+    "width": 2256,
+    "height": 4000,
+    "variants": [
+      {
+        "src": "/images/optimized/2b182797127a7cb1-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/2b182797127a7cb1-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/2b182797127a7cb1-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-bodrum/02.jpg": {
+    "width": 2268,
+    "height": 4032,
+    "variants": [
+      {
+        "src": "/images/optimized/fb8bb4fc95a08b6f-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/fb8bb4fc95a08b6f-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/fb8bb4fc95a08b6f-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-bodrum/03.jpg": {
+    "width": 2268,
+    "height": 4032,
+    "variants": [
+      {
+        "src": "/images/optimized/1d69069fa125af14-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/1d69069fa125af14-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/1d69069fa125af14-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-bodrum/04.jpg": {
+    "width": 2256,
+    "height": 4000,
+    "variants": [
+      {
+        "src": "/images/optimized/2338d018cb79d55a-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/2338d018cb79d55a-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/2338d018cb79d55a-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-bodrum/05.jpg": {
+    "width": 2256,
+    "height": 4000,
+    "variants": [
+      {
+        "src": "/images/optimized/9d97bb1063079e82-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/9d97bb1063079e82-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/9d97bb1063079e82-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-bodrum/06.jpg": {
+    "width": 2256,
+    "height": 4000,
+    "variants": [
+      {
+        "src": "/images/optimized/47875c8a69fb3a94-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/47875c8a69fb3a94-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/47875c8a69fb3a94-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-bodrum/07.jpg": {
+    "width": 2256,
+    "height": 4000,
+    "variants": [
+      {
+        "src": "/images/optimized/797dc6243c81c87c-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/797dc6243c81c87c-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/797dc6243c81c87c-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-bodrum/08.jpg": {
+    "width": 2268,
+    "height": 4032,
+    "variants": [
+      {
+        "src": "/images/optimized/eaa6e481e0c7bc2c-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/eaa6e481e0c7bc2c-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/eaa6e481e0c7bc2c-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-bodrum/09.jpg": {
+    "width": 2256,
+    "height": 4000,
+    "variants": [
+      {
+        "src": "/images/optimized/2a0f465df7a5a31e-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/2a0f465df7a5a31e-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/2a0f465df7a5a31e-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-bodrum/10.jpg": {
+    "width": 2268,
+    "height": 4032,
+    "variants": [
+      {
+        "src": "/images/optimized/f00f5aa85d45e739-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/f00f5aa85d45e739-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/f00f5aa85d45e739-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-bodrum/11.jpg": {
+    "width": 2268,
+    "height": 4032,
+    "variants": [
+      {
+        "src": "/images/optimized/4c01ddeb842d5c82-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/4c01ddeb842d5c82-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/4c01ddeb842d5c82-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-bodrum/12.jpg": {
+    "width": 2256,
+    "height": 4000,
+    "variants": [
+      {
+        "src": "/images/optimized/aa2b63078ecf7c47-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/aa2b63078ecf7c47-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/aa2b63078ecf7c47-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-bodrum/13.jpg": {
+    "width": 2256,
+    "height": 4000,
+    "variants": [
+      {
+        "src": "/images/optimized/cb0286bae0bc5619-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/cb0286bae0bc5619-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/cb0286bae0bc5619-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-bodrum/14.jpg": {
+    "width": 2268,
+    "height": 4032,
+    "variants": [
+      {
+        "src": "/images/optimized/a588a16d9ee0522d-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/a588a16d9ee0522d-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/a588a16d9ee0522d-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-istinyepark/01.jpg": {
+    "width": 2226,
+    "height": 2609,
+    "variants": [
+      {
+        "src": "/images/optimized/63f78546667cadd6-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/63f78546667cadd6-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/63f78546667cadd6-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-istinyepark/02.jpg": {
+    "width": 1024,
+    "height": 768,
+    "variants": [
+      {
+        "src": "/images/optimized/c26947aa0812d5b5-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/c26947aa0812d5b5-1024.webp",
+        "width": 1024
+      }
+    ]
+  },
+  "/images/projects/hermes-istinyepark/03.jpg": {
+    "width": 2256,
+    "height": 4000,
+    "variants": [
+      {
+        "src": "/images/optimized/3a0bf76cf7c8bdc2-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/3a0bf76cf7c8bdc2-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/3a0bf76cf7c8bdc2-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-istinyepark/04.jpg": {
+    "width": 2256,
+    "height": 4000,
+    "variants": [
+      {
+        "src": "/images/optimized/88fd5c9159bb0118-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/88fd5c9159bb0118-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/88fd5c9159bb0118-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-istinyepark/05.jpg": {
+    "width": 2256,
+    "height": 4000,
+    "variants": [
+      {
+        "src": "/images/optimized/8f4d192172d42295-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/8f4d192172d42295-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/8f4d192172d42295-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hermes-istinyepark/06.jpg": {
+    "width": 2256,
+    "height": 4000,
+    "variants": [
+      {
+        "src": "/images/optimized/6c07dd6535387738-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/6c07dd6535387738-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/6c07dd6535387738-1920.webp",
+        "width": 1920
+      }
+    ]
+  },
+  "/images/projects/hisaronu-house/01.png": {
+    "width": 1377,
+    "height": 1142,
+    "variants": [
+      {
+        "src": "/images/optimized/84e0666dd808b276-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/84e0666dd808b276-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/84e0666dd808b276-1377.webp",
+        "width": 1377
+      }
+    ]
+  },
+  "/images/projects/hisaronu-house/02.png": {
+    "width": 1676,
+    "height": 939,
+    "variants": [
+      {
+        "src": "/images/optimized/0b814c5125cb6234-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/0b814c5125cb6234-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/0b814c5125cb6234-1676.webp",
+        "width": 1676
+      }
+    ]
+  },
+  "/images/projects/hisaronu-house/03.png": {
+    "width": 1038,
+    "height": 1516,
+    "variants": [
+      {
+        "src": "/images/optimized/d92625a41bbde52c-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/d92625a41bbde52c-1038.webp",
+        "width": 1038
+      }
+    ]
+  },
+  "/images/projects/hisaronu-house/04.png": {
+    "width": 1108,
+    "height": 1420,
+    "variants": [
+      {
+        "src": "/images/optimized/f5617da62e4bcde8-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/f5617da62e4bcde8-1108.webp",
+        "width": 1108
+      }
+    ]
+  },
+  "/images/projects/hisaronu-house/05.png": {
+    "width": 996,
+    "height": 1579,
+    "variants": [
+      {
+        "src": "/images/optimized/fb2452b9a6d94bfa-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/fb2452b9a6d94bfa-996.webp",
+        "width": 996
+      }
+    ]
+  },
+  "/images/projects/hisaronu-house/06.png": {
+    "width": 1473,
+    "height": 1068,
+    "variants": [
+      {
+        "src": "/images/optimized/69647c0c6d55f1aa-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/69647c0c6d55f1aa-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/69647c0c6d55f1aa-1473.webp",
+        "width": 1473
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/01.png": {
+    "width": 1359,
+    "height": 1158,
+    "variants": [
+      {
+        "src": "/images/optimized/0e9335d167be5ee2-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/0e9335d167be5ee2-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/0e9335d167be5ee2-1359.webp",
+        "width": 1359
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/02.png": {
+    "width": 1086,
+    "height": 1448,
+    "variants": [
+      {
+        "src": "/images/optimized/47e04fab61261b6b-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/47e04fab61261b6b-1086.webp",
+        "width": 1086
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/03.png": {
+    "width": 1086,
+    "height": 1448,
+    "variants": [
+      {
+        "src": "/images/optimized/2d2e873d869b5c51-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/2d2e873d869b5c51-1086.webp",
+        "width": 1086
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/04.png": {
+    "width": 1086,
+    "height": 1448,
+    "variants": [
+      {
+        "src": "/images/optimized/d665eb75df53c7a8-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/d665eb75df53c7a8-1086.webp",
+        "width": 1086
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/05.png": {
+    "width": 1423,
+    "height": 1105,
+    "variants": [
+      {
+        "src": "/images/optimized/182fdc2d7c2337b2-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/182fdc2d7c2337b2-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/182fdc2d7c2337b2-1423.webp",
+        "width": 1423
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/06.png": {
+    "width": 1087,
+    "height": 1447,
+    "variants": [
+      {
+        "src": "/images/optimized/bbf5f852e9fec0b3-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/bbf5f852e9fec0b3-1087.webp",
+        "width": 1087
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/07.png": {
+    "width": 1062,
+    "height": 1482,
+    "variants": [
+      {
+        "src": "/images/optimized/bede9160b226039f-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/bede9160b226039f-1062.webp",
+        "width": 1062
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/08.png": {
+    "width": 1056,
+    "height": 1490,
+    "variants": [
+      {
+        "src": "/images/optimized/ca5dd472cea9af22-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/ca5dd472cea9af22-1056.webp",
+        "width": 1056
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/09.png": {
+    "width": 1108,
+    "height": 1420,
+    "variants": [
+      {
+        "src": "/images/optimized/4bb3348cb4902c8c-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/4bb3348cb4902c8c-1108.webp",
+        "width": 1108
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/10.png": {
+    "width": 1087,
+    "height": 1447,
+    "variants": [
+      {
+        "src": "/images/optimized/c345965ac4b3e6f7-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/c345965ac4b3e6f7-1087.webp",
+        "width": 1087
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/11.png": {
+    "width": 1087,
+    "height": 1447,
+    "variants": [
+      {
+        "src": "/images/optimized/e2ec18ad25b7206f-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/e2ec18ad25b7206f-1087.webp",
+        "width": 1087
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/12.png": {
+    "width": 1073,
+    "height": 1466,
+    "variants": [
+      {
+        "src": "/images/optimized/899ce6e54af85090-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/899ce6e54af85090-1073.webp",
+        "width": 1073
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/13.png": {
+    "width": 1087,
+    "height": 1447,
+    "variants": [
+      {
+        "src": "/images/optimized/26258d478bb45ddb-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/26258d478bb45ddb-1087.webp",
+        "width": 1087
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/14.png": {
+    "width": 1086,
+    "height": 1448,
+    "variants": [
+      {
+        "src": "/images/optimized/a6b3554642baae0d-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/a6b3554642baae0d-1086.webp",
+        "width": 1086
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/15.png": {
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "src": "/images/optimized/a71eeabd0c9f0101-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/a71eeabd0c9f0101-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/a71eeabd0c9f0101-1536.webp",
+        "width": 1536
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/16.png": {
+    "width": 938,
+    "height": 1677,
+    "variants": [
+      {
+        "src": "/images/optimized/a75cbf23c81eca12-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/a75cbf23c81eca12-938.webp",
+        "width": 938
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/17.png": {
+    "width": 1075,
+    "height": 1463,
+    "variants": [
+      {
+        "src": "/images/optimized/32dd3f5b3c46a360-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/32dd3f5b3c46a360-1075.webp",
+        "width": 1075
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/18.png": {
+    "width": 1123,
+    "height": 1401,
+    "variants": [
+      {
+        "src": "/images/optimized/da78031720f5a2cb-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/da78031720f5a2cb-1123.webp",
+        "width": 1123
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/19.png": {
+    "width": 1307,
+    "height": 1203,
+    "variants": [
+      {
+        "src": "/images/optimized/724868b221955355-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/724868b221955355-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/724868b221955355-1307.webp",
+        "width": 1307
+      }
+    ]
+  },
+  "/images/projects/museum-hotel-antakya-spa/20.png": {
+    "width": 1810,
+    "height": 780,
+    "variants": [
+      {
+        "src": "/images/optimized/6426e3a46928bbb9-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/6426e3a46928bbb9-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/6426e3a46928bbb9-1810.webp",
+        "width": 1810
+      }
+    ]
+  },
+  "/images/projects/rolex-suadiye/01.jpg": {
+    "width": 1683,
+    "height": 888,
+    "variants": [
+      {
+        "src": "/images/optimized/6b82142238f1ae83-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/6b82142238f1ae83-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/6b82142238f1ae83-1683.webp",
+        "width": 1683
+      }
+    ]
+  },
+  "/images/projects/rolex-suadiye/02.jpg": {
+    "width": 1683,
+    "height": 888,
+    "variants": [
+      {
+        "src": "/images/optimized/8963d0c3f939afa8-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/8963d0c3f939afa8-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/8963d0c3f939afa8-1683.webp",
+        "width": 1683
+      }
+    ]
+  },
+  "/images/projects/rolex-suadiye/03.jpg": {
+    "width": 1177,
+    "height": 888,
+    "variants": [
+      {
+        "src": "/images/optimized/3a65f877c764942e-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/3a65f877c764942e-1177.webp",
+        "width": 1177
+      }
+    ]
+  },
+  "/images/projects/rolex-suadiye/04.jpg": {
+    "width": 1177,
+    "height": 888,
+    "variants": [
+      {
+        "src": "/images/optimized/8d0856ead8f39b69-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/8d0856ead8f39b69-1177.webp",
+        "width": 1177
+      }
+    ]
+  },
+  "/images/projects/rolex-suadiye/05.jpg": {
+    "width": 1177,
+    "height": 888,
+    "variants": [
+      {
+        "src": "/images/optimized/3f8184172fe03632-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/3f8184172fe03632-1177.webp",
+        "width": 1177
+      }
+    ]
+  },
+  "/images/projects/rolex-suadiye/06.jpg": {
+    "width": 1177,
+    "height": 888,
+    "variants": [
+      {
+        "src": "/images/optimized/ebeac4906ff1692f-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/ebeac4906ff1692f-1177.webp",
+        "width": 1177
+      }
+    ]
+  },
+  "/images/projects/rolex-suadiye/07.jpg": {
+    "width": 1177,
+    "height": 888,
+    "variants": [
+      {
+        "src": "/images/optimized/d8337386148c33bb-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/d8337386148c33bb-1177.webp",
+        "width": 1177
+      }
+    ]
+  },
+  "/images/projects/tk-house/01.png": {
+    "width": 1721,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/5bd1ce665c7075ba-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/5bd1ce665c7075ba-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/5bd1ce665c7075ba-1721.webp",
+        "width": 1721
+      }
+    ]
+  },
+  "/images/projects/tk-house/02.png": {
+    "width": 1721,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/c51da6738ac72b54-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/c51da6738ac72b54-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/c51da6738ac72b54-1721.webp",
+        "width": 1721
+      }
+    ]
+  },
+  "/images/projects/tk-house/03.png": {
+    "width": 1721,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/2de53d8798a6924d-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/2de53d8798a6924d-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/2de53d8798a6924d-1721.webp",
+        "width": 1721
+      }
+    ]
+  },
+  "/images/projects/tk-house/04.png": {
+    "width": 1721,
+    "height": 914,
+    "variants": [
+      {
+        "src": "/images/optimized/934fa99331c78adc-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/934fa99331c78adc-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/934fa99331c78adc-1721.webp",
+        "width": 1721
+      }
+    ]
+  },
+  "/images/projects/uc-house.jpg": {
+    "width": 1600,
+    "height": 820,
+    "variants": [
+      {
+        "src": "/images/optimized/502132485e55d5a1-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/502132485e55d5a1-1280.webp",
+        "width": 1280
+      },
+      {
+        "src": "/images/optimized/502132485e55d5a1-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "/images/studio-nostalgic.png": {
+    "width": 1122,
+    "height": 1402,
+    "variants": [
+      {
+        "src": "/images/optimized/405980a76721f65e-640.webp",
+        "width": 640
+      },
+      {
+        "src": "/images/optimized/405980a76721f65e-1122.webp",
+        "width": 1122
+      }
+    ]
+  }
+}

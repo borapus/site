@@ -142,57 +142,10 @@ function initLocaleMemory() {
   });
 }
 
-/* -------------------------------------------------
-   Projeleri Sanity'den canlı yükle
---------------------------------------------------- */
-function initProjects() {
-  const grid = document.querySelector<HTMLElement>('[data-projects]');
-  if (!grid) return;
-  const lang = document.documentElement.lang || 'en';
-  const featured = grid.hasAttribute('data-featured');
-  const limitAttr = grid.getAttribute('data-limit');
-  const limit = limitAttr ? Number(limitAttr) : undefined;
-
-  import('../lib/projects').then(async ({ getProjects, img }) => {
-    let projects;
-    try {
-      projects = await getProjects(lang, { featured, limit });
-    } catch (err) {
-      console.error('[projects] yüklenemedi:', err);
-      return;
-    }
-    if (!projects.length) return; // seed/Sanity boşsa "boş durum"u koru
-
-    grid.querySelector('[data-projects-empty]')?.remove();
-    const frag = document.createDocumentFragment();
-
-    for (const p of projects) {
-      const a = document.createElement('a');
-      a.className = 'project-card ' + (p.orientation === 'portrait' ? 'is-portrait' : 'is-landscape');
-      a.href = `/${lang}/projects/detail/?id=${p.slug}`;
-      a.setAttribute('data-reveal', '');
-      a.innerHTML = `
-        <span class="project-card__media">${
-          p.cover
-            ? `<img src="${img(p.cover, 1400)}" alt="${p.title}" loading="lazy" onerror="this.remove()" />`
-            : ''
-        }</span>
-        <span class="project-card__meta">
-          <span class="project-card__title">${p.title}</span>
-          <span class="u-label">${[p.location, p.year].filter(Boolean).join(' — ')}</span>
-        </span>`;
-      frag.appendChild(a);
-    }
-    grid.replaceChildren(frag);
-    initReveals(grid);
-    ScrollTrigger.refresh();
-  });
-}
-
 /* ------------------------------------------------- */
 initReveals();
 initParallax();
 initNav();
 initMenu();
 initLocaleMemory();
-initProjects();
+// Project cards are rendered at build time, including their canonical URLs.

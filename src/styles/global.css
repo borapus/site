@@ -156,7 +156,7 @@ button:hover > .ghost-underline::after,
 .ghost-btn:hover .ghost-btn__line { width: clamp(44px, 6vw, 84px); }
 
 /* Reveal — yalnızca JS aktifken gizle (JS yoksa içerik görünür kalır) */
-.js [data-reveal] { opacity: 0; will-change: transform, opacity; }
+.js [data-reveal] { will-change: transform, opacity; }
 @media (prefers-reduced-motion: reduce) {
   .js [data-reveal] { opacity: 1 !important; transform: none !important; }
 }

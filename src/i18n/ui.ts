@@ -151,6 +151,6 @@ export function getLangFromUrl(url: URL): Lang {
 
 /** Verilen dil için locale önekli yol üretir: path('/projects','tr') => '/tr/projects' */
 export function localizedPath(path: string, lang: Lang): string {
-  const clean = path === '/' ? '' : path;
-  return `/${lang}${clean}`;
+  const clean = path.split('/').filter(Boolean).join('/').toLowerCase();
+  return `/${lang}/${clean ? `${clean}/` : ''}`;
 }

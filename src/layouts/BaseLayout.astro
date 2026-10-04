@@ -11,6 +11,8 @@ import Navbar from '../components/nav/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import SpeedInsights from '@vercel/speed-insights/astro';
 import { type Lang } from '../i18n/ui';
+import { SITE, absolute, normalizedPath, defaultDescription, shouldNoindex, organization } from '../lib/seo';
+import manifest from '../data/imageManifest.json';
 
 interface Props {
   lang: Lang;
@@ -18,14 +20,27 @@ interface Props {
   description?: string;
   /** Hero fotoğrafı olan sayfalarda nav açık renk başlar, scroll'da koyar. */
   heroNav?: boolean;
+  image?: string;
+  noindex?: boolean;
+  schema?: Record<string, unknown>[];
 }
 
-const { lang, title, description = '', heroNav = false } = Astro.props;
+const { lang, title, description = '', heroNav = false, image = '/images/hero.jpg', noindex = false, schema = [] } = Astro.props;
+const metaDescription = defaultDescription(lang, Astro.url.pathname) && !/\/projects\/[^/]+\/$/.test(Astro.url.pathname)
+  ? defaultDescription(lang, Astro.url.pathname) : description;
+const canonical = absolute(normalizedPath(Astro.url.pathname));
+const robots = noindex || shouldNoindex(process.env.VERCEL_ENV, import.meta.env.SEO_NOINDEX, Astro.url.pathname) ? 'noindex, nofollow' : 'index, follow';
+const optimized = (manifest as Record<string, { variants: {src: string; width: number}[] }>)[image];
+const sharingImage = optimized ? optimized.variants[optimized.variants.length - 1].src : image;
 
 // Locale önekini sıyırıp diller arası hreflang alternatiflerini üret.
 const path = Astro.url.pathname.replace(/^\/(en|tr)/, '') || '/';
 const origin = (Astro.site?.toString() ?? 'https://example.com').replace(/\/$/, '');
-const altUrl = (l: Lang) => `${origin}/${l}${path === '/' ? '/' : path}`;
+const altUrl = (l: Lang) => `${origin}${normalizedPath(`/${l}${path}`)}`;
+const graph = [organization,
+  { '@type': 'WebSite', '@id': `${SITE}/#website`, url: SITE, name: 'PUS&CO', publisher: { '@id': organization['@id'] }, inLanguage: ['en', 'tr'] },
+  { '@type': 'WebPage', '@id': `${canonical}#webpage`, url: canonical, name: title, description: metaDescription, inLanguage: lang, isPartOf: { '@id': `${SITE}/#website` } },
+  ...schema];
 ---
 
 <!doctype html>
@@ -36,17 +51,29 @@ const altUrl = (l: Lang) => `${origin}/${l}${path === '/' ? '/' : path}`;
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
     <title>{title}</title>
-    {description && <meta name="description" content={description} />}
+    {metaDescription && <meta name="description" content={metaDescription} />}
+    <meta name="robots" content={robots} />
+    <link rel="canonical" href={canonical} />
 
     <link rel="alternate" hreflang="en" href={altUrl('en')} />
     <link rel="alternate" hreflang="tr" href={altUrl('tr')} />
     <link rel="alternate" hreflang="x-default" href={altUrl('en')} />
 
     <meta property="og:title" content={title} />
-    {description && <meta property="og:description" content={description} />}
+    {metaDescription && <meta property="og:description" content={metaDescription} />}
     <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="PUS&CO" />
+    <meta property="og:locale" content={lang === 'tr' ? 'tr_TR' : 'en_US'} />
+    <meta property="og:image" content={absolute(sharingImage)} />
+    <meta property="og:image:alt" content={title} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:image" content={absolute(sharingImage)} />
+    <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c')} />
 
-    <!-- JS aktifse reveal öğelerini gizle (JS yoksa içerik görünür kalır) -->
+    <!-- Animasyon işaretçisi; içerik JavaScript çalışmasa da görünür kalır. -->
     <script is:inline>
       document.documentElement.classList.add('js');
     </script>

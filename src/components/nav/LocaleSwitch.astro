@@ -8,7 +8,7 @@ const { lang } = Astro.props;
 
 // Aktif sayfanın locale'siz yolu; karşı dile aynı sayfaya geçmek için.
 const path = Astro.url.pathname.replace(/^\/(en|tr)/, '') || '/';
-const hrefFor = (l: Lang) => `/${l}${path === '/' ? '/' : path}`;
+const hrefFor = (l: Lang) => `/${l}/${path.split('/').filter(Boolean).join('/').toLowerCase()}${path === '/' ? '' : '/'}`;
 const order: Lang[] = ['en', 'tr'];
 ---
 

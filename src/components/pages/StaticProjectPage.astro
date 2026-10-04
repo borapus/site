@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import type { ProjectDetail } from '../../lib/sanity';
+import { img } from '../../lib/projects';
+import { type Lang, useTranslations, localizedPath } from '../../i18n/ui';
+import { absolute, summary } from '../../lib/seo';
+import SeoImage from '../ui/SeoImage.astro';
+interface Props { lang: Lang; project: ProjectDetail; next?: { slug: string; title: string } }
+const { lang, project, next } = Astro.props;
+const t = useTranslations(lang);
+const url = absolute(`/${lang}/projects/${project.slug}/`);
+const meta = [[t('meta.location'), project.location], [t('meta.year'), project.year], [t('meta.area'), project.area], [t('meta.typology'), project.typology], [t('meta.client'), project.client], [t('meta.photographer'), project.photographer]].filter(([, value]) => value);
+const schema = [
+  { '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: t('nav.home'), item: absolute(`/${lang}/`) },
+    { '@type': 'ListItem', position: 2, name: t('projects.title'), item: absolute(`/${lang}/projects/`) },
+    { '@type': 'ListItem', position: 3, name: project.title, item: url },
+  ] },
+  { '@type': 'CreativeWork', '@id': `${url}#project`, url, name: project.title, description: project.description, inLanguage: lang,
+    ...(project.cover ? { image: { '@type': 'ImageObject', contentUrl: absolute(img(project.cover, 1600)), caption: project.title } } : {}),
+    ...(project.location ? { spatialCoverage: { '@type': 'Place', name: project.location } } : {}),
+  },
+];
+---
+<BaseLayout lang={lang} title={`${project.title}${project.typology ? ` — ${project.typology}` : ''} — PUS&CO`} description={summary(project.description)} image={project.cover || undefined} schema={schema}>
+  <article class="detail">
+    <section class="detail__head u-container">
+      <a class="detail__back" href={localizedPath('/projects', lang)}><span class="detail__back-line" aria-hidden="true"></span><span class="ghost-underline">{t('detail.back')}</span></a>
+      <span class="u-label detail__eyebrow">{t('detail.label')}</span><h1 class="detail__title">{project.title}</h1>
+    </section>
+    <div class="detail__cover">{project.cover && <SeoImage src={project.cover} alt={project.title} eager />}</div>
+    <section class="detail__body u-container">
+      <aside class="detail__aside"><h2 class="u-label">{t('detail.overview')}</h2><div class="detail__meta">{meta.map(([label, value]) => (
+        <div class="detail__meta-row"><span class="u-label">{label}</span><span class="detail__meta-val">{value}</span></div>
+      ))}</div></aside>
+      <p class="detail__desc">{project.description}</p>
+    </section>
+    <div class="detail__gallery">{project.gallery.map((src, i) => (
+      <figure class:list={['detail__shot', { 'is-narrow': i % 3 === 1 }]}><SeoImage src={src} alt={`${project.title} — ${lang === 'tr' ? 'proje görseli' : 'project image'} ${i + 1}`} /></figure>
+    ))}</div>
+    {next && <section class="detail__next u-container"><hr class="u-line" /><a class="detail__next-link" href={localizedPath(`/projects/${next.slug}`, lang)}><span class="u-label">{t('detail.next')}</span><span class="detail__next-title">{next.title}</span></a></section>}
+  </article>
+</BaseLayout>

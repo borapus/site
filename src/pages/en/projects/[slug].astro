@@ -1,0 +1,7 @@
+---
+import StaticProjectPage from '../../../components/pages/StaticProjectPage.astro';
+import { projectRoutes } from '../../../lib/projectRoutes';
+export async function getStaticPaths() { return projectRoutes('en'); }
+const { project, next } = Astro.props;
+---
+<StaticProjectPage lang="en" project={project} next={next} />
