@@ -16,7 +16,7 @@ const t = useTranslations(lang);
   <Hero lang={lang} />
 
   <!-- 01 — Seçili İşler -->
-  <section class="u-section">
+  <section class="u-section works">
     <div class="u-container">
       <div class="works__head" data-reveal>
         <span class="u-label">{t('home.selectedIndex')}</span>
@@ -62,7 +62,12 @@ const t = useTranslations(lang);
     margin-top: 18px;
     max-width: 12ch;
   }
-  .works__more { margin-top: clamp(56px, 9vh, 120px); }
+  .works :global(.project-card__meta) {
+    margin-top: 28px;
+    gap: 14px;
+  }
+  .works :global(.project-card__title) { line-height: 1.2; }
+  .works__more { padding-top: clamp(80px, 10vh, 128px); }
 
   .philosophy__grid {
     display: grid;
