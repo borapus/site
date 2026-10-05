@@ -1,0 +1,135 @@
+[
+  {
+    "id": "43ee01136dab924bb829384f830f30509007b53b1e13afb661bbf78c442f565b",
+    "source": "/tr/projects/bbs-1/",
+    "target": "/tr/projects/bbs-2/",
+    "anchor": "BBS-2",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "ac0c590f9ba508ca91bc5e501320a9ab083c97ce9662cd0d1a92881741de106b",
+    "source": "/en/projects/bbs-1/",
+    "target": "/en/projects/bbs-2/",
+    "anchor": "BBS-2",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "036afb7b9e876293790180fcbf703698ca3760e0e50016b6026cb4f14b536d6e",
+    "source": "/en/projects/hermes-bodrum/",
+    "target": "/en/projects/hermes-istinyepark/",
+    "anchor": "Hermès Store — İstinyePark",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "65aaf923601dd65fa0af53134197e0c3d8d5472a9de3f6d3cb9e03a99555ec6f",
+    "source": "/en/projects/hermes-istinyepark/",
+    "target": "/en/projects/rolex-suadiye/",
+    "anchor": "Rolex Store — Suadiye",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "5ede0d20031fa8f2a7d57c17c67f5eb2c22bcba06ee8fd942d084926dc73304d",
+    "source": "/tr/projects/hermes-bodrum/",
+    "target": "/tr/projects/hermes-istinyepark/",
+    "anchor": "Hermès Store — İstinyePark",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "b07e854ef4feff902f876ca70e6510ed99f898cacefb12a5db7ea2530349f885",
+    "source": "/tr/projects/hermes-istinyepark/",
+    "target": "/tr/projects/rolex-suadiye/",
+    "anchor": "Rolex Store — Suadiye",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "7b3f38e2ff8eed7ff5d55c5a0d7b8669f474bada5a38f099bca116f5156a1705",
+    "source": "/en/projects/gu-house/",
+    "target": "/en/projects/uc-house/",
+    "anchor": "UÇ House",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "cc8d0c7ad6f716f47d8122c8aba69803afffb722ea1d79ce68352f7f77abc7a3",
+    "source": "/en/projects/gu-house/",
+    "target": "/en/projects/tk-house/",
+    "anchor": "TK House",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "386b631fe155955209747695f977d5e8cacd3aab1cb5f9016d03fc2552e2c1ad",
+    "source": "/en/projects/hisaronu-house/",
+    "target": "/en/projects/gu-house/",
+    "anchor": "GU House",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "696a87056751c5d24d31751190ee82b407e66daa88e733ef10ccbe27289ffbf7",
+    "source": "/en/projects/tk-house/",
+    "target": "/en/projects/uc-house/",
+    "anchor": "Related project: UÇ House",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "c07abf123168816181d9813e60239d75ad0b921268d5dd36bff2f0632372e4fb",
+    "source": "/tr/projects/gu-house/",
+    "target": "/tr/projects/tk-house/",
+    "anchor": "TK House",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "ba41a329830885e25c9ee22a7f6ac94d85037d694535c1a0571d826e11bf60af",
+    "source": "/tr/projects/gu-house/",
+    "target": "/tr/projects/uc-house/",
+    "anchor": "UÇ House",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "7d483545c515b09c844a603a7e1bd29020ffe8140e3fecce0931dc7db0f1ea5e",
+    "source": "/en/projects/hisaronu-house/",
+    "target": "/en/projects/tk-house/",
+    "anchor": "Related project: TK House",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "cd59523f68c5ff868a440e7968151fc8d68df4e7935b9d96f2f274fc7ed1a161",
+    "source": "/tr/projects/tk-house/",
+    "target": "/tr/projects/uc-house/",
+    "anchor": "İlgili proje: UÇ House",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "61b634f344cf2348e39b0f2adde464766c8213765cc2001a5af0f0890b21bc77",
+    "source": "/tr/projects/hisaronu-house/",
+    "target": "/tr/projects/tk-house/",
+    "anchor": "İlgili proje: TK House",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "42eb23ae96c99afde274884a095e005fc632209382eb94b85b47a13fa330399f",
+    "source": "/en/projects/hermes-bodrum/",
+    "target": "/en/projects/rolex-suadiye/",
+    "anchor": "Related project: Rolex Store — Suadiye",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "57d866508069bbc49b1fbde995f0f858d2b63e924449e7048ccffe76cc25a130",
+    "source": "/tr/projects/hisaronu-house/",
+    "target": "/tr/projects/gu-house/",
+    "anchor": "GU House",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "f682829a54bf1a7f5746d94cac3634863197fa1382e9c779a0e0cb0c4246b6d5",
+    "source": "/tr/projects/dragon-oil-hazar/",
+    "target": "/tr/projects/gms-ashgabat/",
+    "anchor": "GMS Ashgabat",
+    "approved_by": "Site sahibi — sohbet onayı"
+  },
+  {
+    "id": "bc04ff98d6f889da51b78d61553016ee5c0f06fb266323ea4fc04b1ed57b543d",
+    "source": "/en/projects/dragon-oil-hazar/",
+    "target": "/en/projects/gms-ashgabat/",
+    "anchor": "GMS Ashgabat",
+    "approved_by": "Site sahibi — sohbet onayı"
+  }
+]

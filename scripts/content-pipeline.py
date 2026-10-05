@@ -277,7 +277,7 @@ def archive(con,item_id,live_origin):
 
 def export_review(con,snapshot,policy,output):
     items=all_items(con); lines=['# İçerik taslakları — insan incelemesi','',
-        'Bu dosyadaki metinler taslaktır; yayın onayı verilmedi ve siteye eklenmedi. Her iddia ve kaynak ilişkisi editör tarafından doğrulanmalıdır.','']
+        'Bu dosya içeriklerin güncel inceleme durumunu gösterir. APPROVED insan onayını, PUBLISHED canlı doğrulamayı belirtir. DRAFT/REVIEW içerikleri yayınlanamaz.','']
     reports=[]
     for c in items:
         row,_=get_item(con,c['id']); report=quality(c,snapshot,policy,items); reports.append({'id':c['id'],'status':row['status'],**report})

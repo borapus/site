@@ -5,10 +5,12 @@ import { img } from '../../lib/projects';
 import { type Lang, useTranslations, localizedPath } from '../../i18n/ui';
 import { absolute, summary } from '../../lib/seo';
 import SeoImage from '../ui/SeoImage.astro';
+import approvedLinks from '../../data/approvedProjectLinks.json';
 interface Props { lang: Lang; project: ProjectDetail; next?: { slug: string; title: string } }
 const { lang, project, next } = Astro.props;
 const t = useTranslations(lang);
 const url = absolute(`/${lang}/projects/${project.slug}/`);
+const relatedLinks = approvedLinks.filter(link => link.source === `/${lang}/projects/${project.slug}/`);
 const meta = [[t('meta.location'), project.location], [t('meta.year'), project.year], [t('meta.area'), project.area], [t('meta.typology'), project.typology], [t('meta.client'), project.client], [t('meta.photographer'), project.photographer]].filter(([, value]) => value);
 const schema = [
   { '@type': 'BreadcrumbList', itemListElement: [
@@ -33,7 +35,13 @@ const schema = [
       <aside class="detail__aside"><h2 class="u-label">{t('detail.overview')}</h2><div class="detail__meta">{meta.map(([label, value]) => (
         <div class="detail__meta-row"><span class="u-label">{label}</span><span class="detail__meta-val">{value}</span></div>
       ))}</div></aside>
-      <p class="detail__desc">{project.description}</p>
+      <div>
+        <p class="detail__desc">{project.description}</p>
+        {relatedLinks.length > 0 && <section class="detail__related" aria-label={lang === 'tr' ? 'İlgili projeler' : 'Related projects'}>
+          <h2 class="u-label">{lang === 'tr' ? 'İlgili projeler' : 'Related projects'}</h2>
+          <ul>{relatedLinks.map(link => <li><a class="ghost-underline" href={link.target}>{link.anchor}</a></li>)}</ul>
+        </section>}
+      </div>
     </section>
     <div class="detail__gallery">{project.gallery.map((src, i) => (
       <figure class:list={['detail__shot', { 'is-narrow': i % 3 === 1 }]}><SeoImage src={src} alt={`${project.title} — ${lang === 'tr' ? 'proje görseli' : 'project image'} ${i + 1}`} /></figure>
@@ -41,3 +49,7 @@ const schema = [
     {next && <section class="detail__next u-container"><hr class="u-line" /><a class="detail__next-link" href={localizedPath(`/projects/${next.slug}`, lang)}><span class="u-label">{t('detail.next')}</span><span class="detail__next-title">{next.title}</span></a></section>}
   </article>
 </BaseLayout>
+<style>
+  .detail__related { margin-top: 36px; }
+  .detail__related ul { display: grid; gap: 14px; margin-top: 18px; }
+</style>
