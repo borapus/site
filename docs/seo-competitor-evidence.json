@@ -1,0 +1,543 @@
+{
+  "checked_at": "2026-10-04T23:57:18.379927+00:00",
+  "studios": [
+    {
+      "name": "Emre Arolat Architecture",
+      "origin": "https://emrearolat.com",
+      "pages": [
+        {
+          "url": "https://emrearolat.com/",
+          "status": 200,
+          "page_type": "home",
+          "words": 1528,
+          "has_title": true,
+          "has_description": false,
+          "has_canonical": true,
+          "h1_count": 0,
+          "schema_types": [
+            "Article",
+            "ImageObject",
+            "Organization",
+            "Person",
+            "SearchAction",
+            "WebPage",
+            "WebSite"
+          ],
+          "topics": [
+            "retail",
+            "hospitality",
+            "privacy-shared-living",
+            "context-landscape",
+            "material-detail"
+          ],
+          "internal_links": 18,
+          "inbound_links": 1,
+          "noindex": false,
+          "title_fingerprint": "0066c3904dc12369303de9c6ae2e161d5b8f71ff5b2d040f0022df78e5122a81",
+          "description_fingerprint": null
+        },
+        {
+          "url": "https://emrearolat.com",
+          "status": 200,
+          "page_type": "article",
+          "words": 1528,
+          "has_title": true,
+          "has_description": false,
+          "has_canonical": true,
+          "h1_count": 0,
+          "schema_types": [
+            "Article",
+            "ImageObject",
+            "Organization",
+            "Person",
+            "SearchAction",
+            "WebPage",
+            "WebSite"
+          ],
+          "topics": [
+            "retail",
+            "hospitality",
+            "privacy-shared-living",
+            "context-landscape",
+            "material-detail"
+          ],
+          "internal_links": 17,
+          "inbound_links": 16,
+          "noindex": false,
+          "title_fingerprint": "0066c3904dc12369303de9c6ae2e161d5b8f71ff5b2d040f0022df78e5122a81",
+          "description_fingerprint": null
+        },
+        {
+          "url": "https://emrearolat.com/profile/",
+          "status": 200,
+          "page_type": "article",
+          "words": 1830,
+          "has_title": true,
+          "has_description": false,
+          "has_canonical": true,
+          "h1_count": 1,
+          "schema_types": [
+            "Article",
+            "ImageObject",
+            "Organization",
+            "Person",
+            "WebPage",
+            "WebSite"
+          ],
+          "topics": [
+            "residential",
+            "retail",
+            "privacy-shared-living",
+            "context-landscape",
+            "material-detail"
+          ],
+          "internal_links": 15,
+          "inbound_links": 16,
+          "noindex": false,
+          "title_fingerprint": "d354e2b80b56cd6c5722417b015a3417b6f37febc82e6162f5bdb8bdb27600c9",
+          "description_fingerprint": null
+        },
+        {
+          "url": "https://emrearolat.com/design-approach/",
+          "status": 200,
+          "page_type": "article",
+          "words": 1776,
+          "has_title": true,
+          "has_description": false,
+          "has_canonical": true,
+          "h1_count": 1,
+          "schema_types": [
+            "Article",
+            "ImageObject",
+            "Organization",
+            "Person",
+            "WebPage",
+            "WebSite"
+          ],
+          "topics": [
+            "retail",
+            "culture",
+            "hospitality",
+            "privacy-shared-living",
+            "context-landscape",
+            "material-detail"
+          ],
+          "internal_links": 15,
+          "inbound_links": 16,
+          "noindex": false,
+          "title_fingerprint": "1fb766cd8cba2e8846f9cb0a395b8f924294f9dcb9e174d0c7cc550da6c64803",
+          "description_fingerprint": null
+        },
+        {
+          "url": "https://emrearolat.com/people/",
+          "status": 200,
+          "page_type": "article",
+          "words": 11,
+          "has_title": true,
+          "has_description": false,
+          "has_canonical": true,
+          "h1_count": 4,
+          "schema_types": [
+            "Article",
+            "ImageObject",
+            "Organization",
+            "Person",
+            "WebPage",
+            "WebSite"
+          ],
+          "topics": [],
+          "internal_links": 18,
+          "inbound_links": 16,
+          "noindex": false,
+          "title_fingerprint": "ef851d0015642434d1f5ff6872f4841bdb88f82c2e7c66725d7475f85f36c49e",
+          "description_fingerprint": null
+        },
+        {
+          "url": "https://emrearolat.com/corporate/",
+          "status": 200,
+          "page_type": "article",
+          "words": 3995,
+          "has_title": true,
+          "has_description": false,
+          "has_canonical": true,
+          "h1_count": 1,
+          "schema_types": [
+            "Article",
+            "ImageObject",
+            "Organization",
+            "Person",
+            "WebPage",
+            "WebSite"
+          ],
+          "topics": [
+            "retail",
+            "privacy-shared-living",
+            "context-landscape",
+            "material-detail",
+            "circulation-operations"
+          ],
+          "internal_links": 15,
+          "inbound_links": 16,
+          "noindex": false,
+          "title_fingerprint": "9c7850c8419d936e056277a9cb1f68652d8cbba742898932404d1823db03e12a",
+          "description_fingerprint": null
+        },
+        {
+          "url": "https://emrearolat.com/news/",
+          "status": 200,
+          "page_type": "article",
+          "words": 1318,
+          "has_title": true,
+          "has_description": false,
+          "has_canonical": true,
+          "h1_count": 0,
+          "schema_types": [
+            "Article",
+            "ImageObject",
+            "Organization",
+            "Person",
+            "WebPage",
+            "WebSite"
+          ],
+          "topics": [
+            "retail",
+            "privacy-shared-living",
+            "context-landscape",
+            "material-detail"
+          ],
+          "internal_links": 25,
+          "inbound_links": 16,
+          "noindex": false,
+          "title_fingerprint": "403cf7fa748c40be3b7d98028d6954f2ae460733b82ea3a7b4d1a70ca7b873ae",
+          "description_fingerprint": null
+        },
+        {
+          "url": "https://emrearolat.com/interviews/",
+          "status": 200,
+          "page_type": "article",
+          "words": 1291,
+          "has_title": true,
+          "has_description": false,
+          "has_canonical": true,
+          "h1_count": 0,
+          "schema_types": [
+            "Article",
+            "ImageObject",
+            "Organization",
+            "Person",
+            "WebPage",
+            "WebSite"
+          ],
+          "topics": [
+            "retail",
+            "hospitality",
+            "privacy-shared-living",
+            "context-landscape",
+            "material-detail"
+          ],
+          "internal_links": 24,
+          "inbound_links": 16,
+          "noindex": false,
+          "title_fingerprint": "c8d8bab5e9d2fb7b1f2a3d9ba1b14d0e3bfafdc30bfcdec2ac3cf4f10e47130d",
+          "description_fingerprint": null
+        },
+        {
+          "url": "https://emrearolat.com/movies/",
+          "status": 200,
+          "page_type": "article",
+          "words": 1256,
+          "has_title": true,
+          "has_description": false,
+          "has_canonical": true,
+          "h1_count": 1,
+          "schema_types": [
+            "Article",
+            "ImageObject",
+            "Organization",
+            "Person",
+            "WebPage",
+            "WebSite"
+          ],
+          "topics": [
+            "retail",
+            "privacy-shared-living",
+            "context-landscape"
+          ],
+          "internal_links": 15,
+          "inbound_links": 16,
+          "noindex": false,
+          "title_fingerprint": "c1aef393461719cfcda8fef2caf83fef1d8cf82e9dbfa7be7536d0213ed8e587",
+          "description_fingerprint": null
+        },
+        {
+          "url": "https://emrearolat.com/projects/",
+          "status": 200,
+          "page_type": "project",
+          "words": 1211,
+          "has_title": true,
+          "has_description": false,
+          "has_canonical": true,
+          "h1_count": 0,
+          "schema_types": [
+            "Article",
+            "ImageObject",
+            "Organization",
+            "Person",
+            "WebPage",
+            "WebSite"
+          ],
+          "topics": [
+            "residential",
+            "retail",
+            "privacy-shared-living",
+            "context-landscape"
+          ],
+          "internal_links": 22,
+          "inbound_links": 16,
+          "noindex": false,
+          "title_fingerprint": "c0e716cea675dd957dc283d3b44ff74137952f7d61188bd4af0e859d4c7ccdde",
+          "description_fingerprint": null
+        },
+        {
+          "url": "https://emrearolat.com/exhibitions/",
+          "status": 200,
+          "page_type": "article",
+          "words": 1850,
+          "has_title": true,
+          "has_description": false,
+          "has_canonical": true,
+          "h1_count": 1,
+          "schema_types": [
+            "Article",
+            "ImageObject",
+            "Organization",
+            "Person",
+            "WebPage",
+            "WebSite"
+          ],
+          "topics": [
+            "retail",
+            "culture",
+            "privacy-shared-living",
+            "context-landscape"
+          ],
+          "internal_links": 28,
+          "inbound_links": 16,
+          "noindex": false,
+          "title_fingerprint": "a86747e78fd0ed8373aa602583f4799b64ceb0a490f88fbc5b898fa6fc7fca23",
+          "description_fingerprint": null
+        },
+        {
+          "url": "https://emrearolat.com/publications/",
+          "status": 200,
+          "page_type": "article",
+          "words": 1187,
+          "has_title": true,
+          "has_description": false,
+          "has_canonical": true,
+          "h1_count": 1,
+          "schema_types": [
+            "Article",
+            "ImageObject",
+            "Organization",
+            "Person",
+            "WebPage",
+            "WebSite"
+          ],
+          "topics": [
+            "retail",
+            "privacy-shared-living",
+            "context-landscape"
+          ],
+          "internal_links": 23,
+          "inbound_links": 16,
+          "noindex": false,
+          "title_fingerprint": "01ac25f6e43efea753ab9a77385f8814fa65e8b15018a88ac384d3b27d182d49",
+          "description_fingerprint": null
+        },
+        {
+          "url": "https://emrearolat.com/careers/",
+          "status": 200,
+          "page_type": "article",
+          "words": 1208,
+          "has_title": true,
+          "has_description": false,
+          "has_canonical": true,
+          "h1_count": 1,
+          "schema_types": [
+            "Article",
+            "ImageObject",
+            "Organization",
+            "Person",
+            "WebPage",
+            "WebSite"
+          ],
+          "topics": [
+            "retail",
+            "privacy-shared-living",
+            "context-landscape"
+          ],
+          "internal_links": 16,
+          "inbound_links": 16,
+          "noindex": false,
+          "title_fingerprint": "039b5ca9c5348f1b25692a455d89aae2179b4e1f5269a5500fd0f3c624d84637",
+          "description_fingerprint": null
+        },
+        {
+          "url": "https://emrearolat.com/contact/",
+          "status": 200,
+          "page_type": "contact",
+          "words": 1194,
+          "has_title": true,
+          "has_description": false,
+          "has_canonical": true,
+          "h1_count": 0,
+          "schema_types": [
+            "Article",
+            "ImageObject",
+            "Organization",
+            "Person",
+            "WebPage",
+            "WebSite"
+          ],
+          "topics": [
+            "retail",
+            "privacy-shared-living",
+            "context-landscape"
+          ],
+          "internal_links": 15,
+          "inbound_links": 16,
+          "noindex": false,
+          "title_fingerprint": "49ccb63f1984379efd6f4024b615d0c593845f8546194907d96d23657dfdc65e",
+          "description_fingerprint": null
+        },
+        {
+          "url": "https://emrearolat.com/people/emre-arolat/",
+          "status": 200,
+          "page_type": "other",
+          "words": 1612,
+          "has_title": true,
+          "has_description": true,
+          "has_canonical": true,
+          "h1_count": 1,
+          "schema_types": [],
+          "topics": [
+            "retail",
+            "hospitality",
+            "privacy-shared-living",
+            "context-landscape"
+          ],
+          "internal_links": 16,
+          "inbound_links": 2,
+          "noindex": false,
+          "title_fingerprint": "53f59ee16c7731ac29f4771e8fcd298ec924e5ff779e963eb6014f07048e666f",
+          "description_fingerprint": "a08895db76e51057f005ff2caa3990e9437361f8173bf5369c765bbe6d7a399d"
+        },
+        {
+          "url": "https://emrearolat.com/people/gonca-pasolar/",
+          "status": 200,
+          "page_type": "other",
+          "words": 1394,
+          "has_title": true,
+          "has_description": true,
+          "has_canonical": true,
+          "h1_count": 1,
+          "schema_types": [],
+          "topics": [
+            "retail",
+            "privacy-shared-living",
+            "context-landscape"
+          ],
+          "internal_links": 16,
+          "inbound_links": 2,
+          "noindex": false,
+          "title_fingerprint": "852716a0b6cbc003cd59878a9a267205e24d0434e5295706cdea932ba8b9b0f1",
+          "description_fingerprint": "0bfae81979b4da45e38b1d16bef57d30259b89c6a051f9ba4bd09bdb4a9d4966"
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://emrearolat.com/awards/",
+          "error": "Response exceeds audit size limit."
+        },
+        {
+          "url": "https://emrearolat.com/lectures/",
+          "error": "Response exceeds audit size limit."
+        },
+        {
+          "url": "https://emrearolat.com/eaa-in-florence/",
+          "error": "Response exceeds audit size limit."
+        },
+        {
+          "url": "https://emrearolat.com/www-emrearolat-com-recognised-at-the-horizon-interactive-awards/",
+          "error": "Response exceeds audit size limit."
+        }
+      ],
+      "sitemap_available": false,
+      "scope": "Sample of at most 20 robot-permitted public pages; no JavaScript rendering or complete-site claim.",
+      "comparison": {
+        "our_topics": [
+          "circulation-operations",
+          "context-landscape",
+          "culture",
+          "hospitality",
+          "material-detail",
+          "operations",
+          "privacy-shared-living",
+          "residential",
+          "retail",
+          "reuse-adaptation",
+          "technical-coordination",
+          "transport"
+        ],
+        "sample_topics": [
+          "circulation-operations",
+          "context-landscape",
+          "culture",
+          "hospitality",
+          "material-detail",
+          "privacy-shared-living",
+          "residential",
+          "retail"
+        ],
+        "candidate_gaps": [],
+        "our_page_types": {
+          "home": 2,
+          "contact": 2,
+          "projects": 2,
+          "project": 28,
+          "studio": 2
+        },
+        "content_architecture_opportunities": [
+          {
+            "kind": "guides/journal",
+            "status": "REVIEW_ONLY",
+            "action": "Review original process guides supported by actual PUS&CO projects; never reuse competitor articles."
+          }
+        ],
+        "depth_and_links": {
+          "our_average_main_words": 103.5,
+          "sample_average_visible_words": 1511.8,
+          "our_average_internal_links": 7.5,
+          "sample_average_internal_links": 18.6,
+          "note": "Competitor visible-text fallback can include interface text. Word counts are not comparable quality scores."
+        },
+        "duplicate_titles_in_sample": 1,
+        "duplicate_descriptions_in_sample": 0,
+        "page_types": {
+          "home": 1,
+          "article": 11,
+          "project": 1,
+          "contact": 1,
+          "other": 2
+        },
+        "missing_title": 0,
+        "missing_description": 14,
+        "missing_canonical": 0,
+        "missing_schema": 2,
+        "interpretation": "Keyword matches and word counts are descriptive heuristics, not quality/ranking judgments. Absence in the sample is not absence across the site."
+      }
+    }
+  ],
+  "retains_competitor_prose": false
+}

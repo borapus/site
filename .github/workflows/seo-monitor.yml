@@ -1,0 +1,54 @@
+name: Read-only SEO monitoring
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        type: choice
+        options: [daily, weekly, monthly]
+        default: daily
+  schedule:
+    - cron: '17 3 * * *'
+    - cron: '37 3 * * 1'
+    - cron: '47 3 1 * *'
+permissions:
+  contents: read
+concurrency:
+  group: seo-monitor-${{ github.event.schedule || inputs.mode }}
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Select analysis mode
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+          INPUT_MODE: ${{ inputs.mode }}
+        run: |
+          case "$SCHEDULE" in
+            '37 3 * * 1') mode=weekly ;;
+            '47 3 1 * *') mode=monthly ;;
+            *) mode="${INPUT_MODE:-daily}" ;;
+          esac
+          echo "MODE=$mode" >> "$GITHUB_ENV"
+      - name: Audit publicly available website
+        run: python3 scripts/seo-monitor.py "$MODE" --base https://pusnco.com
+      - name: Verify analysis and approval controls
+        run: python3 -m unittest discover -s scripts/tests
+      - name: Save public audit reports
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: seo-${{ env.MODE }}-${{ github.run_id }}
+          retention-days: 30
+          include-hidden-files: true
+          path: |
+            .seo/monitor.json
+            .seo/monitor.md
+            .seo/link-proposals.json
+            .seo/link-review.md
+            .seo/competitor-gap.json
+          if-no-files-found: warn

@@ -1,0 +1,6 @@
+{
+  "studios": [{"name": "Emre Arolat Architecture", "url": "https://emrearolat.com/"}],
+  "max_pages_per_studio": 20,
+  "request_delay_seconds": 1,
+  "note": "Studio supplied by the owner. Architecture metrics only; never retain or republish competitor prose."
+}

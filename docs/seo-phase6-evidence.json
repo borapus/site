@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "indexable": 36,
+    "seo_health": 100.0,
+    "orphans": 0,
+    "broken_links": 0,
+    "missing_metadata": 0,
+    "duplicate_titles": 0,
+    "duplicate_descriptions": 0,
+    "duplicate_content": 0,
+    "missing_schema": 0,
+    "sitemap_urls": 36,
+    "sitemap_errors": 0,
+    "link_suggestions": 19,
+    "link_review_issues": 22,
+    "opportunities": 20,
+    "pending_content": 4,
+    "published": 0
+  },
+  "tests": 20,
+  "production_pages": 36,
+  "publication_manifest_entries": 0,
+  "workflow_remote_run": false,
+  "dashboard_auth_api_verified": true,
+  "monthly_mode": "monthly",
+  "competitor_sample_pages": 16
+}

@@ -177,6 +177,8 @@ def crawl(args):
         u = urlsplit(url); section = u.path.strip('/').split('/')
         page_type = 'project' if len(section) == 3 and section[1] == 'projects' and section[2] != 'detail' else section[-1] if len(section) > 1 else 'home'
         if '/projects/detail' in u.path: page_type = 'legacy'
+        if len(section) >= 2 and section[1] in ['guides','services']:
+            page_type = ('guide' if section[1] == 'guides' else 'service') if len(section) == 3 else section[1]
         metrics = {'response_ms': elapsed, 'html_bytes': len(raw), 'lighthouse': None}
         pages[url] = {'url': public(url), 'status': status, 'final_url': public(final), 'error': error, 'redirect_chain': chain,
             'title': parser.title, 'description': parser.description, 'h1': [h['text'] for h in parser.headings if h['level'] == 1],
