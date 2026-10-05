@@ -6,7 +6,7 @@
   "description": "Editorial Luxury architecture studio website — Astro + Sanity",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "node scripts/check-google-verification.mjs public && astro build && node scripts/check-google-verification.mjs dist",
     "preview": "astro preview",
     "astro": "astro",
     "test:seo": "node scripts/test-seo.mjs dist",
